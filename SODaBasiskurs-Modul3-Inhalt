@@ -1,0 +1,1030 @@
+<!--
+
+author: Anna Gnyp
+email: soda@sammlungen.io
+date: 20/02/2026
+title: SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 3: Objekte erschließen
+version: 1.0
+language: DE
+
+license:    CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+
+mode: Textbook
+dark: false
+edit: https://github.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul3
+
+link:       https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial@main/theme.css
+            https://fonts.googleapis.com/css?family=Noto+Sans
+
+icon:       /img/SODa-Logo_Wort-Bild_RGB.png
+logo:       /img/SODa-Logo_Wort-Bild_RGB.png
+
+
+
+-->
+## 1. Grundlagen der digitalen Sammlungserschließung
+
+
+Sammlungsdokumentation ist die Grundlage für viele kustodische und kuratorische Aufgaben sowie für die Forschung:
+
+
+>* Interne Weiterverarbeitung (Zustandsberichte, Revision, Leihverkehr, Ausstellungsplanung und -dokumentation, Sammlungspflege, Restaurierung, Öffentlichkeitsarbeit)
+>* Datenweitergabe an externe: für Forschung und Publikationen
+>* Datenweitergabe an Forschungs- oder Kulturportale (z. B. Deutsche Digitale Bibliothek oder Europeana Collections)
+>* Datennutzung für Vermittungsprojekte (Ausstellungen, virtuelle Vermittlung)
+>* Öffentlichkeitsarbeit/Wissenschaftskommunikation
+>* partizipative Projekte (Wikidata, Data sprints, Hackathons)
+
+<div style="float:left;width:60%;margin: 0px 0px 30px 10px;">
+    <img src="img/Inventarbuch_c1930-1952_Museum_Senftenberg.jpg" alt="Inventarbuch des Museum Senftenberg, Public Domain." style=""/>
+    <p style="text-align:center"> *Inventarbuch des Museum Senftenberg via Wikimedia Commons, Public Domain* </p>
+</div>
+
+### Sammlungsdaten sind Forschungsdaten!
+
+Heute bildet die digitale Sammlungsdokumentation‚ die Grundlage wissenschaftlicher Nachvollziehbarkeit: Sie macht Provenienzen überprüfbar, erlaubt vergleichende Analysen und unterstützt interdisziplinäre Fragestellungen. Gerade im Zuge der Digitalisierung und Entwicklung digitaler Forschungsmethoden wird deutlich, dass Sammlungsdaten nicht nur über Objekte informieren, sondern selbst ein essenzielles epistemisches Fundament für Forschung darstellen, vor allem wenn sie maschinenlesbar sind sowie offen geteilt und so aufbereitet werden, dass sie neue Erkenntnisse ermöglichen. Inzwischen erkennen auch Politik und Drittmittelgeber den Forschungscharakter dieser Daten ausdrücklich an, was sich etwa in Förderlinien zur Digitalisierung, Erschließung und offenen Bereitstellung von Sammlungsbeständen zeigt. Dadurch wird deutlich, dass eine hochwertige Sammlungsdokumentation längst als Voraussetzung für exzellente Forschung gilt.
+<br>
+<br>
+> "***Wissenschaftliche Sammlungen sind eine wesentliche Infrastruktur für die Forschung.***“ 
+
+Wissenschaftsrat (2011): Empfehlungen zu wissenschaftlichen Sammlungen als Forschungsinfrastrukturen; Berlin. https://www.wissenschaftsrat.de/download/archiv/10464-11.html 
+<br>
+<br><br>
+> "***Zu Forschungsdaten zählen u. a. Messdaten, Laborwerte, audiovisuelle Informationen, Texte, Surveydaten... Da Forschungsdaten in einigen Fachbereichen auf der Analyse von Objekten basieren (z. B. …, Artefakte und Kunstgegenstände), muss der Umgang mit diesen ebenso sorgfältig sein und eine fachlich adäquate Nachnutzungsmöglichkeit … mitgedacht werden.***“ 
+
+Deutsche Forschungsgemeinschaft, Umgang mit Forschungsdaten, 2021, https://www.dfg.de/resource/blob/174732/forschungsdaten-checkliste-de.pdf  
+
+<br><br>
+
+---
+"Collections as data" als Prinzip
+===
+<br>
+<div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
+    <img src="img/collectionsasdata.png" alt="KI-generiertes Bild mit antiker Büste und Binärcode." style=""/>
+    <p style="text-align:center"> *KI-generiertes Bild, Public Domain* </p>
+</div>
+
+
+In den letzten Jahren haben sich im englischsprachigen Raum neue Initiativen formiert, die eine Ausweitung des maschinellen Zugriffs auf digitalisierte Sammlungsbestände fördern wollen um z. B. datenbasierte Analysen durchzuführen. Voraussetzung dafür ist die Aufbereitung von Sammlungsdaten für computationale Methoden:
+
+<br><br>
+<br>
+<br>
+
+
+
+> 2017 Santa Barbara Statement on Collections as Data
+>
+> Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2019). Santa Barbara Statement on Collections as Data --- Always Already Computational: Collections as Data. https://doi.org/10.5281/zenodo.3066209 
+
+<br>
+
+> 2023 Vancouver Statement on Collections as Data
+>
+> Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data.  [https://doi.org/10.5281/zenodo.8342171](https://doi.org/10.5281/zenodo.8342171) 
+
+
+### FAIR Prinzipien
+<br>
+Eine Orientierung an den FAIR-Prinzipien ist für die Sammlungsdigitalisierung relevant, weil so sichergestellt wird, dass digitale Objekte auffindbar und zugänglich sind – sowohl für Menschen als auch für Maschinen. Sie fördern zudem die Interoperabilität, sodass Daten aus unterschiedlichen Sammlungen verknüpft und gemeinsam ausgewertet werden können. Durch die Betonung der Nutzbarkeit und Wiederverwendbarkeit tragen die FAIR-Prinzipien dazu bei, dass digitalisierte Sammlungen nachhaltig in Forschung, Lehre und Öffentlichkeit eingesetzt werden können.
+
+![FAIR-Akronyme](img/FAIR_data_principles.jpg " *SangyaPundir, CC BY-SA 4.0, via Wikimedia Commons* ")
+
+<br><br>
+
+Ziele der FAIR-Prinzipien:
+
++ Internationale Leitlinien
++ Forschungsdaten für Menschen und Maschinen optimal aufbereiten und zugänglich machen
++ im Rahmen des rechtlich & technisch Möglichen, Datenbestände für neue Nutzungsszenarien öffnen.
+
+<br><br>
+
+<details>
+<summary>Findable – auffindbar</summary>
+
+> **F1** (Meta-)Daten sind mit einem global eindeutigen u. dauerhaften persistent identifier versehen.
+>
+> **F2** (Meta-)Daten werden mit umfangreichen Metadaten beschrieben.
+>
+> **F3** (Meta-)Daten sind in einer durchsuchbaren Ressource registriert oder indiziert.
+>
+> **F4** (Meta-)Daten enthalten eine klare und eindeutige Identifizier-ung der Daten, die sie beschreiben.
+</details>
+
+
+<details>
+<summary>Accessible – zugänglich</summary>
+
+>+ **A1** (Meta-)Daten können anhand ihrer Identifizierung über ein standardisiertes Kommunikations-protokoll abgerufen werden.
+>
+> + - **A1.1** das Protokoll ist offen, frei u. universell implementierbar.
+>   - **A1.2** das Protokoll ermöglicht bei Bedarf ein Authentifizier-ungs- u. Autorisierungs-verfahren.
+>
+> + **A2** – (Meta-)Daten sind zugänglich, auch wenn die Daten nicht mehr verfügbar sind.
+</details>
+
+
+<details>
+<summary>Interoperable – interoperabel</summary>
+
+>+ **I1** (Meta-)Daten verwenden eine formale, zugängliche, gemeinsame und weithin anwendbare Sprache zur Wissensdarstellung.
+>
+> + **I2** (Meta-)Daten verwenden Vokabulare, die den FAIR-Grundsätzen entsprechen.
+>
+>+ **I3** (Meta-)Daten enthalten qualifizierte Verweise auf andere (Meta-)Daten.
+</details>
+
+<details>
+<summary>**Reusable – wiederverwendbar**</summary>
+
+>+ **R1** (Meta-)Daten haben mehrere genaue und relevante Attribute.
+>
+>
+>   - **R1.1** (Meta-)Daten werden mit einer klaren und zugänglichen Datennutzungslizenz freigegeben.
+>
+>   - **R1.2** (Meta-)Daten sind mit ihrer Herkunft verbunden.
+>
+> + **R1.3** (Meta-)Daten entsprechen den für den Bereich relevanten Gemeinschaftsstandards.
+</details>
+
+### Die FAIR-Prinzipien in der digitalen Sammlungserschließung
+<br><br>
+Was bedeutet die Umsetzung der FAIR-Prinzipien konkret für die Sammlungserschließung?
+Ziel ist es, Daten so zu erschließen und aufzubereiten, dass sie von anderen Systemen interpretiert werden können. Damit digitale Anwendungen Objektinformationen sinnvoll verarbeiten können, müssen sie mit Hilfe von Standards erstellt werden und maschinenlesbar sein. Die Aufbereitung von Informationen im digitalen Umfeld unterscheidet sich in mehreren Aspekten von der analogen Arbeitsweise. Vorrangig sind dabei:
+
+- Die Zerlegung von Aussagen in kleinere, miteinander in Beziehung stehenden Informationseinheiten (Strukturierung)
+- Die Codierung von Informationselementen
+<br><br>
+
+![to do](img/todo2.png)
+
+<br><br>
+
+**Vorteile strukturierter Daten**
+
+Strukturierte Daten verbessern nicht nur das Verständnis von Inhalten, sondern auch die korrekte Verarbeitung in computationalen Systemen und damit deren Auffindbarkeit in Suchdiensten.
+
+Sie helfen Suchsystemen und KI-Engines dabei,
+
++ Entitäten eindeutig zu erkennen
++ Beziehungen zwischen Themen zu verstehen
++ Inhalte korrekt zu kategorisieren
+
+### Aufgabe 1
+
+Wähle die korrekte Eingabe aus. Achte auf Einheitlichkeit und eine [ISO-konforme Datumsangabe](https://www.iso.org/iso-8601-date-and-time-format.html).
+
+
+| ID                             | Titel                  | Eingangsdatum                             |  Herstellungsort             | Material     |
+|--------------------------------|------------------------|-------------------------------------------|------------------------------|--------------|
+| [[ID 12534|(12534)]]           | Trepanationsbesteck    | [[13.08.2015|(2015-08-13)|August 2015]]   | Göttingen                    |
+| 8631.5453                      | Augenmodell            | [[06051985|6. Mai 1985|(1985-05-06)]]     | [[20095 Hamburg|(Hamburg)]]  | 
+| FG 1258                        | Münze Constantinus I.  | [[20.12.1775| (1775-12-20)|18. Jh.]]      | Siscia                       |
+| [[(1952.1597)|Inv. 1952.1597]] | Porträt Erasmus Reich  | [[(1901-1950)|1. Hälfte 20. Jh.|um 1900]] | [[Dredsen|Derdsen|(Dresden)]]|
+| 1385962                        | Gesichtsmaske          | 1905                                      | Ägypten                      |
+
+<br><br>
+
+<details>
+<summary>Häufige Fehlerkategorien bei der Sammlungserschließung:</summary>
+>+ Fehlende Werte 
+>+ Tippfehler 
+>+ Inkonsistenzen (z. B. bei Inventarnummer/Datum)
+>+ Dubletten 
+>+ Widersprüche 
+>+ Fehlende Standardisierung (Datum/Maße)
+>+ Excel-Automatiken (falscher Datentyp eingestellt)
+>+ Keine Angabe von kontrolliertem Vokabular
+</details>
+
+
+
+
+Siehe auch: Reichert, R. (2026). SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 2: Mit sammlungsbezogenen Daten arbeiten. https://doi.org/10.5281/zenodo.18656610
+
+
+### Die Rolle der Datenstandards
+
+Die Rolle der Datenstandards 
+
+
++ machen Informationen durch einheitliche Kodierung oder  Gleichmäßigkeit der Beschreibung besser auswertbar.
++ sind Systeme und Konventionen, die eine weite Verbreitung innerhalb einer Anwendergemeinschaft haben.
++ legen fest, welche Arten von Informationen für jedes Informationsobjekt in einer Datensammlung auf welche Weise erfasst werden.
++ sichern die mittel- & längerfristige Verständlichkeit und Nachnutzbarkeit der Daten ab.
++ Werden von ihrer Anwendergemeinschaften inhaltlich und technisch weiterentwickelt.
+
+>**Dateiformate**
+Standard-Dateiformate gewährleisten in hohem Maß, dass die Dateien zu einem späteren Zeitpunkt und von anderen Akteuren verwendet werden können (z. B. TIFF für Bilddateien, XML für Textdateien).
+
+>**Referenzmodelle**
+Referenzmodelle (top-level ontologies) sind komplexe Sets von Repräsentationselementen (Klassen, Attribute und Beziehungen), mit denen ein Wissens- oder Diskursbereich modelliert werden kann. Die Definitionen der Elemente enthalten Informationen über ihre Bedeutung und Beschränkungen für ihre logisch konsistente Anwendung (Beispiel CIDOC-CRM).
+>**Metadatenstandards**
+legen Kriterien, Methoden und Prozesse fest, nach denen die Dokumentation in bestimmten Fachcommunitys erfolgen soll. Sie gliedern sich in drei Bereiche:
+
+Daten-Inhaltsstandards oder Katalogisierungsregeln legen fest, wie bestimmte Ressourcen und Objekte beschrieben werden sollen. Sie können Vorgaben für die Erfassung und Formatierung von Informationen sowie die zu verwendenden Vokabulare enthalten. 
+Empfehlenswert ist in diesem Kontext die [Minimaldatensatzempfehlung für Museen und Sammlungen](http://www.minimaldatensatz.de/), die die wichtigsten Datenfelder für die Sammlungserschließung zusammenfasst, Hinweise gibt, wie diese zu befüllen sind, und mit dem Austauschformat LIDO kompatibel ist (siehte weiter unter)
+Weitere Standards:
+z. B. [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/), [Arbeitskreis Provenienzforschung](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
+
+>**Daten-Strukturstandards**
+Daten-Strukturstandards beziehen sich auf Metadaten-Elementsets (Metadatenschema). Sie geben die Struktur, den Inhalt, die Semantik und den Umfang von Metadaten in Form eines Kategorienschemas vor. Sie werden in der technischen Umsetzung häufig als XML-Schemata realisiert.
+z. B. [Schema.org](https://schema.org/docs/schemas.html), [LIDO – Lightweight Information Describing Objects](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/), [Linked Art](https://linked.art)
+
+>**Standards für Datenwerte**
+Standards für Datenwerte beziehen sich auf kontrollierte Vokabulare. Diese gewährleisten, dass Datenwerte mit eindeutigen Bezeichnungen versehen werden. Ihre Verwendung ist die Voraussetzung für präzise Suchergebnisse und die richtige Verknüpfung vergleichbarer Daten. 
+z. B Gemeinsame Normdatei, GeoNames, Arts & Architecture Thesaurus
+
+>**Versionierungsstandards**
+Insbesondere bei bereits publizierten Sammlungsdaten, die über einen persistenten Identifier referenzierbar sind, wird eine Versionierung unerlässlich, wenn eine Änderung am Datensatz vorgenommen wird. Als Grundlage für die Angabe einer Versionsnummer wird häufig das [MAJOR.MINOR.PATCH - Konzept](https://semver.org/lang/de/) genutzt.
+
+<br>
+*Kailus, A. (2023). Guideline for a FAIR Management of Cultural Research Data, 11-12. CC BY 4.0.* https://doi.org/10.5281/zenodo.17055222
+
+
+![Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedliche Kreisringe](img/Standards-Lebenszyklus.png "*Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen. Diekjobst, A., Geelhaar, T., Hodel, T., Mähr, M., & Seltmann, M. (2024). 2.3. Mit Standards forschen und Handlungsräume schaffen. In Living Handbook "Digitale Quellenkritik" hrsg. v. Deicke, Aline; Geiger, Jonathan D.; Lemaire, Marina; Schmunk, Stefan (1.0). Zenodo. https://doi.org/10.5281/zenodo.12656767, Abb. 3, CC BY 4.0*")
+
+
+
+## 2. Einführung in die Datenmodellierung
+
+Für die Digitalisierung von Sammlungsobjekten ist eine gute Datenmodellierung entscheidend. Ein Datenmodell beschreibt den Bauplan für Informationen über Sammlungsobjekte. Es legt fest, welche Arten von Daten erfasst werden, wie diese Daten heißen, wie sie strukturiert sind und wie sie miteinander in Beziehung stehen. Eine Orientierung an den zuvor beschriebenen Standards hilft dabei, ein für die jeweiligen Sammlungsobjekte einheitliches Datenmodell zu erstellen, damit sie im Netz gut gefunden, verstanden und genutzt werden können.
+
+Ein zentrales Element dabei sind Linked-Data-Technologien. Sie ermöglichen, dass Daten aus verschiedenen Quellen miteinander verknüpft werden.
+Dafür sollte jedes digitale Objekt eine eindeutige Kennung besitzt. Diese Kennungen heißen URIs. Sie stellen sicher, dass jedes Objekt weltweit eindeutig identifiziert werden kann. Erst dadurch lassen sich Daten zuverlässig miteinander verbinden.
+
+Hier spielen Ontologien eine wichtige Rolle. Durch Ontologien werden Daten typisiert, also in feste Klassen eingeteilt. Maschinen können diese Strukturen lesen und verstehen. So entsteht ein gemeinsames Bedeutungsnetz, das Daten aus unterschiedlichen Systemen zusammenführt.
+
+Eine gute Datenmodellierung nutzt daher Standards und Ontologien, um ein vernetztes System von Daten und Diensten zu schaffen. Nur so bleiben Informationen langfristig auffindbar, austauschbar und wiederverwendbar.
+
+<br>
+
+![Werner, Claus. Die Sammlung als Netz: Potenziale und Grenzen der Netzwerkanalyse einer Sammlungsdokumentation](img/Abb-4-Verwendetes-Datenmodell_Werner_CCBY.jpg "*Symbolbild Datenmodell. Quelle: Werner, Claus. (2020). Die Sammlung als Netz: Potenziale und Grenzen der Netzwerkanalyse einer Sammlungsdokumentation. 10.14361/9783839455715-018. Abb.4, CC By 4.0.*") 
+
+### Ontologien
+
+* Ontologien sind formale Modelle, die Darstellung von Wissen für einen bestimmten Bereich ermöglicht.
+* Ontologien dienen als Mittel der Strukturierung und zum Datenaustausch
+* Bestandteile sind die Arten von Dingen (Klassen), Beziehungen zwischen ihnen (Eigenschaften/Relationen) und logische Möglichkeiten, wie diese Klassen und Eigenschaften zusammen verwendet werden können (Axiome).
+* Domänenontologie für den Bereich des Kulturellen Erbes: CIDOC CRM
+
+<br>
+![Beispiel einer Ontologie mit Darstellung von Dingen und ihren Beziehungen](img/Beispiel-Ontologie_Wikimedia-CC0.png "*Beispiel einer Ontologie. MRewald, CC0, via Wikimedia Commons.*")
+
+<br>
+
+Datenbankschema
+===
+
+Ein Datenbankschema gilt als „Blueprint“ (Bauplan) einer Datenbank und beschreibt, wie die Daten mit anderen Tabellen oder anderen Datenmodellen in Beziehung stehen können.
+Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschema, ein logisches Datenbankschema und ein physisches Datenbankschema:
+
+
+
+
+``` ascii 
++-------------------+   +-------------------+   +------------------+ 
+|       _-_         |   |                   |   |                  |
+|    /~~   ~~\      |   |                   |   |                  |
+| /~~         ~~\   |   | Konzeptionelles   |   | Logisches        |
+|{               }  |   | Schema            |   | Schema           |
+| \  _-     -_  /   |   |                   |   |                  |
+|   ~  \\ //  ~.    +-->                    +--->                  |
+|       | |         |   |                   |   |                  |
+|       | |         |   |                   |   |                  |
+|      // \\        |   |                   |   |                  |
++--------+----------+   +--------+----------+   +---------+--------+             
+         |                       |                        |
+         |                       |                        |
+         V                       V                        V
++-------------------+   +--------+----------+   +------------------+ 
+|                   |   |                   |   |                  |
+| Beschreibung      |   | Systemunabhängige |   | An Datenbank-    |
+| der realen Welt.  |   | Datenbeschreibung |   | system orientiert|
+|= Datenmodellierung|   | --> Orientierung  |   |                  |
+|                   |   | an Ontologie      |   |                  |
+|                   |   |                   |   |                  | 
++-------------------+   +-------------------+   +------------------+ 
+``` 
+
+### CIDOC-CRM
+<br>
+![Logo CIDOC-CRM](img/CIDOC_CRM_Logo.png)
+
+* CIDOC (Comité international pour la documentation) CRM (Conceptual Reference Model): https://cidoc-crm.org 
+* (Domänen)Ontologie für Begriffe und Informationen des Kulturerbes
+* offizieller ISO Standard
+* entwickelt vom International Committee on Documentation (ICOM Committee)
+* dient als Leitfaden zur Datenmodellierung
+* lingua franca für transdisziplinäre Vernetzung und Forschung
+* kann in jedem relationalen oder objektorientierten Schema implementiert werden
+* kann in maschinenlesbare Formate umgewandelt werden, wie RDF und OWL
+* objektorientiertes Modell
+* Ereigniszentriertheit
+
+<br>
+
+**Beispiel einer Modellierung mit Objektinformationen einer Ushebti:**
+
+Klassen und Eigenschaften des CIDOC-CRM werden durch ihre Initialen identifiziert wie z. B. „E55“ oder „P12“. Die Namen der Klassen und Eigenschaften einer CRM-kompatiblen Form dürfen in jede menschliche Sprache übersetzt werden, aber die identifizierenden Initialen müssen erhalten werden.
+
+<html>
+<head>
+<style>
+
+#Ushebti {
+  width: 200px;
+  height: 350px;
+  background-image: url(img/MET_86.1.22_front_rgb_PD-png.png);
+  background-position: 0 0; /* Top-left corner of the sprite */
+}
+
+#Modellierung {
+  width: 500px;
+  height: 350px;
+  background-image: url(img/CIDOC-Modellierung-Ushebti.png);
+  background-position: -47px 0; /* 47px to the left of the sprite's top-left */
+}
+</style>
+</head>
+<body>
+
+<img id="Ushebti" src="img/MET_86.1.22_front_rgb_PD-png.png" width="200" height="300" class="*Modellierung von Objektinformation mit dem CIDOC-CRM Referenzmodell.*">
+<img id="Modellierung" src="img/CIDOC-Modellierung-Ushebti.png" width="600" height="200">
+*Bildinformationen: links - Ushebti des Sennedjem, Inv.-Nr. 86.1.22, MET, Public Domain; rechts - vereinfachte Modellierung von Objektinformation mit dem CIDOC-CRM Referenzmodell*
+</body>
+</html>
+
+*Vertiefung Module Canan & Gudrun?
+
+### Modellierungsbeispiele
+
+
+Das CIDOC-CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Zeitspanne) und etwa 150 klar definierte Relationen (z. B. hat Name, fand statt in, besteht aus). Sie wird kontinuierlich weiterentwickelt. Durch die Kombination von Klasse–Relation–Klasse entstehen Aussagen, die sowohl für Menschen als auch für Maschinen verständlich sind. Werden alle Aussagen eines Themenbereichs miteinander verknüpft, entsteht ein graphbasiertes Wissensmodell. 
+<br>
+> [CIDOC-CRM: Liste der Klassen und Eigenschaften](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+
+
+<div style="float:right;width:100%;margin: 10px 10px 30px 10px;">
+    <img src="img/CIDOC-Encoding-Example-ccby.png" alt="Grafik CIDOC Modellierung am Beispiel der Laokoon-Gruppe" style=""/>
+    <p style="text-align:center"> *Modellierung am Beispiel der Laokoon-Gruppe, CC BY 4.0 2022 Individual Contributors to CIDOC-CRM 7.1.3* </p>
+</div>
+
+<br><br>
+
+**Beispielmodellierung**
+
+<br>
+
+<div style="align:center;width:22%;margin: 30px 30px 10px 30px;">
+    <img src="img/DE-MUS-026819-ID2169-av.png" alt="Vorderseite einer Münze Constantinus I." style=""/>
+    <p style="text-align:center"> *Braunschweig, Sammlung der Technischen Universität, Public Domain‚* </p>
+</div>
+
+<br>
+
+**Modellierung der Münzinschrift:**
+
+>| Klasse: Objekt "Münze"  |  Relation      | Klasse: Inschrift           |
+>|:-----------------------:|:--------------:|:---------------------------:|
+>|E22_Human-Made Object    | P128 carries   | E34 Inscription             |
+
+**Modellierung des Münzbilds:** 
+>| Objekt "Münze"        | Relation      | Klasse Person |Relation        |Constantinus I. |
+>|:---------------------:|:-------------:|:-------------:|:--------------:|:--------------:|
+>| E22_Human-Made Object |  P62 depicts  |  E21 Person   |P1 identified by|E41 appelation  |
+
+
+
+### Aufgabe 2
+
+![screenshot CIDOC periodic table](img/CIDOC-periodic-table.png)<!--
+style="width: 500px; position: absolute; right: 30px; bottom: 230px"
+-->
+
+Modelliere mithilfe der CIDOC-Klassen und<br>
+Properties unten stehenden Objektinformationen.<br>
+**Fülle die Lücken nur mit den Initialen der gesuchten** <br>
+**Klassen und Relationen (z. B. E24, P76, etc.).**
+
+> [Liste der Klassen und Eigenschaften](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+
+Der [CIDOC-CRM periodic table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1) (siehe Screenshot <br>
+rechts) kann helfen,
+die eigene Modellierung<br>
+zu überprüfen.
+<br><br>
+
+![Bild eines Augenmodells](img/Augenmodell_Uni-Goettingen.png)<!--
+style="width: 200px; position: relative; left: 5px; bottom: 10px"
+-->
+<br><br>
+<br><br>
+<br>
+<br><br>
+*Augenmodell, Georg-August-Universität, Zentrale Kustodie,*<br>
+*Anna Greger, CC BY-SA 4.0*
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+
+**Modellierung eines Augenmodells:**
+<br>
+Modelliere die Aussage, dass das Objekt von der Firma Somso hergestellt wurde:
+
+>| Objekt "Augenmodell"  | Relation    | Aktivität  | Relation    |   Firma     |Relation     | Firmenname |
+>|:----------------------|:-----------:|:----------:|:-----------:|:-----------:|:-----------:|:-----------:|
+>|[[  E22 ]]             |[[ P108i  ]] | [[ E12 ]]  | [[  P14  ]] | [[  E39  ]] | [[ P1  ]]  |  [[ E41 ]]   |
+***************************
+E22 Human-Made Object --> P108 has produced (was produced by) --> E12 Production --> P14 carried out by --> E39 actor --> P1 identified by --> E41 appelation (Somso)
+***************************
+
+![Bild eines Schwefelgesteins](img/Schwefel.png)<!--
+style="width: 200px; position: relative; left: 5px; bottom: 10px"
+-->
+<br>
+<br><br>
+<br><br>
+<br><br>
+*Georg-August-Universität Göttingen, Geowissenschaftliches Museum / G. Hundertmark, 2017, CC BY-SA 4.0.*
+<br>
+<br><br>
+
+**Modellierung von Schwefel:** 
+<br>
+Modelliere, dass das Objekt aus dem Material Schwefel besteht
+
+>| Objekt "Schwefel"  | Relation     | Material    |Relation     | Materialname |
+>|:------------------:|:------------:|:-----------:|:------------:|:-----------:|
+>|  [[  E19  ]]       |  [[ P45  ]]  |  [[ E57 ]]  |  [[ P1  ]]  |  [[ E41 ]]   |
+***************************
+
+E19 physical Object --> P45 constists of --> E57 Material --> P1 identified by --> E41 appelation (Schwefel)
+
+******************************
+<br><br>
+<br><br>
+
+## 3. Metadaten
+<br>
+
+<div style="float:right;width:50%;margin: 10px 10px 30px 10px;">
+    <img src="img/data_metadata_8_dataedo-piotr.png" alt="Zeichnung Flasche Bier und Etikett" style=""/>
+    <p style="text-align:center"> *Piotr@Dataedo, https://dataedo.com/cartoon/data-vs-metadata-2 CC BY-ND 3.0* </p>
+</div>
+
+<br>
+
+Metadaten sind strukturierte Daten zur einheitlichen Beschreibung von Ressourcen jeglicher Art, z. B. Dateien, Digitalisate, Objekte, Texte, etc. 
+Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objektes beziehen sowie auf das physische Objekt selbst. Dabei  werden verschiedene Arten von Metadaten unterschieden:
+
+>**Deskriptive Metadaten**
+* beziehen sich auf den Inhalt der Ressource und helfen diese zu identifizieren (Objektbeschreibung z. B. Material, Größe, Urheber, Herstellungsort)
+<br>
+
+>**Technische Metadaten**
+* Informationen zu Form und Struktur digitaler Objekte (z. B. Dateiformat eines Bildes, Dateigröße Zeichencodierung eines Textes)
+* Speicherort
+
+>**Administrative Metadaten**
+* Rechteauszeichnung (des physischen Objektes, des Digitalisats, des Datensatz-Autors) Lizenzbedingungen
+
+>**Strukturelle Metadaten**
+* beschreiben die interne Organisation/Beziehungen komplexer digitaler Objekte
+
+
+## 4. Metadatenstandards
+
+Metadatenstandards legen Kriterien, Methoden und Prozesse fest, nach denen die Dokumentation in bestimmten Fachcommunitys erfolgen soll. 
+
+Für die Sammlungsdokumentation haben sich verschiedene Metadatenstandards (Inhaltsstandards) etabliert:
+* [Cataloging Cultural Objects (CCO)](https://www.vraweb.org/cco)
+* [Categories for the Description of Works of Art (CDWA)](https://www.getty.edu/publications/categories-description-works-art/)
+* [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/)
+* [Collections Trust Spectrum Precedures](https://heritage-standards.org.uk/midas-heritage/)
+* [Linked Art](https://linked.art)
+
+In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gut Basis für die Sammlungsdokumentation und Publikation -->
+
+### Minimaldatensatz-Empfehlung für Museen und Sammlungen
+
+* Anwendungsfall: Datenaustausch und Datenlieferung an Kulturportale
+* benennt die wichtigsten Datenfelder für die Online-Publikation von Objektinformationen aus Museen und * Sammlungen und wie diese zu füllen sind
+* Vermittelt relevante Standards (Mapping zu anderen Standards, Vokabular-Empfehlungen)
+* Erarbeitet wird die Empfehlung durch die AG Minimaldatensatz. 2022 durch Fachstellen Museum und Mediathek Fotografie/Ton der Deutschen Digitalen Bibliothek (DDB), der AG Digitalisierung der Konferenz der Museumsberatungsstellen in den Ländern (KMBL) sowie digiS Berlin initiiert.
+
+--> [www.minimaldatensatz.de](www.minimaldatensatz.de) 
+
+### LIDO
+
+<div style="float:right;width:50%;margin: 10px 10px 10px 10px;">
+    <img src="img/LIDO_logo_main.png" alt="LIDO Logo" style=""/>
+    <p style="text-align:center"> </p>
+</div>
+
+
+Die Minimaldatensatz-Empfehlung für Museen und Sammlungen ist mit dem Datenaustauschformat LIDO kompatibel:
+
+* LIDO ist ein vom Dokumentations-Komitee des Internationalen Museumsrates (ICOM-CIDOC) herausgegebener Standard für die Publikation von Informationen zu Objekten der materiellen Kultur
+* LIDO ist an die CIDOC CRM-Ontologie angelehnt und ermöglicht es, Objekte strukturiert zu beschreiben und dabei kontrollierte Vokabulare einzubinden 
+* ist als Datenaustauschformat sehr gut dafür geeignet, die Interoperabilität oder Anschlussfähigkeit von Objektinformationen zu gewährleisten und so Datensätze für Linked Open Data vorzubereiten.
+* basiert auf XML
+
+
+## 5. Datenqualität
+
+Was ist Datenqualität?
+
+* Begriff ist neutral
+* in der Bewertung subjektiv
+* Gesamtheit von Eigenschaften und Merkmalen hinsichtlich der Eignung, einen bestimmten Zweck zu erfüllen (fit for purpose)
+* nur durch Indikatoren messbar
+* Gradmesser einer Bedürfnisbefriedigung
+* Orientierung an Absicht des Nutzenden
+
+Beispiel: für den Zweck einer FAIRen Datenpublikation sollten kontrollierte Vokabulare genutzt werden, um die Datenqualität zu verbessern.
+
+
+### Dimensionen von Datenqualität
+
+Datenqualität lässt sich nicht direkt, sondern nur über Indikatoren messen:
+
+<details>
+<summary>Vollständigkeit (completeness)</summary>
+>Daten beschreiben den gesamten Bestand der Sammlung. Jeder Datensatz ist vollständig gemäß den geltenden Vorgaben der Sammlung.
+</details>
+
+<details>
+<summary>Genauigkeit (accuracy)</summary>
+>Daten beschreiben die Objekte inhaltlich und syntaktisch korrekt und präzise, auch in Bezug auf das zugrunde liegende Datenmodell.
+</details>
+
+<details>
+<summary>Eindeutigkeit (uniqueness)</summary>
+>Objekte und die in ihren Beschreibungen vorkommenden Entitäten sind eindeutig zu identifizieren.
+</details>
+
+<details>
+<summary>Konsistenz (consistency)</summary>
+>Daten sind durchgängig kohärent organisiert, auch im Vergleich zu ähnlichen Daten der Domäne. Sie sind frei von Widersprüchen.
+</details>
+<details>
+<summary>Glaubwürdigkeit (credibility)</summary>
+>Die Daten können von Nutzenden als wahr und glaubwürdig angesehen werden. 
+</details>
+
+<details>
+<summary>Aktualität (currency, timeliness)</summary>
+>Der Zeitpunkt der Erhebung der Informationen ist ausgewiesen.
+</details>
+
+<details>
+<summary>Rückverfolgbarkeit (traceability)</summary>
+>Die Quelle einer Information und die Änderungshistorie sind dokumentiert.
+</details>
+
+<details>
+<summary>Klarheit, Übersichtlichkeit (clarity)</summary>
+>Die Daten sind klar strukturiert und gut verständlich.
+</details>
+
+<details>
+<summary>Verfügbarkeit (availability)</summary>
+>Alle Daten, die für Objektverwaltung, -dokumentation und -nutzung benötigt werden, sind leicht verfügbar.
+</details>
+
+Quellen:
+* *Kailus, A. (2024, Juli 25). Datenverbesserung als (internes) Projekt: Ausgangsmotivationen und Startpunkte für die Planung. NFDI4Culture. https://doi.org/10.5281/zenodo.12820345, CC BY 4.0.*
+* *Stein, R., Taentzer, G. (2023). How to Define the Quality of Data and Data Models? A Perspective from the Cultural Heritage Domain. https://doi.org/10.5281/zenodo.7705014, CC BY 4.0.*
+
+### Werkzeuge für die Überprüfung und Verbesserung von Datenqualität
+
+Je nach Verwendungszweck der Sammlungsdaten, gibt es mittlerweile hilfreiche Tools, um z. B. zu überprüfen, ob Sammlungsdaten den FAIR-Prinzipen entsprechen oder ob die erstellten LIDO-Daten valide sind.
+
+**FAIR-Assessment**
+* [NFDI4Culture FAIR Check](https://nfdi4culture.de/id/E5080)
+* [TKFDM FAIR Assessment Tool](https://forschungsdaten-thueringen.de/fair-assessment-tool-en.html) 
+* Australian Research Data Commons: [FAIR Data Self-Assessment Tool](https://ardc.edu.au/resource/fair-data-self-assessment-tool/)
+
+**Validierung/Prüfung von LIDO Datensätzen und ihrer Qualität**
+* [digiS LIDO Validator (diLIVa)](https://www.digis-berlin.de/diliva/)
+* [Constrainify](https://constrainify.gwdg.de/selectData)
+
+**Bereinigung und Anreicherung**
+* [LIDORefineWeb](https://github.com/alexander-winkler/LIDOrefine) (für die Bereinigung/Anreichung von LIDO in OpenRefine)
+* [OpenRefine](https://openrefine.org)
+
+> [!TIP]
+> Mehr zu OpenRefine: [OpenRefine Einführung](https://sammlungen.io/kb/fdm/openrefine-einfuehrung)
+
+### Unsicherheiten und Vagheiten in der Sammlungsdokumentation
+
+Unsicherheit ist in der Praxis geisteswissenschaftlicher Forschung ein Aspekt, der jedwedem Wissen innewohnt. Zum Beispiel in Form von Unschärfen, Vagheiten oder Ungenauigkeiten. 
+Im Fall von Datierungen können teilweise nur ungefähre Zeiträume angegeben werden 
+Unsicher ist auch manchmal, ob man eine Entität, also einen Forschungsgegenstand, mit vollem Recht einem bestimmten begriﬄichen Konzept zuordnen kann. 
+Z.B. Klassifikation eines Objekts in Bezug auf seine Funktion oder Granularität der Klassifikation. Manchmal sind Objekte nicht nur einem Konzept zuzuorden.
+ 
+> **Unleserliche Texte** <br>
+> Oft hindern uns unleserliche Inschriften, Quellen/Inventarbücher, präzise und klare Auskunft über den Kontext oder die Provenienz eines Objektes geben.
+
+<br>
+
+> **Unschärfen in der Datierung/Periodisierung** <br>
+> Nicht nur das Wissen über ein Objekt kann Unschärfen enthalten. Auch die chronologischen Grenzen fachspezifischer Periodisierungen sind oft vage und vorläufig. Dadurch können uneinheitliche Angaben entstehen. 
+<br>
+
+> **Lücken** <br>
+>Grundproblem jeder Forschung vor allem der historischen ist:  In den allerseltensten Fällen sind Angaben so vollständig und flächendeckend vorhanden, dass es möglich erscheint, ein ausgewogenes, korrektes Abbild der Geschichte zu zeichnen. 
+>Die Lückenhaftigkeit sowohl der Überlieferung um das Objekt als auch in der Forschung selbst sorgt dafür, dass in aller Regel nur ausschnitthafte Daten vorliegen.
+<br>
+
+> **Interpretationen/Vermutungen** <br>
+> Wissensobjekte mit interpretatorischem Charakter sind vor allem typisch für geisteswissenschaftliche Forschungsdaten. Durch Recherche, Objektanalogien und andere Quellen lassen sich Interpretationen oder Vermutungen zu fehlendem Wissen anstellen. Die zusätzliche Abbildung der Informationen aus denen sich die Interpretation begründet, hilft, die Wahrscheinlichkeit einer Aussage einzuschätzen. 
+>In der Regel passiert das aber nur in klassischen wissenschaftlichen Publikationen in Textform. 
+<br>
+
+**Beispiele:**
+<br>
+
+<html>
+<head>
+<style>
+
+#Axtklinge {
+  width: 350px;
+  height: 200px;
+  margin-right: 100px;
+  background-image: url(img/Axtklinge_MUT_CCBYSA.png);
+  background-position: left;
+}
+
+#Blasinstrument {
+  width: 200px;
+  height: 350px;
+  background-image: url(img/Blasinstrument-Uni-Goettingen_CCBYSA.png);
+  background-position: right;
+}
+</style>
+</head>
+<body>
+
+<img id="Axtklinge" src="img/Axtklinge_MUT_CCBYSA.png" width="350" height="200" class="Objekt mit ungefährer Datierung.*">
+<img id="Blasinstrument" src="img/Blasinstrument-Uni-Goettingen_CCBYSA.png" width="200" height="350">
+**Links** - Die Datierung der Axtklinge kann nur ungefähr angegeben werden und liegt zwischen dem 5. - 3. Jt. v. Chr. Objektnr.UFG-Os-3869, Sammlung der Jüngeren Urgeschichte, Museum der Universität Tübingen MUT, CC BY-SA 4.0. https://www.emuseum.uni-tuebingen.de/de/objects/28107/axtklinge?ctx=ef1d06238b2c2c999cb36f680d048389bce8902d&idx=87.
+
+<br>
+**Rechts** - Bei dem Tonobjekt ist die Zuweisung als Blasinstrument unsicher, da es nicht funktional ist. Es könnte sich auch um eine Scheinflöte handeln. Universität Göttingen, Inv. Nr. RAD_2219_03, Georg-August-Universität Göttingen, Zentrale Kustodie, Lena Hoppe, 2017, CC BY-SA 4.0 https://sammlungen.uni-goettingen.de/objekt/record_kuniweb_946206/.
+</body>
+</html>
+
+#### Lösungsansätze für den Umgang mit Unsicherheiten
+
+Unsicherheiten gehören zur Sammlungserschließung dazu. Häufig sind Informationen unvollständig, widersprüchlich oder nicht eindeutig belegt. Statt diese Unsicherheiten zu verbergen, sollten sie im Datenmodell dokumentiert und nachvollziehbar gemacht werden. Dafür gibt es verschiedene technische Möglichkeiten:
+
+
+* Quellen und Referenzen dokumentieren: Aussagen werden mit ihrer Herkunft verknüpft, sodass nachvollziehbar bleibt, worauf sie beruhen (z. B. Statements über Statements).
+* Kommentarfelder ergänzen: Freitextfelder bieten Platz für Erläuterungen, Hinweise oder Begründungen.
+* Mehrfachwerte zulassen: Unterschiedliche Interpretationen oder Perspektiven können parallel erfasst werden.
+* Versionshistorien speichern: Änderungen an einem Datensatz bleiben nachvollziehbar und frühere Bearbeitungsstände können eingesehen werden.
+* Ungenaue Werte parametrisieren: Zeiträume, Wertebereiche oder Intervalle bilden Unsicherheiten besser ab als scheinbar exakte Angaben.
+* Wahrscheinlichkeiten erfassen: Mehrere mögliche Werte können nach ihrer Wahrscheinlichkeit geordnet werden.
+* Unsicherheit kennzeichnen: Zusätzliche Datenfelder oder kontrollierte Vokabulare können Abstufungen wie unsicher, wahrscheinlich, sicher, falsch oder unbekannt abbilden.
+* Grad der Sicherheit angeben: Für einzelne Angaben kann das Vertrauen in die Information, beispielsweise hoch, niedrig oder unbekannt, dokumentiert werden.
+
+<br>
+
+> [!TIP]
+> Wie Unsicherheiten technisch umgesetzt werden können, hängt auch vom verwendeten Erschließungssystem ab. Im SODa Forum „Umgang mit Unsicherheiten in der Sammlungserschließung“ wurden verschiedene Ansätze und praktische Lösungen aus unterschiedlichen Systemen vorgestellt und diskutiert. Die folgenden Materialien bieten einen vertiefenden Einblick in die Veranstaltung und zeigen Beispiele für die Umsetzung in der Praxis:
+
+* Burger, S. (2025, April 16). Unsicherheiten und vage Informationen abbilden: Ein Ansatz aus CODA.  https://doi.org/10.5281/zenodo.15228188 
+
+* Nasarek, R. (2025, April 23). Unsichere Informationen in ungewissen Zeiten. SODa Forum: Unsicherheiten und Vagheiten in der Sammlungspraxis – Möglichkeiten, Herausforderungen und Lösungen in der digitalen Objekterschließung. Zenodo. https://doi.org/10.5281/zenodo.15269085 
+
+* Sohmen, L., & Rossenova, L. (2025, März 24). Wikibase services in NFDI4Culture: Uncertainty modeling. Zenodo. https://doi.org/10.5281/zenodo.15076223 
+
+
+
+
+## 6. Kontrollierte Vokabulare
+
+Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Begriffen erfasst – zum Beispiel zu Materialien, Techniken, Objekttypen, Orten oder Personen. Damit diese Daten einheitlich beschrieben und später zuverlässig gefunden, verknüpft und ausgewertet werden können, sollten möglichst standardisierte Begriffe verwendet werden. Diese werden in kontrollierten Vokabularen festgelegt. Sie bilden eine wichtige Grundlage für eine konsistente Datenmodellierung und unterstützen die Interoperabilität und Nachnutzung von Sammlungsdaten.
+
+<br>
+
+<div style="float:right;width:18%;margin: 40px 0px 30px 10px;">
+    <img src="img/Lupe-Wikimedia-orange_PD.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+
+
+
+**Kontrollierte Vokabulare sind die Voraussetzung** 
+* für die Erschließung von Sammlungsobjekten 
+
+  - gewährleisten eine konsistente Erschließung der Sammlungsobjekte.
+  - dienen der Vereinheitlichung von Daten.
+  - verringern Redundanzen bei der Datenerfassung. 
+
+* für Online-Portale
+
+  - sichern die fachliche Qualität von Datenbankabfragen.
+  - unterstützen effiziente Suche und Auffindbarkeit von Informationen in Kulturportalen wie der Deutschen Digitalen Bibliothek oder der Europeana: wenn sich daten auf externe Vokabulare beziehen, können sie besser integriert werden und die Recherche im Portal wird auf Basis der Vokabular-IDs institutionsübergreifend wirksam.
+
+  <div style="float:right;width:18%;margin: 0px 0px 0px 0px;">
+    <img src="img/bitconnect-orange.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+
+* für Datenvernetzung „Linked (Open) Data-Strategien“
+
+  - fördern die Integration von Daten aus verschiedenen Kultursparten auf vorhandene Systeme.
+  - ermöglichen die semantische Interoperabilität.
+
+*Quelle: Schmidt, A. (2020). Museum Studies - Modul Sammeln - Online Sammlungen - Lerneinheit Datenstandards und technische Voraussetzungen.*<!-- style="font-size: 10px;" --> *** http://hdl.handle.net/10900.3/OER_BQLEQRMT ***<!-- style="font-size: 10px;" -->
+*, CC BY-SA 4.0*<!-- style="font-size: 10px;" -->
+
+
+### Relevanz kontrollierter Vokabulare
+
+Die natürliche Sprache ist vielfältig und lebt von Kontext, Vorwissen und unterschiedlichen Ausdrucksweisen. Menschen können diese Unterschiede meist problemlos verstehen. Computersystemen fehlt dieses Hintergrundwissen jedoch. Sie erkennen unterschiedliche Begriffe nicht automatisch als gleichbedeutend und können mehrdeutige Begriffe nicht ohne weiteres richtig interpretieren.
+Typische Herausforderungen der natürlichen Sprache sind:
+
+>**Synonyme**: Verschiedene Begriffe bezeichnen dieselbe Sache, z. B. Auto, Wagen oder PKW.
+>
+>**Regionale Varianten und Dialekte**: Je nach Region werden unterschiedliche Begriffe verwendet, z. B. Brötchen, Schrippe oder Semmel.
+>
+>**Mehrdeutigkeit (Ambiguität)**: Ein Begriff kann verschiedene Bedeutungen haben, z. B. Schloss als Gebäude oder als Schließmechanismus.
+<br>
+
+Kontrollierte Vokabulare begegnen diesen Problemen, indem sie für einen Sachverhalt eindeutige und standardisierte Begriffe vorgeben. Dadurch werden Daten konsistenter erfasst und können von Menschen und Maschinen gleichermaßen eindeutig interpretiert werden. Dabie steht jeder Begriff für ein Konzept. Ein Konzept kann durch einen oder mehrere Begriffe (Terme) bezeichnet werden und hat eine genaue Definition.
+<br><br>
+
+<html>
+<head>
+<style>
+
+#Screenshot lobid-GND Schloss {
+  width: 350px;
+  height: 200px;
+  margin-right: 200px;
+  background-image: url(img/Screenshot-lobid-gnd_Schloss.png);
+  background-position: left;
+}
+
+#Screenshot lobid-GND Schlossvorrichtung {
+  width: 350px;
+  height: 200px;
+  background-image: url(img/Screenshot-lobid-gnd_Schlossvorrichtung.png);
+  background-position: right;
+}
+</style>
+</head>
+
+<body>
+
+<img id="Screenshot lobid-GND Schloss" src="img/Screenshot-lobid-gnd_Schloss.png" width="300" height="150" class="Screenshot lobid-gnd.*">
+<img id="Screenshot lobid-GND Schlossvorrichtung" src="img/Screenshot-lobid-gnd_Schlossvorrichtung.png" width="510" height="370">
+Kontrollierte Vokabulare wie die GND lösen Mehrdeutigkeiten auf, indem sie z. B. für Schloss (Bauwerk) und Schloss (Vorrichtung) getrennte Entitäten mit eindeutigen Identifikatoren bereitstellen. Dadurch werden Daten konsistent erfasst und maschinenlesbar interpretiert. Screenshot aus lobid-gnd.
+</body>
+</html>
+
+### Vokabular-Typen
+
+Kontrollierte Vokabulare gibt es in unterschiedlichen Formen und für verschiedene Anwendungsbereiche. Je nach Zweck dienen sie dazu, Entitäten eindeutig zu identifizieren, Orte zu beschreiben oder Begriffe systematisch zu ordnen und miteinander in Beziehung zu setzen. Die wichtigsten Arten kontrollierter Vokabulare werden im Folgenden vorgestellt.
+
+<details>
+<summary>Kontrollierte Vokabulare</summary>
+>Ein Vokabular ist eine Sammlung an Begriffen einer Sprache oder eines Bereiches der >Sprache (z. B. Fachvokabular).Als kontrollierte Vokabulare bezeichnet man >Sammlungen von Wörtern, die nach festgelegten Regeln bearbeitet wurden, um die >Mehrdeutigkeiten der natürlichen Sprache zu reduzieren (Disambiguierung) und >terminologische Kontrolle herzustellen.
+</details>
+
+<details>
+<summary>**Normdaten (normierte Datensätze)**</summary>
+>Sind eine besondere Ausprägung von kontrolliertem Vokabular. Im Kern sind Normdaten >Individualbegriffe, die es ermöglichen, Entitäten wie Personen, Körperschaften, >Orte, Werke, Objekte und Ereignisse eindeutig und standardisiert zu beschreiben.>Jede Entität enthält eine ID, durch die ein automatisierter Austausch von Daten >unterschiedlicher Herkunft möglich ist.
+>
+>+ Sie bilden den jeweiligen semantischen Kontext ab 
+>+ enthalten sowohl eine standardisierte als auch alternative Schreibweisen
+</details>
+
+<details>
+<summary>**Gazetteer**</summary>
+>Ein Gazetteer ist eine strukturierte Menge von geographischen Objekte (Geoobjekten). Geoobjekte können genutzt werden um Raumbezüge zu spezifizieren:
+>Geoobjekte können die folgenden Eigenschaften besitzen:
+>+ Name (z. B. „Mainau“)
+>+ Geometrie (z. B. Koordinaten eines Polygons)
+>+ einen Objekttyp (z. B. „Insel“)
+>+ Eindeutige Objekt-ID 
+>+ Hierarchie (z. B. Verwaltungshierarchie)
+>+ Synonymnamen, fremdsprachliche Namen
+</details>
+
+<details>
+<summary>Klassifikation (Begriffssystem)</summary>
+>Eine Klassifikation, Typifikation oder Systematik ist eine hierarchisch angeordnete >Sammlung von abstrakten Klassen (auch Konzepten, Typen oder Kategorien), die zur >Abgrenzung und Ordnung verwendet werden, um Entitäten einzuordnen.
+>Formen von Klassifikationen: Taxonomie
+>und Typologie.
+</details>
+
+<details>
+<summary>**Thesaurus (Begriffssystem)**</summary>
+>Ein Thesaurus ist eine geordnete Zusammenstellung von Begriffen eines Fachgebietes. >Im Grunde sind Thesauri kontrollierte Vokabulare, die Synonyme, Ober- und >Unterbegriffe für einen Begriff enthalten. Ein Thesaurus ordnet Begriffe nicht nur >hierarchisch sondern auch nach Äquivalenz- und Assoziations-Relationen.
+</details>
+
+<br><br>
+
+<html>
+<head>
+<style>
+
+#Screenshot Patentklassifikation {
+  width: 350px;
+  height: 200px;
+  margin-right: 200px;
+  background-image: url(img/Screenshot_Patentklassifikation.png);
+  background-position: left;
+}
+
+#Screenshot lobid-GND Schlossvorrichtung {
+  width: 350px;
+  height: 200px;
+  background-image: url(img/Screenshot-AAT.png);
+  background-position: right;
+}
+</style>
+</head>
+
+<body>
+<img id="Screenshot lobid-GND Schloss" src="img/Screenshot_Patentklassifikation.png" width="400" height="200" class="Screenshot lobid-gnd.*">
+<img id="Screenshot AAT" src="img/Screenshot-AAT.png" width="405" height="300">
+<br>
+Links: Beispiel für eine Klassifikation ist die [Internationale Patentklassifikation](https://ipcpub.wipo.int/?notion=scheme&version=20250101&symbol=none&menulang=en&lang=en&viewmode=f&fipcpc=no&showdeleted=yes&indexes=no&headings=yes&notes=yes&direction=o2n&initial=A&cwid=none&tree=no&searchmode=smart).<br>
+Rechts: Screenshot aus dem Getty Arts and Architecture Thesaurus.
+</body>
+</html>
+
+
+### Relevante Vokabulare für die Sammlungserschließung
+
+Für viele Angaben in der Sammlungserschließung existieren etablierte kontrollierte Vokabulare und Normdaten. Ihre Verwendung erhöht die Qualität und Interoperabilität von Sammlungsdaten und erleichtert deren Austausch mit anderen Informationssystemen. Welches Vokabular geeignet ist, hängt von der Art der Information ab – beispielsweise ob Personen, Orte, Werke oder Sachbegriffe beschrieben werden. Die folgende Übersicht nennt bewährte und häufig verwendete Vokabulare für verschiedene Datenfelder und Fachbereiche. Sie dient als Orientierungshilfe für die Auswahl geeigneter Standards.
+
+Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeitig zu verwenden. Entscheidend ist, für einen Anwendungsfall geeignete und möglichst weit verbreitete Standards auszuwählen und diese innerhalb einer Sammlung konsequent einzusetzen.
+
+> [!TIP]
+> Vertiefende Publikation, die Vokabulare auf FAIR-Krierien hin überprüft: Frech, A., Gerber, A., Gnyp, A., Götsch, S., von Hagel, F., Kailus, A., Rebekka Reichert, Schäfer, D.& Schlösser, M. (2025). FAIRe Vokabulare und Normdaten für Museen und Sammlungen. Zenodo. NFDI4Objects Community Meeting 2025 (CM2025), Bochum. https://doi.org/10.5281/zenodo.17227417
+
+#### Geografika
+
++ Gemeinsame Normdatei (GND), Geografika (außer Bauwerke und Denkmäler)
++ Wikidata
++ GeoNames
++ Thesaurus of Geographic Names (TGN)
++ Pleiades, antike Orte vornehmlich aus griech.-röm. Raum
++ CERL Thesaurus (Bereich der frühen Neuzeit, insbesondere des Druckwesens)
++ MARC Code List for Countries
+
+#### Personen sowie Rollen & Beziehungen
+<br>
+
+**Personen**
++ Gemeinsame Normdatei (GND), Personen
++ GND-Explorer der Deutschen Nationalbibliothek
++ Lobid-GND des Hochschulbibliothekszentrums des Landes Nordrhein-Westfalen
++ Online-GND des Bibliotheksservice-Zentrums Baden-Württemberg
++ Virtual International Authority File (VIAF)
++ Wikidata
++ Getty Union List of Artist Names (ULAN)
+
+<br>
+**Rollen, Beziehungen**
++ Rollen von Akteuren: Art & Architecture Thesaurus, Agents Facet
+ 
+ 
+
+#### Werke, materielle Kulturerbe-Objekte, Numismatik
+<br>
+
+<div style="float:right;width:15%;margin: 0px 350px 0px 0px;">
+    <img src="img/art-gallery-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+**Werke, materielle Kulturerbe-Objekte**
+
++ Gemeinsame Normdatei (GND), Werke
++ Virtual International Authority File (VIAF)
++ Wikidata
++ Cultural Objects Name Authority (CONA)
+ 
+<br>
+**Numismatik**
++ Nomisma
+
+
+#### Bauwerke, Monumente
+<br>
+<div style="float:right;width:15%;margin: 0px 350px 0px 0px;">
+    <img src="img/museum-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
++ Gemeinsame Normdatei (GND), Geografika - Bauwerke und Denkmäler
++ Virtual International Authority File (VIAF)
++ Wikidata
++ GeoNames
++ Cultural Objects Name Authority (CONA)
+
+
+#### Kunstgeschichtliche Darstellungsinhalte & Themen; Sachschlagworte; 
+<br>
+**Kunstgeschichte Darstellungsinhalte & Themen**
++ Iconclass
+
+<div style="float:right;width:12%;margin: 0px 300px 0px 100px;">
+    <img src="img/clothing-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+**Sachschlagworte**
++ Gemeinsame Normdatei (GND), Schlagworte sensu stricto, Schlagworte - Sprachen,
++ Wikidata
++ Art & Architecture Thesaurus (AAT)
+
+<div style="float:right;width:12%;margin: 0px 300px 0px 10px;">
+    <img src="img/theatre-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+Fachbegriffe der LVR-Kulturdienststellen zu Kulturanthropologie, Kulturgeschichte, 
+Archäologie, Kunstgeschichte
++ Sachthesaurus Wortnetz Kultur
+
+#### Rollen, Beziehungen
+
+#### Musik
+<br>
+
+<div style="float:right;width:12%;margin: 0px 350px 0px 0px;">
+    <img src="img/music-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
++ Musical Instrument Museums Online (MIMO) Thesaurus
++ Hornbostel-Sachs Systematik
++ MARC Instruments and Voices List
+
+#### Naturkunde
+<br>
+
+<div style="float:right;width:12%;margin: 0px 500px 0px 0px;">
+    <img src="img/garden-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+
++ GBIF
++ Catalogue of Life
+
+### Technische Eigenschaften kontrollierter Vokabulare
+
+#### Persistente Identifikatoren
+#### Exkurs zu URIs
+
+## 7.  Datenaustausch und Linked Open Data
+
+### Linked Open Data
+
+Die vier Designprinzipien von Linked Data (von Tim Berners Lee):
+* Benutze Uniform Resource Identifier (URIs)  als Namen für Dinge.
+* Benutze HTTP URIs, so dass diese Namen nachgeschlagen werden können.
+* Wenn jemand eine URI nachschlägt, liefere nützliche Informationen und nutze dabei die Standards (RDF, SPARQL).
+* Füge Links zu anderen URIs bei, so dass der User weitere Dinge entdecken kann.
+
+Siehe auch: https://www.w3.org/DesignIssues/LinkedData.html 
+<br><br>
+
+>Tim Berners-Lee, der Erfinder des Webs und Initiator des Linked-Data-Projekts, schlug ein Fünf-Sterne-Modell für die Bereitstellung von Linked Data vor. Dieses Fünf-Sterne-System ist kumulativ: Jeder weitere Stern setzt voraus, dass die Daten bereits die Anforderungen der vorherigen Stufe(n) erfüllen.
+<br><br>
+
+⭐          verfügbar im Web mit offener Lizenz (ol= open licence)<br>
+<br>
+⭐⭐       als maschinenlesbare strukturierte Daten verfügbar, z. B. excel anstatt PDF (re= machine-readable) <br>
+<br>
+⭐⭐⭐     offene Formate z. B. CSV statt excel (of= open format)<br>
+<br>
+⭐⭐⭐⭐    All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff<br>
+<br>
+⭐⭐⭐⭐⭐  All the above, plus: Link your data to other people’s data to provide context<br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+![Fünf-Sterne-System von Tim Burners Lee](img/5-star-steps.png)<!--
+style="width: 500px; position: absolute; left: 200px; bottom: -440px"
+-->
+
+<br><br>
+<br><br>
+
+
+## 8. Erschließungssysteme

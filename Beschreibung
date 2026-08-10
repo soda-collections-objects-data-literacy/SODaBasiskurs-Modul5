@@ -1,0 +1,189 @@
+<!--
+author: Anna Gnyp
+email: soda@sammlungen.io
+
+title: SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 3: Objekte erschließen
+version: 1.0
+language: DE
+license:    CC BY 4.0 https://creativecommons.org/licenses/by/4.0/@
+link: https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial@main/theme.css
+            https://fonts.googleapis.com/css?family=Noto+Sans
+
+icon:       https://github.com/4nn4pyng/SODaBasiskurs-Modul3/blob/main/img/SODa-Logo_Wort-Bild_RGB.png
+logo:       https://github.com/4nn4pyng/SODaBasiskurs-Modul3/blob/main/img/SODa-Logo_Wort-Bild_RGB.png
+
+
+
+-->
+
+# SODa Basiskurs Modul 3: Objekte erschließen
+
+
+## Beschreibung
+
+Das Modul ist als Selbstlernkurs konzipiert und enthält Wissensinhalte Aufgaben und dazugehörige Materialien. Für die Konzeption der Lernziele wurde die Lernzielmatrix zum FDM als Orientierug genutzt. [1]
+
+Das Modul umfasst acht Einheiten mit einem Gesamtumfang von 120 Minuten. In Modul 3 werden die Grundlagen der digitalen Sammlungserschließung vermittelt. Das Modul gibt einen Überblick über aktuelle Standards und wie Sammlungsdaten nach FAIR-Prinzipien erschlossen, aufbereitet und bereitgestellet sollten.
+
+Die didaktische Umsetzung nutzt Grafiken zur Unterstützung bei der Erfassung von Zusammenhängen, spielerische Übungen zur Wiederholung von erlerntem Wissen, diagnostische Aufgaben, um typische Fehler sichtbar zu machen und praxisorientierte Rechercheübungen.
+
+Die Zielgruppen orientieren sich an den SODa Personas (z. B. Sammlungsleitende, Forschende, Restaurator*innen, technisches Personal). [2] Das Modul wurde als Präsenz-Workshop pilotiert und unter einer CC-BY-4.0-Lizenz veröffentlicht. Erweiterungen für Online-Workshops sowie eine Selbstlerneinheit sind vorgesehen.
+
+---
+
+## Zielgruppe
+
+Dieses Modul richtet sich an SODa Personae, wie Professor\*innen, Sammlungskoordinator\*innen, -leitende und -betreuende und Forschende. [2]
+
+
+---
+
+## Themen 
+
+1. Grundlagen der digitalen Sammlungserschließung
+
+    - Relevanz der digitalen Sammlungserschließung
+
+    - Standards zur Einhaltung der FAIR-Prinzipien
+2. Einführung in die Datenmodellierung
+
+    - Definition und Relevanz von Ontologien
+    - Das CIDOC CRM Referenzmodell
+
+3.  Metadaten
+
+    - Relevanz von Metadaten
+    - Arten von Metadaten
+
+4.  Metadatenstandards
+
+    - Minimaldatensatze-Empfehlung für Museen und Sammlungen
+    - Das LIDO-Format
+    - Weitere Metadatenstandards
+
+5.  Datenqualität
+
+    - Dimensionen von Datenqualität
+    - Umgang mit Unsicherheiten in der Sammlungserschließung
+
+6.  Kontrollierte Vokabulare
+
+    - Relevanz kontrollierter Vokabulare
+    - Typen von kontrollierten Vokabularen 
+    - Persistente Identifikatoren
+    - Unterschied zwischen URIs und URLs
+    - Relevante Vokabulare für die Sammlungserschließung
+    - Methoden zur Recherche von kontrollireten Vokabularen 
+7.  Datenaustausch und Linked Open Data
+
+    - Linked Open Data Prinzipien
+    - Datenaustauschformate
+    
+8. Erschließungssysteme
+
+    - Datenbankmodelle
+    - Anforderungskatalog für die Einführung eines Erschließungssystems
+    
+
+
+---
+## Lernziele
+
+Lernende können...
+
+| **Einheit** | **Lernziel** |
+|1|Relevanz der digitalen Sammungserschließung erläutern|
+|1|Maßnahmen zur Implementierung der FAIR-Prinzipien bei der digitalen Sammlungserschließung benennen|
+|1|Relevanz von Datenstandards erläutern|
+|1|Relevanz von Metadatenstandards erläutern|
+|1|Relevanz von Standard-Dateiformaten erläutern|
+|1|Relevanz von Referenzmodellen erläutern|
+|1|Relevanz von Metadatenschemata erläutern|
+|1|Relevanz von kontrollierten Vokabularen erläutern|
+|2|Aspekte von Ontologien benennen|
+|2|Nutzen des Referenzmodells CIDOC-CRM erläutern|
+|2|Semantische Modellierung eines Objektes mit Hilfe des CIDOC-CRM anwenden|
+|3|die Relevanz von Metadaten erläutern|
+|3|die verschiedenen Arten von Metadaten benennen|
+|4|den Nutzen der Minimaldatensatz-Empfehlung für Museen und Sammlungen erläutern|
+|4|Die Relevanz des LIDO-Formats erläutern|
+|4|Weitere Empfehlungen zu sammlungsbezogenen Metadatenstandards benennen|
+|5|Verschiedene Aspekte der Datenqualität benennen|
+|5|Methoden zur Verbesserung der Datenqualität erläutern|
+|5|Beispiele für den Umgang mit Unsicherheiten in der Dokumentation benennen|
+|6|den Begriff kontrolliertes Vokabular erläutern|
+|6|die Relevanz von kontrollierten Vokabularen erläutern|
+|6|Typen von kontrollierten Vokabularen benennen|
+|6|kontrollierte Vokabulare zur Beschreibung von Sammlungsobjekten benennen|
+|6|die Relevanz von persistenten Identifikatoren erläutern|
+|6|Unterschiede zwischen URIs und URLs erläutern|
+|6|Recherche nach kontrollierten Vokabularen anwenden|
+|6|Recherche nach persistenten Identifikatoren anwenden|
+|7|Linked Open Data Prinzipien erläutern|
+|7|Relevanz von Datenaustauschformaten erläutern|
+|7|die Relevanz von kontrollierten Vokabularen für das Linked Data-Paradigma verstehen|
+|7|Aspekte des LIDO-Formats erläutern|
+|7|FAIR-Ebenen digitaler Objekte verstehen|
+|8|grundlegende Datenbankmodelle benennen|
+|8|Vor- und Nachteile von proprietärer und Open Source Software benennen|
+|8|Anforderungen an ein Erschließungssystem analysieren|
+---
+
+## Einheiten und Zeitbedarf
+
+**Modul 3: 120 Min.**
+
+| Einheit | Inhalt | Zeit |
+|--------|--------|------|
+
+
+
+---
+
+## Quellenangaben
+
+
+[1] Petersen, B., Altemeier, F., Boße, S., Dalby, M., Düvel, N., Engelhardt, C., Fichtner, M., Hastik, C., Haugwitz, J.-M., Jacob, J., Koch, K., Kuntz, A., Manske, A., Mühlichen, A., Murcia Serra, J., Ortmeyer, J., Richter, M., Schranzhofer, H., Slowig, B., … Zollitsch, L. (2025). Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) (Version 3). Zenodo. https://doi.org/10.5281/zenodo.15025246
+
+[2] Reichert, R., Hastik, C., Gnyp, A., Markert, M., & Tharandt, L. (2025). SODa Personas. Zenodo. https://doi.org/10.5281/zenodo.15574575
+
+---
+
+## Metadaten
+
+
+author: Anna Gnyp
+
+orcid: https://orcid.org/0000-0003-3598-1112
+
+title: SODa Basiskurs zu Erschießung und Forschungsdatenmanagement in UNiversitätssammlungen. Modul 3: Objekte erschließen
+
+version: v1.0.0
+
+language: DE
+
+rights: CC-BY 4.0
+
+rights description: Dieses Material steht unter der Lizenz Creative Commons Attribution 4.0 International.
+
+rights link: https://creativecommons.org/licenses/by/4.0/
+
+SODaformat: Selbstlernkurs
+
+SODagestaltungsprinzip: Forschendes Lernen
+
+classification: Forschende, Sammlungsleitende und -betreuende. Technisches admin Personal, Hilfskräfte, Interessierte
+
+classification description: basierend auf SODaPersonas-Beschreibungen, Reichert R., Hastik, C., Gnyp, A., Markert, M., & Tharandt, L. (2025). SODa Personas. Zenodo. https://doi.org/10.5281/zenodo.15574575
+
+mediatype: Text
+
+technical format: Markdown mit LiaScript-Erweiterungen
+
+file format: .md | MIME: text/markdown
+
+software: LiaScript
+
+runtime environment: https://liascript.github.io
+
+keywords: sammlungsbezogenes Forschungsdatenmanagement; Konservierung; Restaurierung; Dokumentation
