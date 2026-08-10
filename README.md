@@ -1,5 +1,5 @@
-# SODaBasiskurs-Modul3
-SODa Basiskurs Modul 3: Objekte erschließen | Selbstlernkurs
+# SODaBasiskurs-Modul5
+SODa Basiskurs Modul 5: Publizieren und Archivieren | Selbstlernkurs
 
 Dieses Repository enthält offene Bildungsmaterialien (Open Educational Resources, OERs) im Kontext von SODa. Die Materialien wurden im Rahmen der [SODa-Initiative](https://sammlungen.io) entwickelt und richten sich an Forschende, Sammlungsbetreuende, Sammlungsleitende und darüber hinaus.
 
