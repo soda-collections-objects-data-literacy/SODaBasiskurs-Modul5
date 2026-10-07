@@ -141,7 +141,188 @@ Ein Archiv überprüft regelmäßig die Integrität gespeicherter Dateien und pl
 [[(Langzeitarchivierung)|Backup|Publikation]]
 
 
-## 2. Planung des Publizierens und Archivierens
+## 2. Nutzen und Formen der Sammlungspublikation
+
+Sammlungsdaten können auf unterschiedliche Weise veröffentlicht werden. Welche Form der Publikation geeignet ist, hängt unter anderem davon ab, **welche Daten veröffentlicht werden sollen, welche Zielgruppen angesprochen werden und wie die Daten nachgenutzt werden sollen**.
+
+Dabei lassen sich verschiedene Formen der Sammlungspublikation unterscheiden:
+
+- Publikation in **Institutions- oder Universitätskatalogen**
+- Publikation über **Kulturplattformen und Verbünde**
+- Veröffentlichung von **3D-Digitalisaten in 3D-Repositorien**
+- Veröffentlichung von **Datendumps in Datenrepositorien**
+- Publikation in **Fachrepositorien und Fachverbünden**
+- Nutzung **offener Plattformen** wie Wikidata oder Wikimedia Commons
+
+### Institutions- und Universitätskataloge
+
+Eine Möglichkeit besteht darin, Sammlungsdaten über den **eigenen institutionellen oder universitären Katalog** bereitzustellen. Die Daten werden dabei in der Regel in einer von der Institution betriebenen oder verantworteten Datenbank recherchierbar gemacht.
+
+Beispiele:
+
+- [Wissenschaftliche Sammlungen der Universität Göttingen](https://sammlungen.uni-goettingen.de/index/)
+- [Museum der Universität Tübingen](https://www.emuseum.uni-tuebingen.de/objects)
+- [Germanisches Nationalmuseum – GNM digital](https://www.gnm.de/gnm-digital)
+
+Solche Kataloge eignen sich insbesondere dafür, die eigenen Sammlungsbestände **sichtbar und recherchierbar** zu machen. Sie können beispielsweise Objektinformationen, Bilder und weitere Metadaten bereitstellen.
+
+> **Merke:** Ein institutioneller Katalog ist häufig der erste Ort, an dem eine Sammlung digital sichtbar gemacht wird. Er muss jedoch nicht der einzige Publikationsort sein.
+
+### Kulturplattformen und Verbünde
+
+Eine weitere Möglichkeit besteht darin, Sammlungsdaten über **übergreifende Kulturplattformen und Verbünde** bereitzustellen.
+
+Solche Plattformen bündeln Daten verschiedener Institutionen und machen sie über eine gemeinsame Such- oder Präsentationsumgebung recherchierbar.
+
+Beispiele:
+
+- [Europeana](https://www.europeana.eu/portal/)
+- [Deutsche Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/)
+- [museum-digital](https://www.museum-digital.de/)
+- [Kulturerbe Niedersachen](https://kulturerbe.niedersachsen.de/index/)
+
+Der Vorteil solcher Plattformen liegt insbesondere in der **übergreifenden Sichtbarkeit**: Daten können gemeinsam mit Beständen anderer Institutionen recherchiert und miteinander in Beziehung gesetzt werden.
+
+Damit solche Angebote funktionieren, müssen die Daten in geeigneter Weise **strukturiert und standardisiert** vorliegen. Austauschformate und gemeinsame Metadatenmodelle spielen deshalb eine wichtige Rolle.
+
+![TODO: Grafik zu unterschiedlichen Ebenen der Sammlungspublikation](img/todo2.png)
+
+### 3D-Repositorien
+
+Für dreidimensional digitalisierte Sammlungsobjekte gibt es spezialisierte Plattformen und Repositorien.
+
+Beispiele:
+
+- [Kompakkt](https://www.kompakkt.de) – eine Open-Source-Plattform für die Publikation und Präsentation von 3D-Modellen
+- [Sketchfab](https://portal.wissenschaftliche-sammlungen.de/DigitalCollection/186248)
+
+3D-Plattformen ermöglichen es, digitale Modelle nicht nur als Datei zum Download bereitzustellen, sondern teilweise auch **direkt im Web zu betrachten und zu untersuchen**.
+
+Je nach Plattform können dabei beispielsweise Informationen zum Objekt, Vorschaubilder, 3D-Modelle und weitere Metadaten miteinander verbunden werden.
+
+> **Wichtig:** Die Veröffentlichung eines 3D-Modells auf einer Präsentationsplattform ist nicht automatisch mit einer langfristigen Archivierung der zugrunde liegenden Daten gleichzusetzen.
+
+### Datenrepositorien und Datendumps
+
+Sammlungsdaten können außerdem als **Datensatz bzw. Datendump** in einem Datenrepositorium veröffentlicht werden.
+
+Dabei wird beispielsweise ein vollständiger oder ausgewählter Datenbestand als Datei bereitgestellt. Je nach System können unterschiedliche Formate zum Einsatz kommen.
+
+Beispiele:
+
+- [RADAR4Culture](https://radar.products.fiz-karlsruhe.de/de/radarabout/radar4culture)
+- [GitHub – Open Access des Metropolitan Museum of Art](https://github.com/metmuseum/openaccess)
+
+Ein Datendump kann insbesondere für die **Nachnutzung, Analyse und Weiterverarbeitung** interessant sein. Forschende können die Daten herunterladen und beispielsweise mit eigenen Methoden auswerten.
+
+Dabei ist es wichtig, nicht nur die eigentlichen Daten bereitzustellen. Für eine sinnvolle Nachnutzung benötigen Nutzende auch Informationen darüber,
+
+- welche Daten enthalten sind,
+- wie die Daten strukturiert sind,
+- welche Felder und Werte verwendet werden,
+- welche Begriffe oder Vokabulare zugrunde liegen,
+- unter welcher Lizenz die Daten genutzt werden dürfen,
+- und aus welcher Quelle die Daten stammen.
+
+![TODO: Grafik Datensatz → Repositorium → Nachnutzung](img/todo2.png)
+
+### Fachrepositorien und Fachverbünde
+
+Eine weitere Form der Sammlungspublikation ist die Veröffentlichung über **fachlich spezialisierte Repositorien oder Verbünde**.
+
+Diese Angebote richten sich häufig an eine bestimmte Sammlungsgattung, ein Fachgebiet oder eine bestimmte Form von Kulturgut.
+
+Beispiele:
+
+- [NUMiD – Netzwerk universitärer Münzsammlungen](https://www.numid.online/home)
+- [Online Coins of the Roman Empire (OCRE)](http://numismatics.org/ocre/)
+- [Bildarchiv Foto Marburg](https://www.uni-marburg.de/de/fotomarburg)
+- [Digital Benin](https://digitalbenin.org/)
+- [Portal Alltagskulturen im Rheinland](https://alltagskulturen.lvr.de/de/suche)
+- [Handschriftenportal](https://handschriftenportal.de/)
+- [Papyrusportal](https://papyri.uni-leipzig.de/content/start.xml?XSL.lastPage.SESSION=/content/start.xml)
+- [Digital Archive of Mathematical Models](https://mathematical-models.org/en/models)
+
+Der Vorteil von Fachrepositorien und Fachverbünden liegt darin, dass sie **fachspezifische Anforderungen** berücksichtigen können. Beispielsweise können sie spezielle Metadaten, fachliche Vokabulare oder geeignete Darstellungsformen unterstützen.
+
+Gleichzeitig können solche Angebote dazu beitragen, Sammlungsdaten innerhalb einer wissenschaftlichen Community **sichtbarer und besser auffindbar** zu machen.
+
+### Offene Plattformen
+
+Sammlungsdaten können auch auf **offenen, kollaborativen Plattformen** veröffentlicht oder mit bereits vorhandenen Informationen verknüpft werden.
+
+Dazu gehören beispielsweise:
+
+- [Wikidata](https://www.wikidata.org/)
+- [Wikimedia Commons](https://commons.wikimedia.org/)
+- [Wikisource](https://wikisource.org/) – beispielsweise für Editionen
+
+Ein Beispiel für die Nutzung von Wikimedia Commons ist die Bereitstellung von Bildern aus Sammlungen der **Staatlichen Museen zu Berlin**:
+
+[Images provided by the Gemäldegalerie (Berlin)](https://commons.wikimedia.org/wiki/Category:Images_provided_by_the_Gem%C3%A4ldegalerie_(Berlin))
+
+Ein weiteres Beispiel ist die Veröffentlichung von Informationen und Bildern zur **Sammlung von Karl Schmidt-Rottluff aus kolonialen Kontexten im Brücke-Museum Berlin**:
+
+[Collection of Objects from Colonial Contexts in the Brücke-Museum Berlin](https://commons.wikimedia.org/wiki/Category:Karl_Schmidt-Rottluff%27s_Collection_of_Objects_from_Colonial_Contexts_in_the_Brücke-Museum_Berlin)
+
+Offene Plattformen unterscheiden sich von klassischen institutionellen Katalogen insbesondere dadurch, dass sie **kollaborativ angelegt und über institutionelle Grenzen hinweg nutzbar** sind.
+
+Wikidata kann beispielsweise dazu genutzt werden, Informationen über Objekte, Personen, Orte, Ereignisse oder Institutionen **strukturiert miteinander zu verknüpfen**. Wikimedia Commons eignet sich dagegen insbesondere für die Veröffentlichung und Nachnutzung von Mediendateien.
+
+![TODO: Grafik Offene Plattformen – Wikidata, Wikimedia Commons und Wikisource](img/todo2.png)
+
+### Welche Publikationsform ist geeignet?
+
+Die verschiedenen Publikationsformen schließen sich **nicht gegenseitig aus**. Im Gegenteil: Für eine nachhaltige und möglichst breite Sammlungspublikation kann es sinnvoll sein, verschiedene Angebote miteinander zu kombinieren.
+
+Ein mögliches Szenario wäre beispielsweise:
+
+**Institutioneller Katalog**  
+→ detaillierte Präsentation der Sammlung und Objekte
+
+**Kulturplattform**  
+→ übergreifende Auffindbarkeit gemeinsam mit anderen Institutionen
+
+**Datenrepositorium**  
+→ Bereitstellung strukturierter Daten für Download und Nachnutzung
+
+**Fachrepositorium**  
+→ Einbindung in eine fachliche Community
+
+**Wikidata / Wikimedia Commons**  
+→ Verknüpfung und Nachnutzung in offenen Wissensplattformen, Ermöglichung von Partizipation (z. B. im Rahmen von Provenienzforschung oder von Citizen Science Projekten)
+
+Damit wird deutlich: **Sammlungspublikation bedeutet nicht nur, Daten online sichtbar zu machen.** Je nach Publikationsweg können unterschiedliche Ziele verfolgt werden – beispielsweise Sichtbarkeit, wissenschaftliche Nachnutzung, Vernetzung, Datenanalyse oder die Einbindung in offene Wissensräume.
+
+### Aufgabe: Welcher Publikationsweg passt?
+
+Ordnen Sie die folgenden Szenarien einem geeigneten Publikationsweg zu.
+
+| Szenario | Geeigneter Publikationsweg |
+|---|---|
+| Eine Universität möchte ihren eigenen Sammlungsbestand online recherchierbar machen. | Institutions-/Universitätskatalog |
+| Mehrere Institutionen möchten ihre Daten gemeinsam recherchierbar machen. | Kulturplattform / Verbund |
+| Eine Sammlung möchte 3D-Modelle ihrer Objekte online präsentieren. | 3D-Repositorium / 3D-Plattform |
+| Forschende sollen einen vollständigen Datensatz herunterladen und analysieren können. | Datenrepositorium |
+| Eine Sammlung möchte ihre Objekte in einen fachspezifischen Verbund integrieren. | Fachrepositorium / Fachverbund |
+| Informationen zu Objekten sollen mit anderen offenen Wissensbeständen verknüpft werden. | Offene Plattform, z. B. Wikidata |
+
+<details>
+<summary>💡 Was sollte bei der Auswahl berücksichtigt werden?</summary>
+
+Bei der Wahl eines Publikationswegs sollten unter anderem folgende Fragen berücksichtigt werden:
+
+- **Wer** soll die Daten nutzen?
+- **Was** soll veröffentlicht werden – Objektinformationen, Bilder, 3D-Modelle, Datensätze oder alles zusammen?
+- Sollen die Daten **nur angesehen** oder auch **heruntergeladen und weiterverarbeitet** werden können?
+- Sollen die Daten mit den Beständen **anderer Institutionen verknüpft** werden?
+- Gibt es fachliche Anforderungen an Metadaten, Vokabulare oder Datenmodelle?
+- Welche **Lizenzen und Nutzungsbedingungen** gelten?
+- Ist der Publikationsort für die **langfristige Verfügbarkeit** geeignet?
+
+</details>
+
+### Planung des Publizierens und Archivierens
 
 
 Publikation und Archivierung sollten möglichst **nicht erst am Ende eines Projekts** geplant werden.
@@ -243,7 +424,7 @@ Sammlungen sind damit nicht nur Datenlieferanten. Sie können an der Entwicklung
 
 Welche Nutzungsszenarien werden durch strukturierte und maschinenlesbare Sammlungsdaten erleichtert?
 
-[[Datenanalysen|Netzwerkanalysen|Automatisierte Kartierungen|Computer-Vision-Verfahren|Nur die Darstellung im Online-Katalog]]
+[[(Datenanalysen)|(Netzwerkanalysen)|(Automatisierte Kartierungen)|Darstellung im Online-Katalog]]
 
 <details>
 <summary>Lösung</summary>
