@@ -64,7 +64,7 @@ Sie können die Einheiten Schritt für Schritt in Ihrem eigenen Tempo bearbeiten
 ## 1. Einführung in das Publizieren und Archivieren
 
 
-### Zwei unterschiedliche Prozesse
+**Zwei unterschiedliche Prozesse**
 
 Publizieren und Archivieren werden im Alltag manchmal gleichgesetzt. Beides hat jedoch unterschiedliche Ziele.
 
@@ -141,8 +141,136 @@ Ein Archiv überprüft regelmäßig die Integrität gespeicherter Dateien und pl
 [[(Langzeitarchivierung)|Backup|Publikation]]
 
 
-### Planung des Publizierens und Archivierens
+## 2. Planung des Publizierens und Archivierens
 
+
+Publikation und Archivierung sollten möglichst **nicht erst am Ende eines Projekts** geplant werden.
+
+Je früher feststeht, wie Daten genutzt, veröffentlicht und archiviert werden sollen, desto leichter können Datenmodellierung, Digitalisierung, Dokumentation und Qualitätssicherung darauf abgestimmt werden.
+
+Das beginnt idealerweise bereits mit dem **Datenmanagementplan**.
+
+### 2.1 Welche Fragen müssen früh geklärt werden?
+
+![Planung von Publikation und Archivierung](img/todo2.png)
+
+## 3. Warum Sammlungsdaten publizieren?
+
+Sammlungen werden häufig zunächst für die interne Dokumentation erschlossen.
+
+Eine digitale Sammlung kann aber wesentlich mehr sein als ein Online-Katalog.
+
+Wenn Sammlungsdaten strukturiert, maschinenlesbar und nachnutzbar veröffentlicht werden, können sie zu **Forschungsdaten und einer digitalen Forschungsinfrastruktur** werden.
+
+### 3.1 Sichtbarkeit
+
+Eine Sammlung kann beispielsweise über
+
+- einen institutionseigenen Online-Katalog,
+- ein Fachrepositorium,
+- ein Kulturportal,
+- eine offene Plattform
+
+sichtbar gemacht werden.
+
+Dadurch können Objekte und ihre Informationen auch von Personen gefunden werden, die die Institution selbst nicht kennen.
+
+### 3.2 Nachnutzung
+
+Maschinenlesbar publizierte Sammlungsdaten können für sehr unterschiedliche Forschungs- und Nutzungsszenarien verwendet werden.
+
+![Nachnutzung von Sammlungsdaten](img/todo2.png)
+
+<!--
+GRAFIKVORSCHLAG:
+Zentrale Box:
+"FAIR publizierte Sammlungsdaten"
+
+Davon ausgehend:
+Forschung
+Datenanalyse
+Visualisierung
+Mapping
+Knowledge Graphs
+Citizen Science
+KI/Computer Vision
+Lehre/Vermittlung
+Hackathons/Data Sprints
+-->
+
+Beispiele sind:
+
+- Datenanalysen
+- geografische Kartierungen
+- Netzwerkanalysen
+- Knowledge Graphs
+- kritische Visualisierungen
+- Citizen Science
+- Hackathons und Data Sprints
+- quantitative Bildanalysen
+- Computer Vision
+- Training oder Evaluation von KI-Systemen
+
+#### Beispiel: Collections as Data
+
+Das Konzept **Collections as Data** geht noch einen Schritt weiter.
+
+Sammlungen werden dabei nicht nur als digitale Kataloge betrachtet. Die Daten werden so aufbereitet, dass sie mit **computational methods** analysiert werden können.
+
+Das bedeutet beispielsweise:
+
+> Nicht nur „Suche nach einem Objekt“, sondern:
+>
+> „Untersuche 50.000 Objekte nach bestimmten Merkmalen und analysiere deren Beziehungen.“
+
+Dafür müssen die Daten entsprechend strukturiert, standardisiert und maschinenlesbar sein.
+
+### 3.2 Sammlungspublikation und Public AI
+
+Auch für KI-Anwendungen können publizierte Sammlungsdaten relevant sein.
+
+Hochwertige, kuratierte und kontextualisierte Sammlungsdaten können eine Grundlage für Forschung mit maschinellem Lernen bilden.
+
+Gleichzeitig stellt sich die Frage:
+
+> **Welche Art von KI wollen wir mit unseren Kulturdaten ermöglichen?**
+
+Das Konzept **Public AI** setzt hier auf ein KI-Ökosystem, das sich an öffentlichen Werten wie Offenheit, Transparenz, Interoperabilität und demokratischer Kontrolle orientiert.
+
+Sammlungen sind damit nicht nur Datenlieferanten. Sie können an der Entwicklung von Forschungs- und KI-Infrastrukturen aktiv beteiligt sein.
+
+### Aufgabe 3: Was ermöglicht eine maschinenlesbare Sammlungspublikation?
+
+Welche Nutzungsszenarien werden durch strukturierte und maschinenlesbare Sammlungsdaten erleichtert?
+
+[[Datenanalysen|Netzwerkanalysen|Automatisierte Kartierungen|Computer-Vision-Verfahren|Nur die Darstellung im Online-Katalog]]
+
+<details>
+<summary>Lösung</summary>
+
+Die ersten vier Antworten sind richtig.
+
+Eine maschinenlesbare Publikation kann wesentlich mehr ermöglichen als die reine Darstellung eines Online-Katalogs.
+
+</details>
+
+---
+
+## 4. FAIRe Sammlungspublikation
+
+FAIR steht für:
+
+**Findable – Accessible – Interoperable – Reusable**
+
+Die FAIR-Prinzipien beschreiben Eigenschaften, die Daten für Menschen und Maschinen möglichst gut auffindbar, zugänglich, interoperabel und nachnutzbar machen.
+
+FAIR ist dabei **kein bestimmtes Dateiformat und keine bestimmte Plattform**.
+
+Eine FAIR-Publikation kann beispielsweise XML, JSON, CSV oder RDF verwenden.
+
+Entscheidend ist, **wie die Daten beschrieben, identifiziert, bereitgestellt und dokumentiert werden**.
+
+![FAIR-Roadmap für Sammlungsdaten](img/todo2.png)
 ===
 <br>
 <div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
