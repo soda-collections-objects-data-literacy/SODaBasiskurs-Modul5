@@ -64,9 +64,93 @@ Sie können die Einheiten Schritt für Schritt in Ihrem eigenen Tempo bearbeiten
 ## 1. Einführung in das Publizieren und Archivieren
 
 
-### Begriffsdefinitionen
+### Zwei unterschiedliche Prozesse
+
+Publizieren und Archivieren werden im Alltag manchmal gleichgesetzt. Beides hat jedoch unterschiedliche Ziele.
+
+Beim **Publizieren** steht die Nutzung im Vordergrund: Daten sollen auffindbar, zugänglich und möglichst nachnutzbar sein.
+
+Beim **Archivieren** steht dagegen der langfristige Erhalt im Vordergrund. Die Daten sollen auch in Zukunft möglichst vollständig, unverfälscht und interpretierbar erhalten bleiben.
+
+![Publizieren und Archivieren](img/todo2.png)
+
+### Publizieren
+
+Bei einer Publikation stehen unter anderem folgende Fragen im Vordergrund:
+
+- Wer soll die Daten nutzen?
+- Wo sollen sie auffindbar sein?
+- Welche Daten sollen veröffentlicht werden?
+- In welchem Format sollen sie bereitgestellt werden?
+- Welche Lizenz erlaubt die Nachnutzung?
+- Wie können die Daten referenziert werden?
+- Gibt es eine Schnittstelle oder einen Download?
+
+Publizierte Daten sind häufig für den unmittelbaren Zugriff optimiert.
+
+### Archivieren
+
+Bei der Langzeitarchivierung geht es dagegen um Fragen wie:
+
+- Welche Informationen müssen langfristig erhalten bleiben?
+- Welche Dateien und Formate sind archivwürdig?
+- Wie wird die Integrität der Daten überprüft?
+- Welche Metadaten werden für das Verständnis benötigt?
+- Wie wird mit veralteten Dateiformaten umgegangen?
+- Wer übernimmt langfristig die Verantwortung?
+- Wer darf auf die archivierten Daten zugreifen?
+
+Der Zugang zu Archivdaten kann dabei eingeschränkt sein. Beispielsweise können rechtliche oder datenschutzrechtliche Gründe einen offenen Zugang verhindern.
+
+#### Wichtig: Ein Backup ist keine Langzeitarchivierung
+
+Ein **Backup** ist eine Sicherung eines Datenbestands zu einem bestimmten Zeitpunkt.
+
+Eine **Langzeitarchivierung** ist dagegen ein fortlaufender Prozess, der darauf ausgerichtet ist, digitale Informationen über lange Zeiträume nutzbar zu erhalten.
+
+Dazu gehören beispielsweise:
+
+- Integritätsprüfungen
+- Formatvalidierung
+- Dokumentation
+- Metadatenpflege
+- Erhaltungsmaßnahmen
+- gegebenenfalls Formatmigration
+
+> **Merksatz**
+>
+> Ein Backup schützt vor Datenverlust.
+>
+> Langzeitarchivierung sorgt dafür, dass digitale Informationen auch in Zukunft **verstanden und genutzt** werden können.
+
+### Aufgabe 1: Publizieren, Backup oder Archivieren?
+
+**Situation 1:**  
+Eine Museumsdatenbank wird jede Nacht auf einem zweiten Server gesichert.
+
+[[(Backup)|Langzeitarchivierung|Publikation]]
+
+**Situation 2:**  
+Ein Datensatz wird mit DOI und offener Lizenz auf einem Repositorium veröffentlicht.
+
+[[(Publikation)|Backup|Langzeitarchivierung]]
+
+**Situation 3:**  
+Ein Archiv überprüft regelmäßig die Integrität gespeicherter Dateien und plant Formatmigrationen.
+
+[[(Langzeitarchivierung)|Backup|Publikation]]
+
 
 ### Planung des Publizierens und Archivierens
+
+===
+<br>
+<div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
+    <img src="img/collectionsasdata.png" alt="KI-generiertes Bild mit antiker Büste und Binärcode." style=""/>
+    <p style="text-align:center"> *KI-generiertes Bild, Public Domain* </p>
+</div>
+
+
 
 ===
 <br>
