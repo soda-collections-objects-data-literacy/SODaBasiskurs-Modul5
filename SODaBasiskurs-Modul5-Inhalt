@@ -100,7 +100,7 @@ Bei der Langzeitarchivierung geht es dagegen um Fragen wie:
 
 Der Zugang zu Archivdaten kann dabei eingeschränkt sein. Beispielsweise können rechtliche oder datenschutzrechtliche Gründe einen offenen Zugang verhindern.
 
-#### Wichtig: Ein Backup ist keine Langzeitarchivierung
+**Wichtig: Ein Backup ist keine Langzeitarchivierung**
 
 Ein **Backup** ist eine Sicherung eines Datenbestands zu einem bestimmten Zeitpunkt.
 
@@ -236,7 +236,6 @@ Dabei ist es wichtig, nicht nur die eigentlichen Daten bereitzustellen. Für ein
 - unter welcher Lizenz die Daten genutzt werden dürfen,
 - und aus welcher Quelle die Daten stammen.
 
-![TODO: Grafik Datensatz → Repositorium → Nachnutzung](img/todo2.png)
 
 #### Fachrepositorien und Fachverbünde
 
@@ -259,7 +258,7 @@ Der Vorteil von Fachrepositorien und Fachverbünden liegt darin, dass sie **fach
 
 Gleichzeitig können solche Angebote dazu beitragen, Sammlungsdaten innerhalb einer wissenschaftlichen Community **sichtbarer und besser auffindbar** zu machen.
 
-#### Offene Plattformen
+#### Offene kollaborative Plattformen
 
 Sammlungsdaten können auch auf **offenen, kollaborativen Plattformen** veröffentlicht oder mit bereits vorhandenen Informationen verknüpft werden.
 
@@ -363,22 +362,6 @@ Maschinenlesbar publizierte Sammlungsdaten können für sehr unterschiedliche Fo
 
 ![Nachnutzung von Sammlungsdaten](img/todo2.png)
 
-<!--
-GRAFIKVORSCHLAG:
-Zentrale Box:
-"FAIR publizierte Sammlungsdaten"
-
-Davon ausgehend:
-Forschung
-Datenanalyse
-Visualisierung
-Mapping
-Knowledge Graphs
-Citizen Science
-KI/Computer Vision
-Lehre/Vermittlung
-Hackathons/Data Sprints
--->
 
 Beispiele sind:
 
@@ -399,11 +382,6 @@ Das Konzept **Collections as Data** geht noch einen Schritt weiter.
 
 Sammlungen werden dabei nicht nur als digitale Kataloge betrachtet. Die Daten werden so aufbereitet, dass sie mit **computational methods** analysiert werden können.
 
-Das bedeutet beispielsweise:
-
-> Nicht nur „Suche nach einem Objekt“, sondern:
->
-> „Untersuche 50.000 Objekte nach bestimmten Merkmalen und analysiere deren Beziehungen.“
 
 Dafür müssen die Daten entsprechend strukturiert, standardisiert und maschinenlesbar sein.
 
@@ -561,7 +539,7 @@ style="width: 200px; position: relative; left: 5px; bottom: 10px"
 
 
 
-## 4. Langzeitarchivierung
+## 5. Langzeitarchivierung
 
 ### Repositorien und Archive
 
@@ -573,7 +551,7 @@ style="width: 200px; position: relative; left: 5px; bottom: 10px"
     <p style="text-align:center"> </p>
 </div>
 
-## 5. Rechtliche Und ethische Aspekte
+## 6. Rechtliche Und ethische Aspekte
 
 
 
