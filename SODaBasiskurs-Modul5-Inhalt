@@ -140,8 +140,22 @@ Ein Archiv überprüft regelmäßig die Integrität gespeicherter Dateien und pl
 
 [[(Langzeitarchivierung)|Backup|Publikation]]
 
+## 2. Planung des Publizierens und Archivierens
 
-## 2. Nutzen und Formen der Sammlungspublikation
+
+Publikation und Archivierung sollten möglichst **nicht erst am Ende eines Projekts** geplant werden.
+
+Je früher feststeht, wie Daten genutzt, veröffentlicht und archiviert werden sollen, desto leichter können Datenmodellierung, Digitalisierung, Dokumentation und Qualitätssicherung darauf abgestimmt werden.
+
+Das beginnt idealerweise bereits mit dem **Datenmanagementplan**.
+
+### 2.1 Welche Fragen müssen früh geklärt werden?
+
+![Planung von Publikation und Archivierung](img/todo2.png)
+
+## 3. Nutzen und Formen der Sammlungspublikation
+
+### 3.1 Formen der Sammlungspublikation
 
 Sammlungsdaten können auf unterschiedliche Weise veröffentlicht werden. Welche Form der Publikation geeignet ist, hängt unter anderem davon ab, **welche Daten veröffentlicht werden sollen, welche Zielgruppen angesprochen werden und wie die Daten nachgenutzt werden sollen**.
 
@@ -154,7 +168,7 @@ Dabei lassen sich verschiedene Formen der Sammlungspublikation unterscheiden:
 - Publikation in **Fachrepositorien und Fachverbünden**
 - Nutzung **offener Plattformen** wie Wikidata oder Wikimedia Commons
 
-### Institutions- und Universitätskataloge
+#### Institutions- und Universitätskataloge
 
 Eine Möglichkeit besteht darin, Sammlungsdaten über den **eigenen institutionellen oder universitären Katalog** bereitzustellen. Die Daten werden dabei in der Regel in einer von der Institution betriebenen oder verantworteten Datenbank recherchierbar gemacht.
 
@@ -168,7 +182,7 @@ Solche Kataloge eignen sich insbesondere dafür, die eigenen Sammlungsbestände 
 
 > **Merke:** Ein institutioneller Katalog ist häufig der erste Ort, an dem eine Sammlung digital sichtbar gemacht wird. Er muss jedoch nicht der einzige Publikationsort sein.
 
-### Kulturplattformen und Verbünde
+#### Kulturplattformen und Verbünde
 
 Eine weitere Möglichkeit besteht darin, Sammlungsdaten über **übergreifende Kulturplattformen und Verbünde** bereitzustellen.
 
@@ -187,7 +201,7 @@ Damit solche Angebote funktionieren, müssen die Daten in geeigneter Weise **str
 
 ![TODO: Grafik zu unterschiedlichen Ebenen der Sammlungspublikation](img/todo2.png)
 
-### 3D-Repositorien
+#### 3D-Repositorien
 
 Für dreidimensional digitalisierte Sammlungsobjekte gibt es spezialisierte Plattformen und Repositorien.
 
@@ -202,7 +216,7 @@ Je nach Plattform können dabei beispielsweise Informationen zum Objekt, Vorscha
 
 > **Wichtig:** Die Veröffentlichung eines 3D-Modells auf einer Präsentationsplattform ist nicht automatisch mit einer langfristigen Archivierung der zugrunde liegenden Daten gleichzusetzen.
 
-### Datenrepositorien und Datendumps
+#### Datenrepositorien und Datendumps
 
 Sammlungsdaten können außerdem als **Datensatz bzw. Datendump** in einem Datenrepositorium veröffentlicht werden.
 
@@ -226,7 +240,7 @@ Dabei ist es wichtig, nicht nur die eigentlichen Daten bereitzustellen. Für ein
 
 ![TODO: Grafik Datensatz → Repositorium → Nachnutzung](img/todo2.png)
 
-### Fachrepositorien und Fachverbünde
+#### Fachrepositorien und Fachverbünde
 
 Eine weitere Form der Sammlungspublikation ist die Veröffentlichung über **fachlich spezialisierte Repositorien oder Verbünde**.
 
@@ -247,7 +261,7 @@ Der Vorteil von Fachrepositorien und Fachverbünden liegt darin, dass sie **fach
 
 Gleichzeitig können solche Angebote dazu beitragen, Sammlungsdaten innerhalb einer wissenschaftlichen Community **sichtbarer und besser auffindbar** zu machen.
 
-### Offene Plattformen
+#### Offene Plattformen
 
 Sammlungsdaten können auch auf **offenen, kollaborativen Plattformen** veröffentlicht oder mit bereits vorhandenen Informationen verknüpft werden.
 
@@ -271,7 +285,7 @@ Wikidata kann beispielsweise dazu genutzt werden, Informationen über Objekte, P
 
 ![TODO: Grafik Offene Plattformen – Wikidata, Wikimedia Commons und Wikisource](img/todo2.png)
 
-### Welche Publikationsform ist geeignet?
+#### Welche Publikationsform ist geeignet?
 
 Die verschiedenen Publikationsformen schließen sich **nicht gegenseitig aus**. Im Gegenteil: Für eine nachhaltige und möglichst breite Sammlungspublikation kann es sinnvoll sein, verschiedene Angebote miteinander zu kombinieren.
 
@@ -294,7 +308,7 @@ Ein mögliches Szenario wäre beispielsweise:
 
 Damit wird deutlich: **Sammlungspublikation bedeutet nicht nur, Daten online sichtbar zu machen.** Je nach Publikationsweg können unterschiedliche Ziele verfolgt werden – beispielsweise Sichtbarkeit, wissenschaftliche Nachnutzung, Vernetzung, Datenanalyse oder die Einbindung in offene Wissensräume.
 
-### Aufgabe: Welcher Publikationsweg passt?
+#### Aufgabe: Welcher Publikationsweg passt?
 
 Ordnen Sie die folgenden Szenarien einem geeigneten Publikationsweg zu.
 
@@ -322,20 +336,9 @@ Bei der Wahl eines Publikationswegs sollten unter anderem folgende Fragen berüc
 
 </details>
 
-### Planung des Publizierens und Archivierens
 
 
-Publikation und Archivierung sollten möglichst **nicht erst am Ende eines Projekts** geplant werden.
-
-Je früher feststeht, wie Daten genutzt, veröffentlicht und archiviert werden sollen, desto leichter können Datenmodellierung, Digitalisierung, Dokumentation und Qualitätssicherung darauf abgestimmt werden.
-
-Das beginnt idealerweise bereits mit dem **Datenmanagementplan**.
-
-### 2.1 Welche Fragen müssen früh geklärt werden?
-
-![Planung von Publikation und Archivierung](img/todo2.png)
-
-## 3. Warum Sammlungsdaten publizieren?
+### 3.2 Warum Sammlungsdaten publizieren?
 
 Sammlungen werden häufig zunächst für die interne Dokumentation erschlossen.
 
@@ -343,7 +346,7 @@ Eine digitale Sammlung kann aber wesentlich mehr sein als ein Online-Katalog.
 
 Wenn Sammlungsdaten strukturiert, maschinenlesbar und nachnutzbar veröffentlicht werden, können sie zu **Forschungsdaten und einer digitalen Forschungsinfrastruktur** werden.
 
-### 3.1 Sichtbarkeit
+#### Sichtbarkeit
 
 Eine Sammlung kann beispielsweise über
 
@@ -356,7 +359,7 @@ sichtbar gemacht werden.
 
 Dadurch können Objekte und ihre Informationen auch von Personen gefunden werden, die die Institution selbst nicht kennen.
 
-### 3.2 Nachnutzung
+#### Nachnutzung
 
 Maschinenlesbar publizierte Sammlungsdaten können für sehr unterschiedliche Forschungs- und Nutzungsszenarien verwendet werden.
 
@@ -390,9 +393,9 @@ Beispiele sind:
 - Hackathons und Data Sprints
 - quantitative Bildanalysen
 - Computer Vision
-- Training oder Evaluation von KI-Systemen
+- Training oder Evaluation von KI-Systemene
 
-#### Beispiel: Collections as Data
+Beispiele
 
 Das Konzept **Collections as Data** geht noch einen Schritt weiter.
 
@@ -406,7 +409,7 @@ Das bedeutet beispielsweise:
 
 Dafür müssen die Daten entsprechend strukturiert, standardisiert und maschinenlesbar sein.
 
-### 3.2 Sammlungspublikation und Public AI
+#### Sammlungspublikation und Public AI
 
 Auch für KI-Anwendungen können publizierte Sammlungsdaten relevant sein.
 
@@ -420,7 +423,7 @@ Das Konzept **Public AI** setzt hier auf ein KI-Ökosystem, das sich an öffentl
 
 Sammlungen sind damit nicht nur Datenlieferanten. Sie können an der Entwicklung von Forschungs- und KI-Infrastrukturen aktiv beteiligt sein.
 
-### Aufgabe 3: Was ermöglicht eine maschinenlesbare Sammlungspublikation?
+#### Aufgabe 3: Was ermöglicht eine maschinenlesbare Sammlungspublikation?
 
 Welche Nutzungsszenarien werden durch strukturierte und maschinenlesbare Sammlungsdaten erleichtert?
 
@@ -452,6 +455,45 @@ Eine FAIR-Publikation kann beispielsweise XML, JSON, CSV oder RDF verwenden.
 Entscheidend ist, **wie die Daten beschrieben, identifiziert, bereitgestellt und dokumentiert werden**.
 
 ![FAIR-Roadmap für Sammlungsdaten](img/todo2.png)
+
+### Datenaustauschformate
+### Linked Open Data
+
+
+Die vier Designprinzipien von Linked Data (von Tim Berners Lee):
+* Benutze Uniform Resource Identifier (URIs)  als Namen für Dinge.
+* Benutze HTTP URIs, so dass diese Namen nachgeschlagen werden können.
+* Wenn jemand eine URI nachschlägt, liefere nützliche Informationen und nutze dabei die Standards (RDF, SPARQL).
+* Füge Links zu anderen URIs bei, so dass der User weitere Dinge entdecken kann.
+
+Siehe auch: https://www.w3.org/DesignIssues/LinkedData.html 
+<br><br>
+
+>Tim Berners-Lee, der Erfinder des Webs und Initiator des Linked-Data-Projekts, schlug ein Fünf-Sterne-Modell für die Bereitstellung von Linked Data vor. Dieses Fünf-Sterne-System ist kumulativ: Jeder weitere Stern setzt voraus, dass die Daten bereits die Anforderungen der vorherigen Stufe(n) erfüllen.
+<br><br>
+
+⭐          verfügbar im Web mit offener Lizenz (ol= open licence)<br>
+<br>
+⭐⭐       als maschinenlesbare strukturierte Daten verfügbar, z. B. excel anstatt PDF (re= machine-readable) <br>
+<br>
+⭐⭐⭐     offene Formate z. B. CSV statt excel (of= open format)<br>
+<br>
+⭐⭐⭐⭐    All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff<br>
+<br>
+⭐⭐⭐⭐⭐  All the above, plus: Link your data to other people’s data to provide context<br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+![Fünf-Sterne-System von Tim Burners Lee](img/5-star-steps.png)<!--
+style="width: 500px; position: absolute; left: 200px; bottom: -440px"
+-->
+
+<br><br>
 ===
 <br>
 <div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
@@ -500,12 +542,6 @@ Wähle die korrekte Eingabe aus. Achte auf Einheitlichkeit und eine [ISO-konform
 | 1385962                        | Gesichtsmaske          | 1905                                      | Ägypten                      |
 
 
-### Die Rolle der Datenstandards
-
-
-
-
-## 2. Relevanz und Formen des Publizierens
 
 
 >| Objekt "Augenmodell"  | Relation    | Aktivität  | Relation    |   Firma     |Relation     | Firmenname |
@@ -523,46 +559,9 @@ style="width: 200px; position: relative; left: 5px; bottom: 10px"
 <br>
 
 
-## 3. FAIRe Sammlungspublikation
-
-### Datenaustauschformate
-### Linked Open Data
 
 
-Die vier Designprinzipien von Linked Data (von Tim Berners Lee):
-* Benutze Uniform Resource Identifier (URIs)  als Namen für Dinge.
-* Benutze HTTP URIs, so dass diese Namen nachgeschlagen werden können.
-* Wenn jemand eine URI nachschlägt, liefere nützliche Informationen und nutze dabei die Standards (RDF, SPARQL).
-* Füge Links zu anderen URIs bei, so dass der User weitere Dinge entdecken kann.
 
-Siehe auch: https://www.w3.org/DesignIssues/LinkedData.html 
-<br><br>
-
->Tim Berners-Lee, der Erfinder des Webs und Initiator des Linked-Data-Projekts, schlug ein Fünf-Sterne-Modell für die Bereitstellung von Linked Data vor. Dieses Fünf-Sterne-System ist kumulativ: Jeder weitere Stern setzt voraus, dass die Daten bereits die Anforderungen der vorherigen Stufe(n) erfüllen.
-<br><br>
-
-⭐          verfügbar im Web mit offener Lizenz (ol= open licence)<br>
-<br>
-⭐⭐       als maschinenlesbare strukturierte Daten verfügbar, z. B. excel anstatt PDF (re= machine-readable) <br>
-<br>
-⭐⭐⭐     offene Formate z. B. CSV statt excel (of= open format)<br>
-<br>
-⭐⭐⭐⭐    All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff<br>
-<br>
-⭐⭐⭐⭐⭐  All the above, plus: Link your data to other people’s data to provide context<br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-
-![Fünf-Sterne-System von Tim Burners Lee](img/5-star-steps.png)<!--
-style="width: 500px; position: absolute; left: 200px; bottom: -440px"
--->
-
-<br><br>
 
 ## 4. Langzeitarchivierung
 
