@@ -483,12 +483,31 @@ Wichtige Merkmale von LIDO:
 >
 >LIDO ist besonders geeignet, um Objektinformationen aus Sammlungen in standardisierter Form auszutauschen und für die Veröffentlichung auf übergreifenden Plattformen, beispielsweise der Deutschen Digitalen Bibliothek (DDB), bereitzustellen.
 
-Mehr zu LIDO in Modul 3: 
+Mehr zu LIDO in [Modul 3](https://sammlungen.io/kb/fdm/soda-basiskurs-modul-3-sammlungen-erschliessen)
+
+
+### JSON – ein weiteres Format für den Datenaustausch
+
+JSON steht für JavaScript Object Notation. Es ist ein verbreitetes, maschinenlesbares Format zur strukturierten Darstellung und zum Austausch von Daten.
+
+JSON organisiert Daten in Schlüssel-Wert-Paaren (Key-Value Pairs). Ein Schlüssel bezeichnet dabei eine Eigenschaft, der ein bestimmter Wert zugeordnet ist.
 
 ### Linked Open Data
 
+<div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
+    <img src="img/lod-cloud-sm.jpg" alt="LOD Cloud." style=""/>
+    <p style="text-align:center"> * Visualisierung der Linked Open Data Cloud, https://lod-cloud.net, CC BY 4.0.* </p>
+</div>
 
-Die vier Designprinzipien von Linked Data (von Tim Berners Lee):
+Mit der Linked Open Data Cloud (LOD) wird seit einigen Jahren ein globales Netzwerk von frei zugänglichen Informationsressourcen aufgebaut, deren Grundlage die Technologien des Semantic Web sind (RDF). 
+Vorteile:
+- Freier Zugang zu Daten
+- Maschinenlesbarkeit (basierend auf RDF)
+- Wissensnetz durch gegenseitige Verknüpfungen 
+- Viele kontrollierte Vokabulare sind bereits Teil der LOD-Cloud (Wikidata, Getty AAT, GND).
+
+
+**Die vier Designprinzipien von Linked Data (von Tim Berners Lee):**
 * Benutze Uniform Resource Identifier (URIs)  als Namen für Dinge.
 * Benutze HTTP URIs, so dass diese Namen nachgeschlagen werden können.
 * Wenn jemand eine URI nachschlägt, liefere nützliche Informationen und nutze dabei die Standards (RDF, SPARQL).
@@ -530,10 +549,7 @@ style="width: 500px; position: absolute; left: 200px; bottom: -100px"
 <br><br>
 
 <br>
-<div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
-    <img src="img/collectionsasdata.png" alt="KI-generiertes Bild mit antiker Büste und Binärcode." style=""/>
-    <p style="text-align:center"> *Fünf-Sterne-Modell von Tim Burners-Lee, CC0* </p>
-</div>
+
 
 ### Linked Data Technologien
 
