@@ -442,10 +442,49 @@ FAIR ist dabei **kein bestimmtes Dateiformat und keine bestimmte Plattform**. En
 
 Die Umsetzung der FAIR-Prinzipien kann schrittweise erfolgen und an die jeweiligen Voraussetzungen einer Sammlung angepasst werden. Auch bereits vorhandene Datenbestände lassen sich nach und nach FAIRer gestalten. Dabei können die einzelnen FAIR-Kriterien und die verschiedenen Bestandteile eines digitalen Objekts – etwa Metadaten, Bilddateien und weitere digitale Repräsentationen – unterschiedlich umgesetzt werden. So können beispielsweise Metadaten offen zugänglich sein, während für Bilddateien rechtliche oder ethische Zugangsbeschränkungen gelten.
 
-![FAIR-Ebenen](img/FAIR-Ebenen.png)
-*Kailus, A. (2023). Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7716941, Abb. 2, CC BY 4.0*
+
+<br>
+<div style="float:center
+;width:80%;margin: 0px 0px 30px 50px;">
+    <img src="img/FAIR-Ebenen.png" alt="Daten als zunehmend FAIRe digitale Objekte. Kailus, A. (2023). Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7716941, Abb. 2, CC BY 4.0.*" style=""/>
+    <p style="text-align:left"> *Daten als zunehmend FAIRe digitale Objekte. Quelle: Kailus, A. (2023). Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7716941, Abb. 2, CC BY 4.0. Auf Basis von: FORCE 11. Guiding Principles for Findable, Accessible, Interoperable and Re-usable Data Publishing version b1.0, CC BY-SA 4.0* </p>
+</div>
 
 ### Datenaustauschformate
+
+Damit Sammlungsdaten über verschiedene Systeme hinweg ausgetauscht und weiterverwendet werden können, müssen sie in geeigneten Formaten bereitgestellt werden. Datenaustauschformate legen fest, wie Daten strukturiert und technisch dargestellt werden, sodass unterschiedliche Anwendungen sie lesen und verarbeiten können.
+
+**Warum sind Datenaustauschformate wichtig?**
+
+Wenn Sammlungsdaten in einem geeigneten, maschinenlesbaren Format vorliegen, können sie automatisiert eingelesen, durchsucht und an andere Systeme übermittelt werden. Das erleichtert den Austausch zwischen Institutionen und unterstützt die Veröffentlichung und Nachnutzung von Daten.
+
+Werden digitale Objekte nach den FAIR-Prinzipien aufbereitet und bereitgestellt, sollen sie zuverlässig interpretierbar und verarbeitbar sein. Ein FAIR Digital Object (FDO) bezeichnet in diesem Zusammenhang ein digitales Objekt, dessen Daten und zugehörige Informationen so organisiert sind, dass Menschen und Computer sie möglichst zuverlässig interpretieren 
+und nutzen können.
+
+#### LIDO – ein Datenaustauschformat für Kulturerbe
+
+LIDO (Lightweight Information Describing Objects) ist ein vom Dokumentationskomitee des Internationalen Museumsrates (ICOM-CIDOC) herausgegebener Standard für den Austausch und die Publikation von Informationen zu Objekten der materiellen Kultur.
+
+LIDO ermöglicht es, Objektinformationen strukturiert zu beschreiben und dabei kontrollierte Vokabulare einzubinden. Das erleichtert es, Informationen aus unterschiedlichen Sammlungen zusammenzuführen und übergreifend recherchierbar zu machen.
+
+Wichtige Merkmale von LIDO:
+
+- Strukturierte Objektbeschreibung: Informationen zu Objekten werden in einer festgelegten Struktur organisiert.
+
+- Anbindung an ein Referenzmodell: LIDO orientiert sich am CIDOC CRM und unterstützt damit die strukturierte Beschreibung von Informationen über Kulturgüter.
+
+- Einbindung kontrollierter Vokabulare: Einheitliche Begriffe unterstützen die konsistente Beschreibung und erleichtern die Suche.
+
+- Interoperabilität: Daten können zwischen unterschiedlichen Systemen ausgetauscht und weiterverarbeitet werden.
+
+- XML-basiert: LIDO verwendet XML zur technischen Darstellung der Daten.
+
+>**Merke**
+>
+>LIDO ist besonders geeignet, um Objektinformationen aus Sammlungen in standardisierter Form auszutauschen und für die Veröffentlichung auf übergreifenden Plattformen, beispielsweise der Deutschen Digitalen Bibliothek (DDB), bereitzustellen.
+
+Mehr zu LIDO in Modul 3: 
+
 ### Linked Open Data
 
 
