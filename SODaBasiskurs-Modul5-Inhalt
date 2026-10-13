@@ -493,6 +493,26 @@ style="width: 500px; position: absolute; left: 200px; bottom: -100px"
     <p style="text-align:center"> *Fünf-Sterne-Modell von Tim Burners-Lee, CC0* </p>
 </div>
 
+### Linked Data Technologien
+
+Linked-Data-Technologien bauen auf den FAIR-Prinzipien auf: Sie ermöglichen es, Daten über standardisierte Schnittstellen und eindeutige Identifikatoren miteinander zu verknüpfen und so ein Netzwerk aus Daten und Ressourcen zu schaffen, das von Menschen und Maschinen genutzt werden kann. Grundlegende Technologien dafür sind:
+
+
+**Resource Description Framework (RDF)**
+
+Das **Resource Description Framework (RDF)** ist ein W3C-Standard zur strukturierten Beschreibung von Ressourcen und ein grundlegender Baustein des Semantischen Webs. RDF-Aussagen werden als Tripel modelliert, die aus drei Bestandteilen bestehen:
+
+- **Subjekt:** die Ressource, über die eine Aussage getroffen wird
+- **Prädikat:** die Eigenschaft oder Beziehung, die beschrieben wird
+- **Objekt:** der Wert der Eigenschaft oder die Ressource, zu der eine Beziehung besteht
+
+**Web Ontology Language (OWL)**
+
+Die **Web Ontology Language (OWL)** ist eine formale Beschreibungssprache zur Erstellung, Veröffentlichung und zum Austausch von Ontologien. Sie ermöglicht es, Begriffe, Eigenschaften und Beziehungen innerhalb eines Wissensbereichs präzise zu definieren und maschinenlesbar zu beschreiben.
+
+**Simple Knowledge Organization System (SKOS)**
+
+Das **Simple Knowledge Organization System (SKOS)** ist ein W3C-Standard zur formalen Kodierung und Veröffentlichung von Wissensorganisationssystemen. Dazu gehören beispielsweise Thesauri, Klassifikationen und andere kontrollierte Vokabulare. SKOS unterstützt unter anderem die Beschreibung von Begriffen, ihren Bezeichnungen und ihren semantischen Beziehungen.
 
 ### FAIR Prinzipien
 <br>
@@ -561,4 +581,192 @@ style="width: 200px; position: relative; left: 5px; bottom: 10px"
 
 
 
+## Abschlussquiz: Richtig oder falsch?
 
+Testen Sie Ihr Wissen zum Publizieren und Archivieren von Sammlungsdaten. Entscheiden Sie bei jeder Aussage, ob sie richtig oder falsch ist. Bei den als diskussionswürdig gekennzeichneten Aussagen gibt es zusätzliche Aspekte, die Sie berücksichtigen sollten.
+
+**1. Publizieren und Archivieren**
+
+Publizieren und Archivieren verfolgen unterschiedliche Ziele, können aber beide zum Erhalt von Daten beitragen.
+
+[[(Richtig)|Falsch]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Richtig.** Publizieren zielt unter anderem darauf ab, Daten zugänglich und nachnutzbar zu machen. Archivieren zielt auf den langfristigen Erhalt und die dauerhafte Nutzbarkeit von Daten. Beide Aufgaben können sich ergänzen.
+
+</details>
+
+**2. Backup und Langzeitarchivierung**
+
+Ein Backup ersetzt eine digitale Langzeitarchivierung vollständig.
+
+[[Richtig|(Falsch)]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Falsch.** Backups helfen dabei, Datenverluste zu vermeiden oder Daten nach einem Verlust wiederherzustellen. Eine digitale Langzeitarchivierung umfasst darüber hinaus Maßnahmen, die die langfristige Erhaltung, Interpretierbarkeit und Nutzbarkeit der Daten unterstützen.
+
+</details>
+
+**3. Publizieren, Kopieren und Datenverlust**
+
+Je häufiger Daten publiziert und kopiert werden, desto geringer ist das Risiko ihres vollständigen Verlusts.
+
+[[Richtig|Falsch]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Diskussionswürdig.** Mehrere Kopien an unterschiedlichen Orten können das Risiko eines vollständigen Datenverlusts verringern. Das entspricht dem Grundgedanken des LOCKSS-Prinzips („Lots of Copies Keep Stuff Safe“). Die bloße Anzahl der Kopien bietet jedoch keine Garantie: Entscheidend sind unter anderem ihre Unabhängigkeit, Verteilung, Integrität und Pflege.
+
+</details>
+
+**4. Offene Lizenzen**
+
+Alle Sammlungsdaten sollten grundsätzlich unter CC0 veröffentlicht werden.
+
+[[Richtig|Falsch]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Diskussionswürdig.** CC0 ermöglicht eine besonders weitgehende freie Nachnutzung. Ob diese Lizenz geeignet ist, hängt jedoch von den jeweiligen Daten, den Rechten und den ethischen Rahmenbedingungen ab. Außerdem ist zwischen den Metadaten, digitalen Abbildungen und den physischen Objekten zu unterscheiden. Für unterschiedliche Bestandteile können unterschiedliche Rechte und Nutzungshinweise gelten.
+
+</details>
+
+**5. Persistente Identifikatoren**
+
+Persistente Identifikatoren sorgen dafür, dass digitale Objekte langfristig eindeutig referenzierbar bleiben.
+
+[[(Richtig)|Falsch]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Richtig.** Persistente Identifikatoren (PIDs) dienen dazu, digitale Objekte oder Datenbestände dauerhaft und eindeutig zu referenzieren. Damit sie langfristig funktionieren, müssen die Identifikatoren und ihre zugehörigen Auflösungsdienste angemessen gepflegt werden.
+
+</details>
+
+**6. DOI und Langzeitarchivierung**
+
+Eine DOI garantiert automatisch die Langzeitarchivierung eines Datensatzes.
+
+[[Richtig|(Falsch)]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Falsch.** Eine DOI ist ein persistenter Identifikator. Sie erleichtert die dauerhafte Referenzierung eines Datensatzes, garantiert aber nicht, dass die zugehörigen Daten langfristig gespeichert und zugänglich gehalten werden. Dafür sind zusätzliche organisatorische und technische Maßnahmen erforderlich.
+
+</details>
+
+**7. Freitext und kontrollierte Vokabulare**
+
+Freitextbeschreibungen sind für FAIR-Daten grundsätzlich besser geeignet als kontrollierte Vokabulare.
+
+[[Richtig|(Falsch)]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Falsch.** Kontrollierte Vokabulare unterstützen eine konsistente Beschreibung und erleichtern die Suche, den Vergleich und die maschinelle Verarbeitung von Daten. Freitext bleibt für differenzierte Beschreibungen wichtig. Beide Formen können sich ergänzen.
+
+</details>
+
+**8. Linked Open Data**
+
+Linked Open Data basiert unter anderem auf URIs und Verlinkungen zwischen Ressourcen.
+
+[[(Richtig)|Falsch]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Richtig.** URIs dienen der Identifikation von Ressourcen. Durch Links und standardisierte Beschreibungen können Ressourcen miteinander verknüpft werden. Bei Linked Open Data werden solche Verbindungen genutzt, um Daten über einzelne Systeme und Datensammlungen hinweg in Beziehung zu setzen.
+
+</details>
+
+**9. APIs und Nachnutzung**
+
+Eine API kann die Nachnutzung von Sammlungsdaten erleichtern.
+
+[[(Richtig)|Falsch]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Richtig.** Eine API (Application Programming Interface) ermöglicht den standardisierten Zugriff auf Daten und Funktionen eines Systems. Dadurch können Sammlungsdaten beispielsweise automatisiert abgerufen, in andere Anwendungen eingebunden oder weiterverarbeitet werden.
+
+</details>
+
+**10. Publikation auf der eigenen Website**
+
+Eine Sammlung sollte möglichst nur auf der eigenen Institutionswebsite veröffentlicht werden.
+
+[[Richtig|(Falsch)]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Falsch.** Die eigene Website kann ein wichtiger Publikationsort sein. Ergänzende Veröffentlichungen über Kulturplattformen, Fachverbünde, Repositorien oder offene Plattformen können jedoch die Sichtbarkeit, Auffindbarkeit und Nachnutzung der Daten verbessern.
+
+</details>
+
+**11. Aufgaben von Repositorien**
+
+Repositorien dienen ausschließlich der Langzeitarchivierung.
+
+[[Richtig|(Falsch)]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Falsch.** Repositorien können unterschiedliche Aufgaben erfüllen, beispielsweise die Veröffentlichung, Bereitstellung, Zitierbarkeit und Nachnutzung von Daten. Manche bieten auch Funktionen zur langfristigen Aufbewahrung. Nicht jedes Repositorium ist jedoch automatisch ein Langzeitarchiv.
+
+</details>
+**
+**12. Die 3-2-1-Regel**
+
+Die 3-2-1-Regel empfiehlt drei Kopien der Daten auf zwei unterschiedlichen Speichermedien, davon eine an einem anderen Ort.
+
+[[(Richtig)|Falsch]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Richtig.** Die 3-2-1-Regel ist eine verbreitete Empfehlung für die Datensicherung: drei Kopien der Daten, auf zwei unterschiedlichen Speichermedien und eine Kopie an einem anderen Ort. Sie reduziert bestimmte Risiken, ersetzt aber keine umfassende Strategie zur digitalen Langzeitarchivierung.
+
+</details>
+
+**13. Archivwürdigkeit**
+
+Archivwürdigkeit hängt unter anderem von historischem Wert, Forschungspotenzial und Authentizität ab.
+
+[[(Richtig)|Falsch]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Richtig.** Bei der Bewertung der Archivwürdigkeit können verschiedene Kriterien berücksichtigt werden. Dazu gehören beispielsweise der historische oder wissenschaftliche Wert, das Forschungspotenzial und die Authentizität der Daten. Welche Kriterien ausschlaggebend sind, hängt vom jeweiligen Kontext ab.
+
+</details>
+
+**14. Rechtliche und ethische Prüfung**
+
+Rechtliche und ethische Fragen sollten erst kurz vor der Veröffentlichung geprüft werden.
+
+[[Richtig|(Falsch)]]
+
+<details>
+<summary>Lösung und Erläuterung</summary>
+
+**Falsch.** Rechtliche und ethische Fragen sollten möglichst frühzeitig in die Planung einbezogen werden. Sie können beeinflussen, welche Daten erhoben, digitalisiert, veröffentlicht und nachgenutzt werden dürfen. Eine frühe Prüfung hilft, Einschränkungen und notwendige Maßnahmen rechtzeitig zu berücksichtigen.
+
+</details>
+
+## Zum Abschluss: Was nehmen Sie mit?
+
+Publizieren und Archivieren sind unterschiedliche, aber miteinander verbundene Aufgaben. Eine nachhaltige Strategie für Sammlungsdaten berücksichtigt sowohl die Auffindbarkeit und Nachnutzbarkeit als auch den langfristigen Erhalt der Daten. Technische Lösungen allein reichen dafür nicht aus: Auch Standards, Lizenzen, Verantwortlichkeiten und rechtliche sowie ethische Rahmenbedingungen sind wichtig.
