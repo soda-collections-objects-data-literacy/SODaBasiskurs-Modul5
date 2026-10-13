@@ -494,7 +494,7 @@ JSON organisiert Daten in Schlüssel-Wert-Paaren (Key-Value Pairs). Ein Schlüss
 
 ### Linked Open Data
 
-<div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
+<div style="float:right;width:50%;margin: 0px 0px 30px 10px;">
     <img src="img/lod-cloud-sm.jpg" alt="LOD Cloud." style=""/>
     <p style="text-align:center"> * Visualisierung der Linked Open Data Cloud, https://lod-cloud.net, CC BY 4.0.* </p>
 </div>
@@ -522,15 +522,15 @@ Siehe auch: https://www.w3.org/DesignIssues/LinkedData.html
 
 
 ![Fünf-Sterne-System von Tim Burners Lee](img/5-star-steps.png)<!--
-style="width: 500px; position: absolute; left: 200px; bottom: -100px"
+style="width: 500px; position: absolute; left: 200px; bottom: -450px"
 -->
 <br><br>
 <br><br>
 <br><br>
 <br><br>
 <br><br>
-<br><br>
-<br><br>
+<br>
+
 *Fünf-Sterne-Modell von Tim Burners-Lee, CC0*
 
 <br><br>
