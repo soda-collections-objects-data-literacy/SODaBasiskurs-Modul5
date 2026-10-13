@@ -500,16 +500,23 @@ Linked-Data-Technologien bauen auf den FAIR-Prinzipien auf: Sie ermöglichen es,
 
 **Resource Description Framework (RDF)**
 
+<div style="float:right;width:80%;margin: 0px 0px 30px 10px;">
+    <img src="img/RDF-Logo.png" alt="" style=""/>
+    <p style="text-align:center"> *RDF Logo* </p>
+</div>
+
 Das **Resource Description Framework (RDF)** ist ein W3C-Standard zur strukturierten Beschreibung von Ressourcen und ein grundlegender Baustein des Semantischen Webs. RDF-Aussagen werden als Tripel modelliert, die aus drei Bestandteilen bestehen:
 
 - **Subjekt:** die Ressource, über die eine Aussage getroffen wird
 - **Prädikat:** die Eigenschaft oder Beziehung, die beschrieben wird
 - **Objekt:** der Wert der Eigenschaft oder die Ressource, zu der eine Beziehung besteht
 
+<br>
 **Web Ontology Language (OWL)**
 
 Die **Web Ontology Language (OWL)** ist eine formale Beschreibungssprache zur Erstellung, Veröffentlichung und zum Austausch von Ontologien. Sie ermöglicht es, Begriffe, Eigenschaften und Beziehungen innerhalb eines Wissensbereichs präzise zu definieren und maschinenlesbar zu beschreiben.
 
+<br>
 **Simple Knowledge Organization System (SKOS)**
 
 Das **Simple Knowledge Organization System (SKOS)** ist ein W3C-Standard zur formalen Kodierung und Veröffentlichung von Wissensorganisationssystemen. Dazu gehören beispielsweise Thesauri, Klassifikationen und andere kontrollierte Vokabulare. SKOS unterstützt unter anderem die Beschreibung von Begriffen, ihren Bezeichnungen und ihren semantischen Beziehungen.
