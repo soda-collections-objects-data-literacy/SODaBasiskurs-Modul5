@@ -149,7 +149,7 @@ Das beginnt idealerweise bereits mit dem **Datenmanagementplan**.
 
 ### 2.1 Welche Fragen müssen früh geklärt werden?
 
-![Planung von Publikation und Archivierung](img/todo2.png)
+![Planung von Publikation und Archivierung](img/Workflow-Planung-Archivierung.png)
 
 ## 3. Nutzen und Formen der Sammlungspublikation
 
@@ -418,11 +418,9 @@ Eine maschinenlesbare Publikation kann wesentlich mehr ermöglichen als die rein
 
 ## 4. FAIRe Sammlungspublikation
 
-FAIR steht für:
+Eine FAIRe Sammlungspublikation macht Sammlungsdaten auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable). Davon profitieren Sammlungen, weil ihre Bestände sichtbarer werden, leichter recherchierbar sind und für neue Forschungsfragen und digitale Anwendungen genutzt werden können. 
 
-**Findable – Accessible – Interoperable – Reusable**
-
-Die FAIR-Prinzipien beschreiben Eigenschaften, die Daten für Menschen und Maschinen möglichst gut auffindbar, zugänglich, interoperabel und nachnutzbar machen.
+Durch standardisierte Metadaten, eindeutige Identifikatoren und die Verknüpfung mit anderen Datenbeständen lassen sich Sammlungsinformationen besser austauschen und über Institutionsgrenzen hinweg vernetzen. Geeignete Formate und Schnittstellen erleichtern zudem die Weiterverarbeitung der Daten. FAIR bedeutet dabei nicht zwangsläufig, dass alle Daten offen zugänglich sein müssen: Auch Zugangsbeschränkungen können FAIR gestaltet werden, sofern sie transparent und nachvollziehbar dokumentiert sind.
 
 FAIR ist dabei **kein bestimmtes Dateiformat und keine bestimmte Plattform**. Entscheidend ist, **wie die Daten beschrieben, identifiziert, bereitgestellt und dokumentiert werden**.
 
@@ -434,13 +432,18 @@ FAIR ist dabei **kein bestimmtes Dateiformat und keine bestimmte Plattform**. En
 >
 >- die Vergabe von (möglichst offenen), maschinell auswertbaren Lizenzen und Nutzungshinweisen für die physischen Objekte, das zugehörige digitale Bildmaterial und die Metadaten
 >- die Gewährleistung der dauerhaften Zugänglichkeit der Daten und Metadaten
->- die Nutzung von Metadatenstandards
->- die Referenzierung auf kontrollierte Vokabulare und Normdaten
->- die Vergabe von PIDs für publizierte Datenbestände
->- die Konversion der Daten in ein oder mehrere gängige, maschinell auswertbare Bereitstellungsformate (z. B. LIDO-XML, JSON)
->- die Publikation der Daten über Schnittstellen oder über eine oder mehrere Datenplattformen in passenden Bereitstellungsformaten
+>- die Nutzung von [Metadatenstandards](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul3/main/SODaBasiskurs-Modul3-Inhalt#14)
+>- die Referenzierung auf [kontrollierte Vokabulare und Normdaten](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul3/main/SODaBasiskurs-Modul3-Inhalt#23)
+>- die Vergabe von [Persistente Identifikatoren (PIDs)](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul3/main/SODaBasiskurs-Modul3-Inhalt#36) für publizierte Datenbestände
+>- die Konversion der Daten in ein oder mehrere gängige, maschinell auswertbare Bereitstellungs- bzw. Austauschformate (z. B. LIDO-XML, JSON)
+>- die Publikation der Daten über Schnittstellen (APIs) oder über eine oder mehrere Datenplattformen in passenden Bereitstellungsformaten
 
+### FAIR-Ebenen
 
+Die Umsetzung der FAIR-Prinzipien kann schrittweise erfolgen und an die jeweiligen Voraussetzungen einer Sammlung angepasst werden. Auch bereits vorhandene Datenbestände lassen sich nach und nach FAIRer gestalten. Dabei können die einzelnen FAIR-Kriterien und die verschiedenen Bestandteile eines digitalen Objekts – etwa Metadaten, Bilddateien und weitere digitale Repräsentationen – unterschiedlich umgesetzt werden. So können beispielsweise Metadaten offen zugänglich sein, während für Bilddateien rechtliche oder ethische Zugangsbeschränkungen gelten.
+
+![FAIR-Ebenen](img/FAIR-Ebenen.png)
+*Kailus, A. (2023). Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7716941, Abb. 2, CC BY 4.0*
 
 ### Datenaustauschformate
 ### Linked Open Data
@@ -500,7 +503,7 @@ Linked-Data-Technologien bauen auf den FAIR-Prinzipien auf: Sie ermöglichen es,
 
 **Resource Description Framework (RDF)**
 
-<div style="float:right;width:80%;margin: 0px 0px 30px 10px;">
+<div style="float:right;width:15%;margin: 0px 0px 70px 10px;">
     <img src="img/RDF-Logo.png" alt="" style=""/>
     <p style="text-align:center"> *RDF Logo* </p>
 </div>
