@@ -424,13 +424,23 @@ FAIR steht für:
 
 Die FAIR-Prinzipien beschreiben Eigenschaften, die Daten für Menschen und Maschinen möglichst gut auffindbar, zugänglich, interoperabel und nachnutzbar machen.
 
-FAIR ist dabei **kein bestimmtes Dateiformat und keine bestimmte Plattform**.
+FAIR ist dabei **kein bestimmtes Dateiformat und keine bestimmte Plattform**. Entscheidend ist, **wie die Daten beschrieben, identifiziert, bereitgestellt und dokumentiert werden**.
 
-Eine FAIR-Publikation kann beispielsweise XML, JSON, CSV oder RDF verwenden.
+<box style="background-color: #FFF3DF; border-left: 6px solid #FFA933; padding: 1.2em; border-radius: 8px;">
 
-Entscheidend ist, **wie die Daten beschrieben, identifiziert, bereitgestellt und dokumentiert werden**.
+## FAIR-Roadmap
 
-![FAIR-Roadmap für Sammlungsdaten](img/todo2.png)
+Um Sammlungsdaten FAIR zu publizieren, sollten folgende Schritte berücksichtigt werden:
+
+- die Vergabe von (möglichst offenen), maschinell auswertbaren Lizenzen und Nutzungshinweisen für die physischen Objekte, das zugehörige digitale Bildmaterial und die Metadaten
+- die Gewährleistung der dauerhaften Zugänglichkeit der Daten und Metadaten
+- die Nutzung von Metadatenstandards
+- die Referenzierung auf kontrollierte Vokabulare und Normdaten
+- die Vergabe von PIDs für publizierte Datenbestände
+- die Konversion der Daten in ein oder mehrere gängige, maschinell auswertbare Bereitstellungsformate (z. B. LIDO-XML, JSON)
+- die Publikation der Daten über Schnittstellen oder über eine oder mehrere Datenplattformen in passenden Bereitstellungsformaten
+
+</box>
 
 ### Datenaustauschformate
 ### Linked Open Data
