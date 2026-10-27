@@ -230,6 +230,50 @@ Sind die geplanten Maßnahmen für Publikation und Archivierung auf die Nutzungs
 
 ## 3. Nutzen und Formen der Sammlungspublikation
 
+
+Das Publizieren von Sammlungsdaten verfolgt mehrere Ziele: Es macht Sammlungen sichtbar, ermöglicht ihre Nutzung durch unterschiedliche Zielgruppen und kann zum Erhalt von Daten beitragen.
+
+> **💡Merke:** Publizieren bedeutet mehr als die Veröffentlichung eines Online-Katalogs. Es schafft Voraussetzungen dafür, dass Sammlungsdaten gefunden, genutzt, weiterverarbeitet und mit anderen Daten verknüpft werden können.
+
+
+🟠 **Sammlungen sichtbar machen**
+
+Durch die Veröffentlichung in einem Online-Katalog oder in institutionsübergreifenden Kulturportalen werden Sammlungen für ein größeres Publikum zugänglich. Dadurch können Menschen Objekte entdecken, die ihnen sonst möglicherweise nicht bekannt wären.
+
+Die Veröffentlichung unterstützt außerdem:
+
+- **Austausch:** Informationen über Sammlungen können institutionsübergreifend geteilt werden.
+- **Transparenz:** Bestände und ihre Dokumentation werden sichtbar und können besser nachvollzogen werden.
+- **Entdeckung:** Sammlungsobjekte können auch außerhalb ihrer ursprünglichen Institution gefunden werden.
+
+
+🟠 **Sammlungsdaten nutzbar machen**
+
+Neben der Sichtbarkeit ist die tatsächliche Nachnutzung der Daten ein wichtiges Ziel. Dafür können Sammlungsdaten beispielsweise über Schnittstellen (APIs) oder als Datendump in maschinenlesbaren Formaten bereitgestellt werden.
+
+So können Daten nicht nur einzeln recherchiert, sondern auch automatisiert verarbeitet, analysiert und mit anderen Datenbeständen kombiniert werden.
+
+Mögliche Nutzungsszenarien sind:
+
+- **Wissenschaft und Forschung:** KI-Training, Datenanalysen und kritische Visualisierungen.
+- **Citizen Science:** Beteiligung interessierter Menschen an Forschungs- und Erschließungsprojekten.
+- **Kunst und Kultur:** kreative Anwendungen und künstlerische Auseinandersetzung mit Sammlungsdaten.
+- **Kultur- und Wissenschaftsvermittlung:** Entwicklung neuer Vermittlungsangebote und digitaler Formate.
+
+Die Bereitstellung in geeigneten Formaten unterstützt die Umsetzung der FAIR-Prinzipien, insbesondere die Nachnutzbarkeit (*Reusable*). Damit Daten tatsächlich nachgenutzt werden können, sind unter anderem eine nachvollziehbare Dokumentation, geeignete Formate und klare Nutzungsbedingungen wichtig.
+
+
+🟠 **Publizieren und Datenerhalt**
+
+Publizieren kann auch einen Beitrag zum Erhalt von Sammlungsdaten leisten. Wenn Daten auf unterschiedlichen Servern bereitgestellt oder von anderen Stellen heruntergeladen und weiterverwendet werden können, kann dies die Wahrscheinlichkeit verringern, dass alle verfügbaren Kopien gleichzeitig verloren gehen.
+
+Dabei gilt: **Publizieren ersetzt keine gezielte Datensicherung oder Langzeitarchivierung.** Für den langfristigen Erhalt sind zusätzliche Maßnahmen erforderlich.
+
+
+> **Merke:** Sichtbarkeit, Nachnutzung und Datenerhalt hängen zusammen, erfordern aber unterschiedliche Maßnahmen. Eine gute Publikationsstrategie berücksichtigt alle drei Aspekte.
+
+
+
 ### 3.1 Formen der Sammlungspublikation
 
 Sammlungsdaten können auf unterschiedliche Weise veröffentlicht werden. Welche Form der Publikation geeignet ist, hängt unter anderem davon ab, **welche Daten veröffentlicht werden sollen, welche Zielgruppen angesprochen werden und wie die Daten nachgenutzt werden sollen**.
@@ -382,21 +426,9 @@ Ein mögliches Szenario wäre beispielsweise:
 
 Damit wird deutlich: **Sammlungspublikation bedeutet nicht nur, Daten online sichtbar zu machen.** Je nach Publikationsweg können unterschiedliche Ziele verfolgt werden – beispielsweise Sichtbarkeit, wissenschaftliche Nachnutzung, Vernetzung, Datenanalyse oder die Einbindung in offene Wissensräume.
 
-#### Aufgabe: Welcher Publikationsweg passt?
+#### Auswahl des Publikationswegs
 
-Ordnen Sie die folgenden Szenarien einem geeigneten Publikationsweg zu.
-
-| Szenario | Geeigneter Publikationsweg |
-|---|---|
-| Eine Universität möchte ihren eigenen Sammlungsbestand online recherchierbar machen. | Institutions-/Universitätskatalog |
-| Mehrere Institutionen möchten ihre Daten gemeinsam recherchierbar machen. | Kulturplattform / Verbund |
-| Eine Sammlung möchte 3D-Modelle ihrer Objekte online präsentieren. | 3D-Repositorium / 3D-Plattform |
-| Forschende sollen einen vollständigen Datensatz herunterladen und analysieren können. | Datenrepositorium |
-| Eine Sammlung möchte ihre Objekte in einen fachspezifischen Verbund integrieren. | Fachrepositorium / Fachverbund |
-| Informationen zu Objekten sollen mit anderen offenen Wissensbeständen verknüpft werden. | Offene Plattform, z. B. Wikidata |
-
-<details>
-<summary>💡 Was sollte bei der Auswahl berücksichtigt werden?</summary>
+Was sollte bei der Auswahl berücksichtigt werden?
 
 Bei der Wahl eines Publikationswegs sollten unter anderem folgende Fragen berücksichtigt werden:
 
@@ -408,88 +440,155 @@ Bei der Wahl eines Publikationswegs sollten unter anderem folgende Fragen berüc
 - Welche **Lizenzen und Nutzungsbedingungen** gelten?
 - Ist der Publikationsort für die **langfristige Verfügbarkeit** geeignet?
 
-</details>
 
+### 3.2 Nutzung von Sammlungsdaten in der Praxis
 
+Sammlungen werden häufig zunächst für die interne Dokumentation erschlossen. Sammlungsdaten können aber weit mehr leisten, als Objekte in einem Online-Katalog zu beschreiben. Werden sie offen und in geeigneten Formaten bereitgestellt, können sie für neue Forschungsfragen, digitale Anwendungen und kreative Projekte genutzt werden.
 
-### 3.2 Warum Sammlungsdaten publizieren?
-
-Sammlungen werden häufig zunächst für die interne Dokumentation erschlossen.
-
-Eine digitale Sammlung kann aber wesentlich mehr sein als ein Online-Katalog.
+Die folgenden Beispiele zeigen unterschiedliche Möglichkeiten der Nachnutzung – von gemeinschaftlichen Hackathons über Karten und Visualisierungen bis hin zur Nutzung in KI-Anwednungen und Datenanalysen.
 
 Wenn Sammlungsdaten strukturiert, maschinenlesbar und nachnutzbar veröffentlicht werden, können sie zu **Forschungsdaten und einer digitalen Forschungsinfrastruktur** werden.
 
-#### Sichtbarkeit
-
-Eine Sammlung kann beispielsweise über
-
-- einen institutionseigenen Online-Katalog,
-- ein Fachrepositorium,
-- ein Kulturportal,
-- eine offene Plattform
-
-sichtbar gemacht werden.
-
-Dadurch können Objekte und ihre Informationen auch von Personen gefunden werden, die die Institution selbst nicht kennen.
-
-#### Nachnutzung
-
-Maschinenlesbar publizierte Sammlungsdaten können für sehr unterschiedliche Forschungs- und Nutzungsszenarien verwendet werden.
-
-![Nachnutzung von Sammlungsdaten](img/todo2.png)
+>**Beispiele sind:**
+>
+>- räumliche Analysen
+>- Kontext- und Netzwerkanalysen
+>- kritische Visualisierungen
+>- Citizen Science
+>- Hackathons und Data Sprints
+>- quantitative Bildanalysen
+>- Computer Vision
+>- Training oder Evaluation von KI-Systemene
 
 
-Beispiele sind:
+#### 1. Hackathons und Data Sprints: Mit offenen Kulturdaten experimentieren
 
-- Datenanalysen
-- geografische Kartierungen
-- Netzwerkanalysen
-- Knowledge Graphs
-- kritische Visualisierungen
-- Citizen Science
-- Hackathons und Data Sprints
-- quantitative Bildanalysen
-- Computer Vision
-- Training oder Evaluation von KI-Systemene
+**Was ist ein Hackathon?**
 
-Beispiele
+Ein Hackathon ist eine zeitlich begrenzte Veranstaltung, bei der Menschen gemeinsam an Ideen und Lösungen für eine bestimmte Herausforderung arbeiten. Dabei kommen häufig unterschiedliche Kompetenzen zusammen, beispielsweise aus Informatik, Design, Wissenschaft und Kultur.
 
-Das Konzept **Collections as Data** geht noch einen Schritt weiter.
+Ein **Data Sprint** verfolgt einen ähnlichen Ansatz, konzentriert sich aber besonders auf die gemeinsame Arbeit mit Daten. Innerhalb eines festgelegten Zeitraums werden Daten untersucht, bereinigt, verknüpft oder ausgewertet, um neue Erkenntnisse zu gewinnen oder erste Prototypen zu entwickeln.
 
-Sammlungen werden dabei nicht nur als digitale Kataloge betrachtet. Die Daten werden so aufbereitet, dass sie mit **computational methods** analysiert werden können.
+**Beispiel: Coding da Vinci**
+
+Der Kultur-Hackathon <Link url="https://codingdavinci.de/" title="Coding da Vinci"/> bringt Kulturinstitutionen und Menschen aus verschiedenen Fachbereichen zusammen. Die Institutionen stellen Kulturdaten zur Verfügung, die von den Teilnehmenden für digitale Projekte genutzt werden können.
+
+Im Rahmen der achtjährigen Projektphase wurden von 362 Kulturinstitutionen insgesamt 488 Datensets bereitgestellt. Daraus entstanden 217 Projekte. Die Ergebnisse zeigen, wie offene Kulturdaten neue Ideen und Kooperationen ermöglichen können. <Cite refs={["turn562337search4","turn562337search72"]}/>
+
+> **Was zeigt das Beispiel?**
+>
+> Durch die Bereitstellung offener Daten können Menschen außerhalb einer Institution neue Perspektiven auf Sammlungen entwickeln und Anwendungen erstellen, für die der Institution möglicherweise selbst die Zeit oder die technischen Ressourcen fehlen.
+
+#### 2. Automatische Kartierungen: Sammlungsdaten auf Karten untersuchen
+
+Sammlungsdaten enthalten häufig geografische Informationen, beispielsweise Fundorte, Herstellungsorte, Herkunftsorte oder Stationen einer Expedition. Sind solche Angaben vorhanden, können sie mit geografischen Koordinaten ergänzt und auf Karten dargestellt werden.
+
+**Was ist eine Kartierung?**
+
+Bei einer Kartierung werden Informationen räumlich visualisiert. Die Darstellung auf einer Karte hilft dabei, geografische Verteilungen zu erkennen und räumliche Zusammenhänge zu untersuchen.
+
+Durch die Verknüpfung von Sammlungsdaten mit Koordinaten lassen sich beispielsweise folgende Fragen untersuchen:
+
+- Wo wurden Objekte gefunden oder gesammelt?
+- Welche Orte waren für bestimmte Expeditionen wichtig?
+- Wie verteilen sich Objekte über verschiedene Regionen?
+- Welche geografischen Muster lassen sich in einem Bestand erkennen?
+
+**Beispiel: WikiProject des International Dura-Europos Archive**
+
+Das Beispiel zeigt, wie Sammlungs- und Forschungsdaten zum antiken Ort Dura-Europos mit geografischen Informationen verbunden und räumlich ausgewertet werden können.
+
+Die Kartierung macht räumliche Beziehungen sichtbar, die sich aus einzelnen Datensätzen nur schwer erkennen lassen. Voraussetzung ist, dass Ortsangaben ausreichend dokumentiert und möglichst eindeutig identifiziert sind.
+
+> **Was zeigt das Beispiel?**
+>
+> Durch geografische Anreicherung werden Sammlungsdaten räumlich auswertbar. Karten können helfen, Verteilungen, Beziehungen und mögliche Forschungsperspektiven zu entdecken.
+
+#### 3. Kritische Visualisierungen: Sammlungen neu entdecken
+
+Sammlungen umfassen oft Tausende oder sogar Millionen von Objekten. In einem klassischen Online-Katalog werden diese meist einzeln recherchiert. Visualisierungen ermöglichen es dagegen, viele Objekte gleichzeitig zu betrachten und nach bestimmten Merkmalen zu ordnen.
+
+**Was ist eine Datenvisualisierung?**
+
+Eine Datenvisualisierung stellt Daten grafisch dar. Dabei werden Informationen beispielsweise durch Position, Größe, Farbe oder Anordnung sichtbar gemacht.
+
+Eine **kritische Visualisierung** geht über eine rein dekorative Darstellung hinaus: Sie hilft dabei, die Struktur und Aussagekraft von Daten zu untersuchen. Gleichzeitig sollte reflektiert werden, welche Informationen die Darstellung hervorhebt und welche sie möglicherweise ausblendet.
+
+**Beispiel: VIKUS Viewer**
+
+Der <Link url="https://vikusviewer.fh-potsdam.de/muenzen/" title="VIKUS Viewer für Münzen"/> ermöglicht die explorative Untersuchung einer Münz- und Medaillensammlung. Die Objekte können in visuellen Anordnungen betrachtet werden, die Zusammenhänge und Muster innerhalb des Bestands sichtbar machen. <Cite refs={["turn562337search1","turn562337search3"]}/>
+
+Je nach verfügbaren Metadaten können beispielsweise Material, Prägeort oder Entstehungszeit für die Untersuchung relevant sein.
+
+> **Was zeigt das Beispiel?**
+>
+> Visualisierungen ermöglichen es, große Sammlungen explorativ zu untersuchen. Sie können neue Fragen anregen und Zusammenhänge sichtbar machen, die bei der Suche nach einzelnen Objekten verborgen bleiben.
+
+#### 4. KI-Training: Bildinhalte automatisiert erkennen
+
+Sammlungen enthalten große Mengen digitalisierter Bilder. Diese Bilder können mithilfe von Methoden der künstlichen Intelligenz analysiert werden, um bestimmte Motive oder Bildelemente automatisch zu erkennen und zu beschreiben.
+
+**Was bedeutet KI-Training?**
+
+Beim Training eines KI-Modells wird ein Verfahren anhand von Beispieldaten darauf vorbereitet, bestimmte Muster zu erkennen oder Aufgaben auszuführen. Bei der Bildanalyse können das beispielsweise Pflanzen, Tiere, Gegenstände oder andere visuelle Merkmale sein.
+
+Beim **automatisierten Tagging** werden Bildern automatisch Schlagwörter oder Kategorien zugeordnet. Das kann die Recherche und Analyse großer Bildbestände unterstützen. Die Ergebnisse müssen jedoch geprüft werden, da Modelle Fehler machen oder bestimmte Motive übersehen können.
+
+**Beispiel: ODEUROPA**
+
+Das europäische Forschungsprojekt <Link url="https://odeuropa.eu/" title="ODEUROPA"/> untersuchte, wie Gerüche und Geruchserfahrungen in historischen Bildern und Texten dargestellt werden. Dazu kamen unter anderem Computer Vision und Methoden der Sprachverarbeitung zum Einsatz. <Cite refs={["turn562337search8","turn562337search9"]}/>
+
+Ein möglicher Anwendungsfall ist die automatische Erkennung von Bildelementen, die mit Gerüchen verbunden sein können – etwa Blumen oder andere Pflanzen. Frei nutzbare Bildbestände, beispielsweise aus Wikimedia Commons, können eine Grundlage für solche Analysen bilden, sofern die jeweiligen Lizenzbedingungen und Nutzungsrechte beachtet werden.
+
+> **Was zeigt das Beispiel?**
+>
+> KI kann helfen, große Bildbestände systematisch zu analysieren und gezielt nach visuellen Merkmalen zu durchsuchen. Die Ergebnisse sind jedoch keine objektiven Wahrheiten: Trainingsdaten, Modellentscheidungen und Fehler müssen kritisch berücksichtigt werden.
+
+#### 5. Wissensgraphen und Netzwerkanalysen: Beziehungen sichtbar machen
+
+Sammlungsobjekte stehen häufig in Beziehung zu Menschen, Orten, Institutionen, Expeditionen oder historischen Ereignissen. Diese Beziehungen sind in klassischen Katalogen nicht immer leicht zu erkennen.
+
+**Was ist ein Wissensgraph?**
+
+Ein Wissensgraph stellt Informationen als miteinander verbundene Einheiten dar. Diese Einheiten können beispielsweise Personen, Objekte, Orte oder Ereignisse sein. Die Verbindungen beschreiben, in welcher Beziehung sie zueinander stehen.
+
+**Linked Open Data (LOD)** unterstützt die Verknüpfung solcher Informationen über standardisierte Identifikatoren und strukturierte Beziehungen. Dadurch können Daten aus verschiedenen Quellen miteinander verbunden werden.
+
+**Was ist eine Netzwerkanalyse?**
+
+Bei einer Netzwerkanalyse werden Beziehungen zwischen verschiedenen Einheiten untersucht. So lässt sich beispielsweise analysieren, welche Personen besonders viele Verbindungen haben oder welche Gruppen durch gemeinsame Orte, Expeditionen oder Sammlungsobjekte miteinander verbunden sind.
+
+**Beispiel: Museum für Naturkunde Berlin**
+
+Das Museum für Naturkunde Berlin nutzt Wikidata, um Informationen über Personen aus dem Sammlungsumfeld strukturiert bereitzustellen und mit weiteren Informationen zu verknüpfen. Der Ansatz wird zu einem umfassenderen Wissensgraphen weiterentwickelt, der unter anderem Personen, Objekte, Orte und Ereignisse miteinander verbindet. <Cite refs={["turn562337search10","turn562337search12"]}/>
+
+> **Was zeigt das Beispiel?**
+>
+> Wenn Informationen über Sammler*innen, Expeditionen, Orte und Objekte miteinander verknüpft werden, können neue Forschungsfragen zu wissenschaftlichen Netzwerken, Sammlungsgeschichte und der Entstehung von Wissen untersucht werden.
+
+#### 6. Datenanalysen: Informationen aus Texten und Metadaten gewinnen
+
+Sammlungsdaten lassen sich nicht nur visuell oder geografisch untersuchen. Auch strukturierte Metadaten, bibliografische Angaben und digitalisierte Texte können automatisiert ausgewertet werden.
+
+**Was ist eine Datenanalyse?**
+
+Bei einer Datenanalyse werden Daten systematisch untersucht, um Muster, Häufigkeiten, Beziehungen oder Entwicklungen zu erkennen. Dafür können beispielsweise statistische Methoden, Abfragen oder Verfahren zur automatischen Informationsextraktion eingesetzt werden.
+
+**Was ist eine SPARQL-Abfrage?**
+
+SPARQL ist eine Abfragesprache für Daten, die nach dem RDF-Modell strukturiert sind. Mit ihr können gezielt Informationen aus einem Wissensgraphen abgefragt werden – beispielsweise alle Werke einer bestimmten Person oder alle Personen, die mit einem bestimmten Thema verbunden sind.
+
+**Beispiel: MIMOTextBase**
+
+Im Projekt MIMOTextBase wurden bibliografische Verzeichnisse, Fachliteratur und Primärtexte als Quellen genutzt, um strukturierte Informationen wie Autor*innen und Werke zu extrahieren. Diese Informationen wurden über eine Wikibase-Datenbank als Linked Open Data bereitgestellt.
+
+Dadurch lassen sich die Daten mit SPARQL abfragen, systematisch auswerten und visualisieren. So können beispielsweise Beziehungen zwischen Autor*innen, Werken und Themen untersucht werden.
+
+> **Was zeigt das Beispiel?**
+>
+> Durch die strukturierte Aufbereitung und Verknüpfung von Informationen werden Texte und bibliografische Quellen maschinell auswertbar. Dadurch entstehen neue Möglichkeiten, größere Datenbestände systematisch zu untersuchen und Ergebnisse nachvollziehbar darzustellen.
 
 
-Dafür müssen die Daten entsprechend strukturiert, standardisiert und maschinenlesbar sein.
-
-#### Sammlungspublikation und Public AI
-
-Auch für KI-Anwendungen können publizierte Sammlungsdaten relevant sein.
-
-Hochwertige, kuratierte und kontextualisierte Sammlungsdaten können eine Grundlage für Forschung mit maschinellem Lernen bilden.
-
-Gleichzeitig stellt sich die Frage:
-
-> **Welche Art von KI wollen wir mit unseren Kulturdaten ermöglichen?**
-
-Das Konzept **Public AI** setzt hier auf ein KI-Ökosystem, das sich an öffentlichen Werten wie Offenheit, Transparenz, Interoperabilität und demokratischer Kontrolle orientiert.
-
-Sammlungen sind damit nicht nur Datenlieferanten. Sie können an der Entwicklung von Forschungs- und KI-Infrastrukturen aktiv beteiligt sein.
-
-#### Aufgabe 3: Was ermöglicht eine maschinenlesbare Sammlungspublikation?
-
-Welche Nutzungsszenarien werden durch strukturierte und maschinenlesbare Sammlungsdaten erleichtert?
-
-[[(Datenanalysen)|(Netzwerkanalysen)|(Automatisierte Kartierungen)|Darstellung im Online-Katalog]]
-
-<details>
-<summary>Lösung</summary>
-
-Die ersten vier Antworten sind richtig.
-
-Eine maschinenlesbare Publikation kann wesentlich mehr ermöglichen als die reine Darstellung eines Online-Katalogs.
-
-</details>
 
 ---
 
