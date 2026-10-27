@@ -66,9 +66,17 @@ Sie können die Einheiten Schritt für Schritt in Ihrem eigenen Tempo bearbeiten
 
 Publizieren und Archivieren werden im Alltag manchmal gleichgesetzt. Beides hat jedoch unterschiedliche Ziele.
 
-Beim **Publizieren** steht die Nutzung im Vordergrund: Daten sollen auffindbar, zugänglich und möglichst nachnutzbar sein.
+Beim **Publizieren** steht die Nutzung im Vordergrund: 
+- Daten sollen auffindbar, zugänglich und möglichst nachnutzbar sein.
+- Referenzierung über Persistente Identifikatoren (mittel- bis längerfrister Zugriff)
+- Sie liegen meist in komprimierter Form vor, damit sie schneller abrufbar sind.
 
-Beim **Archivieren** steht dagegen der langfristige Erhalt im Vordergrund. Die Daten sollen auch in Zukunft möglichst vollständig, unverfälscht und interpretierbar erhalten bleiben.
+<br>
+
+Beim **Archivieren** steht dagegen der langfristige Erhalt im Vordergrund:
+- Die Daten sollen auch in Zukunft möglichst vollständig, verlustfrei, unverfälscht und interpretierbar erhalten bleiben.
+- der Zugang zum Archiv ist oft eingeschränkter als bei publizierten Daten
+- auch im Archib bekommen die Datenpakete Identifikatoren, um Zuordnungen möglich zu machen.
 
 ![Publizieren und Archivieren](img/todo2.png)
 
@@ -147,9 +155,78 @@ Je früher feststeht, wie Daten genutzt, veröffentlicht und archiviert werden s
 
 Das beginnt idealerweise bereits mit dem **Datenmanagementplan**.
 
+Publikation und Archivierung benötigen geeignete technische, personelle und finanzielle Ressourcen. Der Aufwand hängt unter anderem vom Umfang der Sammlung, der Datenqualität, der Erschließungstiefe und den Anforderungen an die Langzeitarchivierung ab.
+
+Zu berücksichtigen sind beispielsweise:
+
+- Speicherplatz für Arbeitsdaten und Digitalisate,
+
+- Speicherlösungen für Back-ups und Langzeitarchivierung,
+
+- Datenbanken und weitere Software,
+
+- Werkzeuge zur Datenbereinigung und -anreicherung, beispielsweise OpenRefine,
+
+- Personal für Erschließung, Dokumentation und Qualitätssicherung,
+
+- Zeit und Budget für die Veröffentlichung und Archivierung,
+
+- gegebenenfalls externe Dienstleistungen.
+
+Auch Anforderungen von Drittmittelgebern sollten frühzeitig berücksichtigt werden.
+
 ### 2.1 Welche Fragen müssen früh geklärt werden?
 
 ![Planung von Publikation und Archivierung](img/Workflow-Planung-Archivierung.png)
+
+
+1. Ziele und Nutzungsszenarien
+- [ ] Wie viele Objekte umfasst die Sammlung, und welches Datenvolumen ist zu erwarten?
+- [ ] Wer ist die Zielgruppe, und welche Nutzungsszenarien sollen ermöglicht werden?
+- [ ] Welche Erschließungstiefe und Datenqualität sind für diese Nutzungen erforderlich?
+- [ ] Welche Anforderungen ergeben sich daraus an Zugänglichkeit, Maschinenlesbarkeit und Nachnutzbarkeit?
+2. Datenmodellierung und Dokumentation
+- [ ] Passt die Datenmodellierung zu den Nutzungsszenarien und Forschungsfragen?
+- [ ] Welche Objektinformationen sollen veröffentlicht werden, und welche Metadatenstandards eignen sich dafür?
+- [ ] Welche Pflichtfelder und Datenqualitätsanforderungen stellt die vorgesehene Plattform oder das Repositorium?
+- [ ] Welche kontrollierten Vokabulare können die semantische Interoperabilität und Verknüpfbarkeit der Daten verbessern?
+- [ ] Wie werden Änderungen und Versionen der Daten dokumentiert?
+3. Digitalisate
+- [ ] Welche Digitalisate werden für die vorgesehenen Nutzungen benötigt, und welche Dateiformate eignen sich für die Veröffentlichung?
+- [ ] Welche Ausgangsdaten – beispielsweise RAW-Dateien oder Einzelbilder für 3D-Modelle – sollen zusätzlich archiviert werden?
+- [ ] Wer hat die Digitalisate erstellt, und welche Rechte bestehen daran?
+- [ ] Welche Bearbeitungsschritte sowie eingesetzte Hard- und Software müssen dokumentiert werden, damit die Entstehung nachvollziehbar bleibt?
+4. Infrastruktur und Ressourcen
+- [ ] Welche Datenbanken, Speicherlösungen und Werkzeuge werden benötigt?
+- [ ] Welche Kapazitäten sind für Back-ups und Langzeitarchivierung erforderlich?
+- [ ] Welche personellen Kompetenzen und zeitlichen Ressourcen werden benötigt?
+- [ ] Welche Kosten entstehen für Personal, Speicher, Software und gegebenenfalls externe Dienstleistungen?
+- [ ] Welche Anforderungen von Drittmittelgebern müssen berücksichtigt werden?
+5. Qualitätssicherung
+- [ ] Welche Qualitätsprüfungen sind vor der Veröffentlichung und Archivierung erforderlich?
+- [ ] Wie werden Vollständigkeit, Konsistenz und Korrektheit der Daten sowie die Verknüpfung von Metadaten und Digitalisaten überprüft?
+- [ ] Wie werden Fehler, Korrekturen und Qualitätsänderungen dokumentiert?
+6. Publikation und Zugänglichkeit
+- [ ] Welche Plattform oder welches Fachrepositorium eignet sich für die Veröffentlichung?
+- [ ] Welche Datenaustausch- und Exportformate werden benötigt oder vorausgesetzt?
+- [ ] Sollen die Daten über Schnittstellen, beispielsweise eine API, bereitgestellt werden?
+- [ ] Wie werden die Daten durch persistente Identifikatoren (PIDs) referenzierbar und ihre Versionen nachvollziehbar?
+- [ ] Welche Nutzungslizenz ermöglicht die gewünschte Nachnutzung?
+- [ ] Welche Daten können offen veröffentlicht werden, und für welche sind Zugangsbeschränkungen erforderlich?
+7. Speicherung und Langzeitarchivierung
+- [ ] Welche Daten sollen gespeichert, durch Back-ups gesichert oder langfristig archiviert werden?
+- [ ] Wie häufig werden Back-ups erstellt, wo werden sie aufbewahrt und wie wird ihre Wiederherstellbarkeit geprüft?
+- [ ] Welche Anforderungen stellt das Langzeitarchiv an Dateiformate, Metadaten und Dokumentation?
+- [ ] Wie werden die Integrität und langfristige Lesbarkeit der archivierten Daten überprüft?
+- [ ] Wie werden archivierte und veröffentlichte Versionen miteinander abgeglichen?
+8. Rechtliche und ethische Rahmenbedingungen
+- [ ] Welche Urheber-, Persönlichkeits- oder sonstigen Rechte sowie ethischen Erwägungen beeinflussen Veröffentlichung und Zugang?
+- [ ] Wie werden Rechte, Nutzungslizenzen und Zugangsbeschränkungen dokumentiert?
+- [ ] Wie wird sichergestellt, dass diese Einschränkungen auch bei Archivierung und späterer Bereitstellung berücksichtigt werden?
+
+Abschließende Leitfrage:
+
+Sind die geplanten Maßnahmen für Publikation und Archivierung auf die Nutzungsszenarien abgestimmt und mit den verfügbaren technischen, personellen und finanziellen Ressourcen umsetzbar?
 
 ## 3. Nutzen und Formen der Sammlungspublikation
 
