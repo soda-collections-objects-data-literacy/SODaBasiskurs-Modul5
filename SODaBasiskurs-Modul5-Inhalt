@@ -528,13 +528,14 @@ Sammlungen umfassen oft Tausende oder sogar Millionen von Objekten. In einem kla
 Eine Datenvisualisierung stellt Daten grafisch dar. Dabei werden Informationen beispielsweise durch Position, Größe, Farbe oder Anordnung sichtbar gemacht.
 
 Eine **kritische Visualisierung** geht über eine rein dekorative Darstellung hinaus: Sie hilft dabei, die Struktur und Aussagekraft von Daten zu untersuchen. Gleichzeitig sollte reflektiert werden, welche Informationen die Darstellung hervorhebt und welche sie möglicherweise ausblendet.
+
 <br>
 
 **Beispiel: VIKUS Viewer**
 
-<div style="float:left;width:38%;margin: 0px 20px 20px 0px;">
+<div style="float:left;width:60%;margin: 0px 20px 20px 0px;">
     <img src="img/Vikus-Viewer-Muenzen.png" alt="Visualisierung der Münz- und Medaillensammlung im VIKUS Viewer" style="width:100%;"/>
-    <p style="text-align:center">Bildunterschrift</p>
+    <p style="text-align:center">Screenshot des VIKUS Viewer: Chronologische Anordnung von Münzen, unterteilt nach Material.</p>
 </div>
 
 Der <Link url="https://vikusviewer.fh-potsdam.de/muenzen/" title="VIKUS Viewer für Münzen"/> ermöglicht die explorative Untersuchung einer Münz- und Medaillensammlung. Die Objekte können in visuellen Anordnungen betrachtet werden, die Zusammenhänge und Muster innerhalb des Bestands sichtbar machen. <Cite refs={["turn562337search1","turn562337search3"]}/>
