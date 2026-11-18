@@ -473,7 +473,7 @@ Ein **Data Sprint** verfolgt einen ähnlichen Ansatz, konzentriert sich aber bes
 
 <div style="float:right;width:42%;margin: 0px 0px 30px 20px;">
     <img src="img/CodingdaVinci-playbook_uebersicht.png" alt="Coding da Vinci" style="width:100%;"/>
-    <p style="text-align:center">Bildunterschrift 1</p>
+    <p style="text-align:center">Überblick über Orte, an denen der Coding da Vinci Hackathon stattgefunden hat. Coding da Vinci Playbook, S. 11, CC BY 4.0.</p>
     <img src="img/Coding_da_Vinci_-_Der_Kultur-Hackathon_(13936519879).jpg" alt="Der Kultur-Hackathon Coding da Vinci" style="width:100%;margin-top:10px;"/>
     <p style="text-align:center">Coding da Vinci - Der Kultur-Hackathon 2014. CC-BY 4.0 Volker Agueras Gäng</p>
 </div>
@@ -501,15 +501,23 @@ Durch die Verknüpfung von Sammlungsdaten mit Koordinaten lassen sich beispielsw
 - Wie verteilen sich Objekte über verschiedene Regionen?
 - Welche geografischen Muster lassen sich in einem Bestand erkennen?
 
-**Beispiel: WikiProject des International Dura-Europos Archive**
+<br>
+**Beispiel: WikiProject des (Digital) International Dura-Europos Archive (IDEA)**
 
-Das Beispiel zeigt, wie Sammlungs- und Forschungsdaten zum antiken Ort Dura-Europos mit geografischen Informationen verbunden und räumlich ausgewertet werden können.
+<div style="float:left;width:38%;margin: 0px 20px 20px 0px;">
+    <img src="img/wikidata-dura-europos.png" alt="Wikidata-Datensatz zu Dura-Europos" style="width:100%;"/>
+    <p style="text-align:center">Screenshot einer Visualisierung von der Abfrage nach Fundplätzen der verzeichneten Objektfunde aus Wikidata</p>
+</div>
 
-Die Kartierung macht räumliche Beziehungen sichtbar, die sich aus einzelnen Datensätzen nur schwer erkennen lassen. Voraussetzung ist, dass Ortsangaben ausreichend dokumentiert und möglichst eindeutig identifiziert sind.
+Das International (Digital) Dura-Europos Archive (IDEA) zeigt, wie Sammlungs- und Forschungsdaten mithilfe von Linked Open Data miteinander verknüpft und geografisch ausgewertet werden können.
+
+Das Projekt nutzt Wikidata als gemeinsame Verknüpfungsebene, um unterschiedliche Informationen zu Personen, Gebäuden, archäologischen Objekten, Ereignissen und historischen Dokumenten zusammenzuführen. Durch eindeutige Identifikatoren und Verlinkungen können diese Informationen über verschiedene Datenbestände und Sprachgrenzen hinweg miteinander in Beziehung gesetzt werden.
+
+Auf dieser Grundlage lassen sich beispielsweise Fundorte von Objekten oder die auf historischen Fotografien dargestellten Orte kartografisch visualisieren. Die Karte macht räumliche Beziehungen sichtbar, die sich aus einzelnen Datensätzen nur schwer erkennen lassen.
 
 > **Was zeigt das Beispiel?**
 >
-> Durch geografische Anreicherung werden Sammlungsdaten räumlich auswertbar. Karten können helfen, Verteilungen, Beziehungen und mögliche Forschungsperspektiven zu entdecken.
+> Durch geografische Anreicherung werden Sammlungsdaten räumlich auswertbar. Karten können helfen, Verteilungen, Beziehungen und mögliche Forschungsperspektiven zu entdecken. Linked Open Data ermöglicht es, Sammlungs- und Forschungsdaten über Institutions- und Datensatzgrenzen hinweg zu verknüpfen. Geografische Informationen können dadurch nicht nur auf Karten dargestellt, sondern auch mit weiteren Informationen zu Personen, Objekten und historischen Ereignissen in Beziehung gesetzt werden.
 
 #### 3. Kritische Visualisierungen: Sammlungen neu entdecken
 
