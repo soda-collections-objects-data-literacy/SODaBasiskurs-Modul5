@@ -467,7 +467,7 @@ Wenn Sammlungsdaten strukturiert, maschinenlesbar und nachnutzbar veröffentlich
 >- Training oder Evaluation von KI-Systemene
 
 
-#### 1. Hackathons und Data Sprints: Mit offenen Kulturdaten experimentieren
+#### Hackathons und Data Sprints: Mit offenen Kulturdaten experimentieren
 
 **Was ist ein Hackathon?**
 
@@ -486,7 +486,12 @@ Ein **Data Sprint** verfolgt einen ähnlichen Ansatz, konzentriert sich aber bes
 
 Der Kultur-Hackathon <Link url="https://codingdavinci.de/" title="Coding da Vinci"/> bringt Kulturinstitutionen und Menschen aus verschiedenen Fachbereichen zusammen. Die Institutionen stellen Kulturdaten zur Verfügung, die von den Teilnehmenden für digitale Projekte genutzt werden können.
 
-Im Rahmen der achtjährigen Projektphase wurden von 362 Kulturinstitutionen insgesamt 488 Datensets bereitgestellt. Daraus entstanden 217 Projekte. Die Ergebnisse zeigen, wie offene Kulturdaten neue Ideen und Kooperationen ermöglichen können. <Cite refs={["turn562337search4","turn562337search72"]}/>
+Im Rahmen der achtjährigen Projektphase wurden von 362 Kulturinstitutionen insgesamt 488 Datensets bereitgestellt. Daraus entstanden 217 Projekte. Die Ergebnisse zeigen, wie offene Kulturdaten neue Ideen und Kooperationen ermöglichen können.
+
+<br>
+
+<br>
+
 
 > **Was zeigt das Beispiel?**
 >
@@ -515,7 +520,7 @@ Durch die Verknüpfung von Sammlungsdaten mit Koordinaten lassen sich beispielsw
     <p style="text-align:center">Screenshot einer Visualisierung von der Abfrage nach Fundplätzen der verzeichneten Objektfunde aus Wikidata</p>
 </div>
 
-Das International (Digital) Dura-Europos Archive (IDEA) zeigt, wie Sammlungs- und Forschungsdaten mithilfe von Linked Open Data miteinander verknüpft und geografisch ausgewertet werden können.
+Das [International (Digital) Dura-Europos Archive (IDEA)](https://www.wikidata.org/wiki/Wikidata:WikiProject_IDEA) zeigt, wie Sammlungs- und Forschungsdaten mithilfe von Linked Open Data miteinander verknüpft und geografisch ausgewertet werden können.
 
 Das Projekt nutzt Wikidata als gemeinsame Verknüpfungsebene, um unterschiedliche Informationen zu Personen, Gebäuden, archäologischen Objekten, Ereignissen und historischen Dokumenten zusammenzuführen. Durch eindeutige Identifikatoren und Verlinkungen können diese Informationen über verschiedene Datenbestände und Sprachgrenzen hinweg miteinander in Beziehung gesetzt werden.
 
