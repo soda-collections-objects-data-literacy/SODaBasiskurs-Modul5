@@ -887,20 +887,6 @@ Die **Web Ontology Language (OWL)** ist eine formale Beschreibungssprache zur Er
 
 Das **Simple Knowledge Organization System (SKOS)** ist ein W3C-Standard zur formalen Kodierung und Veröffentlichung von Wissensorganisationssystemen. Dazu gehören beispielsweise Thesauri, Klassifikationen und andere kontrollierte Vokabulare. SKOS unterstützt unter anderem die Beschreibung von Begriffen, ihren Bezeichnungen und ihren semantischen Beziehungen.
 
-### FAIR Prinzipien
-<br>
-
-
-<details>
-<summary>Accessible – zugänglich</summary>
-
->+ **A1** (Meta-)Daten können anhand ihrer Identifizierung über ein standardisiertes Kommunikations-protokoll abgerufen werden.
->
-> + - **A1.1** das Protokoll ist offen, frei u. universell implementierbar.
->   - **A1.2** das Protokoll ermöglicht bei Bedarf ein Authentifizier-ungs- u. Autorisierungs-verfahren.
->
-> + **A2** – (Meta-)Daten sind zugänglich, auch wenn die Daten nicht mehr verfügbar sind.
-</details>
 
 
 ### Aufgabe 1
