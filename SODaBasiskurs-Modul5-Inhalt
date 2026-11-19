@@ -719,25 +719,25 @@ Die Umsetzung der FAIR-Prinzipien kann schrittweise erfolgen und an die jeweilig
 Die Abbildung zeigt sechs Stufen, auf denen digitale Objekte zunehmend FAIR werden:
 
 <details>
-<summary>1. Metadaten ohne PID</summary>
+<summary>1. Gänzlich unfähr</summary>
 
 Die Metadaten sind mit dem digitalen Objekt verbunden, aber das Objekt hat keinen persistenten Identifikator (PID). Die Metadaten lassen sich gar nicht oder nur eingeschränkt maschinell auswerten. Deshalb kann auch der Dateiinhalt (die Bitsequenz) nur begrenzt automatisiert verarbeitet werden.
 </details>
 
 <details>
-<summary>2. PID vorhanden</summary>
+<summary>2. Auffindbar und nutzbar - für Menschen</summary>
 
 Das digitale Objekt hat einen PID. Die Metadaten sind aber noch nicht für die maschinelle Auswertung aufbereitet. Das Objekt ist daher vor allem für Menschen nutzbar; eine FAIR-Nachnutzung ist noch nicht möglich.
 </details>
 
 <details>
-<summary>3. FAIR beschriebene Metadaten</summary>
+<summary>3. FAIRe Metadaten</summary>
 
 Die Metadaten sind umfassend und maschinell auswertbar. Es fehlen aber noch wichtige Angaben zum digitalen Dateiinhalt, zum Beispiel zur Lizenz, zur Herkunft der Daten (Provenienz) oder zur Struktur eines komplexen Objekts.
 </details>
 
 <details>
-<summary>4. Zugangsbeschränkungen dokumentiert</summary>
+<summary>4. FAIRe Daten, mit Zugangsbeschränkungen</summary>
 
 Die digitalen Dateien sind technisch FAIR, aber nicht frei zugänglich oder uneingeschränkt nachnutzbar. Gründe können rechtliche Einschränkungen oder proprietäre Datenformate sein. Sind diese Beschränkungen maschinell lesbar dokumentiert, bleibt das digitale Objekt FAIR.
 </details>
