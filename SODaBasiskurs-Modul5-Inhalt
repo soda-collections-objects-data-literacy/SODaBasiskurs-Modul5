@@ -620,7 +620,7 @@ Bei einer Netzwerkanalyse werden Beziehungen zwischen verschiedenen Einheiten un
 **Beispiel: Museum für Naturkunde Berlin**
 <br>
 
-<div style="float:center;width:80%;margin: 0px 0px 20px 20px;">
+<div style="float:center;width:100%;margin: 0px 0px 20px 20px;">
     <img src="img/wikidata-mfn2.png" alt="Wissensgraph des Museums für Naturkunde Berlin auf Wikidata" style="width:100%;"/>
     <p style="text-align:left;font-size:0.8em">Visualisierung der Harriman Alaska Expedition über Scholia (screenshot via Wikimedia Foundation, CC BY-SA 4.0). Von Mering S., et al. (2024): Advancing Community Curation of Research Expeditions: A Collaborative Journey with Wikidata and Biodiversity Information Standards. Biodiversity Information Science and Standards 8: e138921. https://doi.org/10.3897/biss.8.138921
     </p>
@@ -648,11 +648,29 @@ Bei einer Datenanalyse werden Daten systematisch untersucht, um Muster, Häufigk
 
 SPARQL ist eine Abfragesprache für Daten, die nach dem RDF-Modell strukturiert sind. Mit ihr können gezielt Informationen aus einem Wissensgraphen abgefragt werden – beispielsweise alle Werke einer bestimmten Person oder alle Personen, die mit einem bestimmten Thema verbunden sind.
 
+<br>
+
 **Beispiel: MIMOTextBase**
 
-Im Projekt MIMOTextBase wurden bibliografische Verzeichnisse, Fachliteratur und Primärtexte als Quellen genutzt, um strukturierte Informationen wie Autor*innen und Werke zu extrahieren. Diese Informationen wurden über eine Wikibase-Datenbank als Linked Open Data bereitgestellt.
+
+<div style="float:left;width:60%;margin: 5px 5px 20px 20px;">
+    <img src="img/mimotextbase-diagramm.png" alt="Quantitative Visualisierung von Themen und Begriffen in MIMOTextBase" style="width:100%;"/>
+    <p style="text-align:left;font-size:0.8em">Screenshot einer Visualisierung aus MiMOTextBase. Balkendiagramm zur Anzahl und Themen der drei unterschiedenen Erzählformen von Schriftstellern.</p>
+</div>
+
+Im [Projekt MIMOTextBase](https://mimotext.github.io/MiMoTextBase_Tutorial/aboutMiMoTextBase.html) wurden bibliografische Verzeichnisse, Fachliteratur und Primärtexte als Quellen genutzt, um strukturierte Informationen wie Autor*innen und Werke zu extrahieren. Diese Informationen wurden über eine Wikibase-Datenbank als Linked Open Data bereitgestellt.
 
 Dadurch lassen sich die Daten mit SPARQL abfragen, systematisch auswerten und visualisieren. So können beispielsweise Beziehungen zwischen Autor*innen, Werken und Themen untersucht werden.
+
+<br>
+
+<br><br>
+<br>
+<br><br>
+
+<br><br>
+<br><br>
+<br>
 
 > **Was zeigt das Beispiel?**
 >
@@ -693,8 +711,49 @@ Die Umsetzung der FAIR-Prinzipien kann schrittweise erfolgen und an die jeweilig
 <div style="float:center
 ;width:80%;margin: 0px 0px 30px 50px;">
     <img src="img/FAIR-Ebenen.png" alt="Daten als zunehmend FAIRe digitale Objekte. Kailus, A. (2023). Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7716941, Abb. 2, CC BY 4.0.*" style=""/>
-    <p style="text-align:left"> *Daten als zunehmend FAIRe digitale Objekte. Quelle: Kailus, A. (2023). Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7716941, Abb. 2, CC BY 4.0. Auf Basis von: FORCE 11. Guiding Principles for Findable, Accessible, Interoperable and Re-usable Data Publishing version b1.0, CC BY-SA 4.0* </p>
+    <p style="text-align:left;font-size:0.8em"> *Daten als zunehmend FAIRe digitale Objekte. Quelle: Kailus, A. (2023). Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7716941, Abb. 2, CC BY 4.0. Auf Basis von: FORCE 11. Guiding Principles for Findable, Accessible, Interoperable and Re-usable Data Publishing version b1.0, CC BY-SA 4.0* </p>
 </div>
+
+<br>
+
+Die Abbildung zeigt sechs Stufen, auf denen digitale Objekte zunehmend FAIR werden:
+
+<details>
+<summary>1. Metadaten ohne PID</summary>
+
+Die Metadaten sind mit dem digitalen Objekt verbunden, aber das Objekt hat keinen persistenten Identifikator (PID). Die Metadaten lassen sich gar nicht oder nur eingeschränkt maschinell auswerten. Deshalb kann auch der Dateiinhalt (die Bitsequenz) nur begrenzt automatisiert verarbeitet werden.
+</details>
+
+<details>
+<summary>2. PID vorhanden</summary>
+
+Das digitale Objekt hat einen PID. Die Metadaten sind aber noch nicht für die maschinelle Auswertung aufbereitet. Das Objekt ist daher vor allem für Menschen nutzbar; eine FAIR-Nachnutzung ist noch nicht möglich.
+</details>
+
+<details>
+<summary>3. FAIR beschriebene Metadaten</summary>
+
+Die Metadaten sind umfassend und maschinell auswertbar. Es fehlen aber noch wichtige Angaben zum digitalen Dateiinhalt, zum Beispiel zur Lizenz, zur Herkunft der Daten (Provenienz) oder zur Struktur eines komplexen Objekts.
+</details>
+
+<details>
+<summary>4. Zugangsbeschränkungen dokumentiert</summary>
+
+Die digitalen Dateien sind technisch FAIR, aber nicht frei zugänglich oder uneingeschränkt nachnutzbar. Gründe können rechtliche Einschränkungen oder proprietäre Datenformate sein. Sind diese Beschränkungen maschinell lesbar dokumentiert, bleibt das digitale Objekt FAIR.
+</details>
+
+<details>
+<summary>5. Vollständig FAIR und offen lizenziert</summary>
+
+Metadaten und digitale Dateien erfüllen gemeinsam die FAIR-Prinzipien. Eine klar angegebene offene Lizenz ermöglicht eine umfassende Nachnutzung.
+</details>
+
+<details>
+<summary>6. Mit anderen Daten vernetzt</summary>
+
+Das digitale Objekt ist zusätzlich mit passenden Datenbeständen verknüpft. Semantische Technologien können diese Verbindungen in die Auswertung einbeziehen. Die Daten liegen als RDF-Aussagen vor: Jedes Tripel beschreibt eine Beziehung zwischen Subjekt, Prädikat und Objekt. Auch die Herkunft der Daten (Provenienz) ist maschinell auswertbar dokumentiert.
+</details>
+
 
 ### Datenaustauschformate
 
