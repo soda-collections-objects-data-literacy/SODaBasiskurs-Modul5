@@ -175,7 +175,7 @@ Zu berücksichtigen sind beispielsweise:
 
 Auch Anforderungen von Drittmittelgebern sollten frühzeitig berücksichtigt werden.
 
-### 2.1 Welche Fragen müssen früh geklärt werden?
+### Checkliste: Welche Fragen müssen früh geklärt werden?
 
 ![Planung von Publikation und Archivierung](img/Workflow-Planung-Archivierung.png)
 
@@ -338,18 +338,18 @@ Je nach Plattform können dabei beispielsweise Informationen zum Objekt, Vorscha
 
 > **Wichtig:** Die Veröffentlichung eines 3D-Modells auf einer Präsentationsplattform ist nicht automatisch mit einer langfristigen Archivierung der zugrunde liegenden Daten gleichzusetzen.
 
-#### Datenrepositorien und Datendumps
+#### Datenrepositorien
 
-Sammlungsdaten können außerdem als **Datensatz bzw. Datendump** in einem Datenrepositorium veröffentlicht werden.
+Sammlungsdaten können außerdem als **Datensatz (gezielt strukturierte und für Analysen aufbereitete Datensammlung) bzw. Datendump (ungefilterter Datenbankabzug)** in einem Datenrepositorium veröffentlicht werden.
 
-Dabei wird beispielsweise ein vollständiger oder ausgewählter Datenbestand als Datei bereitgestellt. Je nach System können unterschiedliche Formate zum Einsatz kommen.
+Dabei wird beispielsweise ein vollständiger oder ausgewählter Datenbestand als Datei bereitgestellt. Je nach System können unterschiedliche Formate zum Einsatz kommen (z.B. CSV, JSON, XML).
 
 Beispiele:
 
 - [RADAR4Culture](https://radar.products.fiz-karlsruhe.de/de/radarabout/radar4culture)
 - [GitHub – Open Access des Metropolitan Museum of Art](https://github.com/metmuseum/openaccess)
 
-Ein Datendump kann insbesondere für die **Nachnutzung, Analyse und Weiterverarbeitung** interessant sein. Forschende können die Daten herunterladen und beispielsweise mit eigenen Methoden auswerten.
+Ein Datendump/Datensatz kann insbesondere für die **Nachnutzung, Analyse und Weiterverarbeitung** interessant sein. Forschende können die Daten herunterladen und beispielsweise mit eigenen Methoden auswerten.
 
 Dabei ist es wichtig, nicht nur die eigentlichen Daten bereitzustellen. Für eine sinnvolle Nachnutzung benötigen Nutzende auch Informationen darüber,
 
@@ -384,6 +384,11 @@ Gleichzeitig können solche Angebote dazu beitragen, Sammlungsdaten innerhalb ei
 
 #### Offene kollaborative Plattformen
 
+<div style="float:right;width:40%;margin: 0px 0px 20px 20px;">
+    <img src="img/Wikimedia_logo_family_complete-2023.svg.png" alt="Logos der Wikimedia-Projekte" style="width:100%;"/>
+    <p style="text-align:center;font-size:0.8em">Wikimedia-Projekte im Überblick.</p>
+</div>
+
 Sammlungsdaten können auch auf **offenen, kollaborativen Plattformen** veröffentlicht oder mit bereits vorhandenen Informationen verknüpft werden.
 
 Dazu gehören beispielsweise:
@@ -404,7 +409,6 @@ Offene Plattformen unterscheiden sich von klassischen institutionellen Katalogen
 
 Wikidata kann beispielsweise dazu genutzt werden, Informationen über Objekte, Personen, Orte, Ereignisse oder Institutionen **strukturiert miteinander zu verknüpfen**. Wikimedia Commons eignet sich dagegen insbesondere für die Veröffentlichung und Nachnutzung von Mediendateien.
 
-![TODO: Grafik Offene Plattformen – Wikidata, Wikimedia Commons und Wikisource](img/todo2.png)
 
 #### Welche Publikationsform ist geeignet?
 
@@ -479,9 +483,9 @@ Ein **Data Sprint** verfolgt einen ähnlichen Ansatz, konzentriert sich aber bes
 
 <div style="float:right;width:42%;margin: 0px 0px 30px 20px;">
     <img src="img/CodingdaVinci-playbook_uebersicht.png" alt="Coding da Vinci" style="width:100%;"/>
-    <p style="text-align:center">Überblick über Orte, an denen der Coding da Vinci Hackathon stattgefunden hat. Coding da Vinci Playbook, S. 11, CC BY 4.0.</p>
+    <p style="text-align:left;font-size:0.8em">Überblick über Orte, an denen der Coding da Vinci Hackathon stattgefunden hat. Coding da Vinci Playbook, S. 11, CC BY 4.0.</p>
     <img src="img/Coding_da_Vinci_-_Der_Kultur-Hackathon_(13936519879).jpg" alt="Der Kultur-Hackathon Coding da Vinci" style="width:100%;margin-top:10px;"/>
-    <p style="text-align:center">Coding da Vinci - Der Kultur-Hackathon 2014. CC-BY 4.0 Volker Agueras Gäng</p>
+    <p style="text-align:left;font-size:0.8em">Coding da Vinci - Der Kultur-Hackathon 2014. CC-BY 4.0 Volker Agueras Gäng</p>
 </div>
 
 Der Kultur-Hackathon <Link url="https://codingdavinci.de/" title="Coding da Vinci"/> bringt Kulturinstitutionen und Menschen aus verschiedenen Fachbereichen zusammen. Die Institutionen stellen Kulturdaten zur Verfügung, die von den Teilnehmenden für digitale Projekte genutzt werden können.
@@ -517,7 +521,7 @@ Durch die Verknüpfung von Sammlungsdaten mit Koordinaten lassen sich beispielsw
 
 <div style="float:left;width:38%;margin: 0px 20px 20px 0px;">
     <img src="img/wikidata-dura-europos.png" alt="Wikidata-Datensatz zu Dura-Europos" style="width:100%;"/>
-    <p style="text-align:center">Screenshot einer Visualisierung von der Abfrage nach Fundplätzen der verzeichneten Objektfunde aus Wikidata</p>
+    <p style="text-align:left;font-size:0.8em">Screenshot einer Visualisierung von der Abfrage nach Fundplätzen der verzeichneten Objektfunde aus Wikidata</p>
 </div>
 
 Das [International (Digital) Dura-Europos Archive (IDEA)](https://www.wikidata.org/wiki/Wikidata:WikiProject_IDEA) zeigt, wie Sammlungs- und Forschungsdaten mithilfe von Linked Open Data miteinander verknüpft und geografisch ausgewertet werden können.
@@ -578,15 +582,24 @@ Beim Training eines KI-Modells wird ein Verfahren anhand von Beispieldaten darau
 
 Beim **automatisierten Tagging** werden Bildern automatisch Schlagwörter oder Kategorien zugeordnet. Das kann die Recherche und Analyse großer Bildbestände unterstützen. Die Ergebnisse müssen jedoch geprüft werden, da Modelle Fehler machen oder bestimmte Motive übersehen können.
 
+<br>
+<br>
+
 **Beispiel: ODEUROPA**
 
-Das europäische Forschungsprojekt <Link url="https://odeuropa.eu/" title="ODEUROPA"/> untersuchte, wie Gerüche und Geruchserfahrungen in historischen Bildern und Texten dargestellt werden. Dazu kamen unter anderem Computer Vision und Methoden der Sprachverarbeitung zum Einsatz. <Cite refs={["turn562337search8","turn562337search9"]}/>
+<div style="float:right;width:40%;margin: 0px 0px 20px 20px;">
+    <img src="img/Odeuropa.png" alt="Automatisch erkannte Blumenmotive in einem Gemälde" style="width:100%;"/>
+    <p style="text-align:left;font-size:0.8em">Beispiel für automatisches Tagging von Blumenmotiven im ODEUROPA-Projekt. Zinnen, M., et al. (2024): Smelly, dense, and spreaded: The Object Detection for Olfactory References (ODOR) dataset, Expert Systems with Applications, 2025, CC BY 4.0, https://arxiv.org/abs/2507.08384v1 
+    </p>
+</div>
+
+Das europäische Forschungsprojekt [ODEUROPA](https://odeuropa.eu/) untersuchte, wie Gerüche und Geruchserfahrungen in historischen Bildern und Texten dargestellt werden. Dazu kamen unter anderem Computer Vision und Methoden der Sprachverarbeitung zum Einsatz. 
 
 Ein möglicher Anwendungsfall ist die automatische Erkennung von Bildelementen, die mit Gerüchen verbunden sein können – etwa Blumen oder andere Pflanzen. Frei nutzbare Bildbestände, beispielsweise aus Wikimedia Commons, können eine Grundlage für solche Analysen bilden, sofern die jeweiligen Lizenzbedingungen und Nutzungsrechte beachtet werden.
 
 > **Was zeigt das Beispiel?**
 >
-> KI kann helfen, große Bildbestände systematisch zu analysieren und gezielt nach visuellen Merkmalen zu durchsuchen. Die Ergebnisse sind jedoch keine objektiven Wahrheiten: Trainingsdaten, Modellentscheidungen und Fehler müssen kritisch berücksichtigt werden.
+> KI kann helfen, große Bildbestände systematisch zu analysieren und gezielt nach visuellen Merkmalen zu durchsuchen.
 
 #### 5. Wissensgraphen und Netzwerkanalysen: Beziehungen sichtbar machen
 
@@ -594,7 +607,7 @@ Sammlungsobjekte stehen häufig in Beziehung zu Menschen, Orten, Institutionen, 
 
 **Was ist ein Wissensgraph?**
 
-Ein Wissensgraph stellt Informationen als miteinander verbundene Einheiten dar. Diese Einheiten können beispielsweise Personen, Objekte, Orte oder Ereignisse sein. Die Verbindungen beschreiben, in welcher Beziehung sie zueinander stehen.
+Ein Wissensgraph stellt Informationen als miteinander verbundene Einheiten dar. Die Verbindungen beschreiben, in welcher Beziehung sie zueinander stehen.
 
 **Linked Open Data (LOD)** unterstützt die Verknüpfung solcher Informationen über standardisierte Identifikatoren und strukturierte Beziehungen. Dadurch können Daten aus verschiedenen Quellen miteinander verbunden werden.
 
@@ -602,9 +615,22 @@ Ein Wissensgraph stellt Informationen als miteinander verbundene Einheiten dar. 
 
 Bei einer Netzwerkanalyse werden Beziehungen zwischen verschiedenen Einheiten untersucht. So lässt sich beispielsweise analysieren, welche Personen besonders viele Verbindungen haben oder welche Gruppen durch gemeinsame Orte, Expeditionen oder Sammlungsobjekte miteinander verbunden sind.
 
-**Beispiel: Museum für Naturkunde Berlin**
+<br>
 
-Das Museum für Naturkunde Berlin nutzt Wikidata, um Informationen über Personen aus dem Sammlungsumfeld strukturiert bereitzustellen und mit weiteren Informationen zu verknüpfen. Der Ansatz wird zu einem umfassenderen Wissensgraphen weiterentwickelt, der unter anderem Personen, Objekte, Orte und Ereignisse miteinander verbindet. <Cite refs={["turn562337search10","turn562337search12"]}/>
+**Beispiel: Museum für Naturkunde Berlin**
+<br>
+
+<div style="float:center;width:80%;margin: 0px 0px 20px 20px;">
+    <img src="img/wikidata-mfn2.png" alt="Wissensgraph des Museums für Naturkunde Berlin auf Wikidata" style="width:100%;"/>
+    <p style="text-align:left;font-size:0.8em">Visualisierung der Harriman Alaska Expedition über Scholia (screenshot via Wikimedia Foundation, CC BY-SA 4.0). Von Mering S., et al. (2024): Advancing Community Curation of Research Expeditions: A Collaborative Journey with Wikidata and Biodiversity Information Standards. Biodiversity Information Science and Standards 8: e138921. https://doi.org/10.3897/biss.8.138921
+    </p>
+</div>
+
+<br>
+
+Das [Museum für Naturkunde Berlin](https://website-archiv.museumfuernaturkunde.berlin/de/forschung/sammlerinnen-edit-a-thons-am-museum-fuer-naturkunde-innovative-formatentwicklung-fuer/) nutzt Wikidata, um Informationen über Sammler*innen strukturiert bereitzustellen und mit weiteren Informationen zu verknüpfen. Der Ansatz wird zu einem umfassenderen Wissensgraphen weiterentwickelt, der unter anderem Personen, Objekte, Orte und Expeditionen miteinander verbindet.
+
+<br>
 
 > **Was zeigt das Beispiel?**
 >
