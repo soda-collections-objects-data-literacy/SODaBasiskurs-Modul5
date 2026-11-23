@@ -814,7 +814,7 @@ JSON steht für JavaScript Object Notation. Es ist ein verbreitetes, maschinenle
 <br>
 
 
-<div style="float:right;width:55%;margin: 0px 20px 20px 0px;">
+<div style="float:right;width:50%;margin: 0px 20px 20px 0px;">
     <img src="img/JSON-snippet_beispiel.png" alt="Beispiel eines JSON-Datensatzes" style="width:100%;"/>
     <p style="text-align:left;font-size:0.8em">Beispiel für einen Datensatz im JSON-Format. Meyer, J., Agniashvili, A., & Schmidt, D. (2025, Juli 18). Metadaten - Von den Grundlagen zur Praxis. Zenodo. https://doi.org/10.5281/zenodo.16085132. CC BY 4.0.
     </p>
@@ -825,6 +825,26 @@ JSON steht für JavaScript Object Notation. Es ist ein verbreitetes, maschinenle
 - Ähnlich wie XML ist JSON maschinenlesbar, hierarchisch sowie software- und hardwareunabhängig.
 - JSON ist keine Markup Language, sondern ein Format zum Teilen und Aufbewahren von Daten.
 - Daten sind in Schlüssel-Wert-Paare (Key-Value Pairs) eingeteilt.
+
+<br><br>
+<br>
+
+<br>
+<br><br>
+<br><br>
+<br><br>
+
+**Aufgabe: LIDO oder JSON?**
+
+Ergänze die Lücken mit den passenden Begriffen.
+
+LIDO steht für *Lightweight Information Describing Objects* und ist ein Standard für den Datenaustausch von Informationen zu Objekten des [[(kulturellen Erbes)|wissenschaftlichen Publikationen|digitalen Archiven]].
+
+Für die technische Darstellung verwendet LIDO das Format [[(XML)|JSON|CSV]].
+
+JSON steht für *JavaScript Object Notation* und organisiert Daten in sogenannten [[(Schlüssel-Wert-Paaren)|RDF-Tripeln|Tabellenzeilen]].
+
+Während LIDO speziell auf die Beschreibung und den Austausch von Kulturerbe-Informationen ausgerichtet ist, handelt es sich bei JSON um ein allgemeines [[(Datenaustauschformat)|Metadatenstandard|kontrolliertes Vokabular]].
 
 
 ### Linked Open Data - Sammlungsdaten miteinander vernetzen
@@ -921,6 +941,46 @@ Empfohlenes Vorgehen:
 
 Die Rechtsfibel bietet eine praxisorientierte Einführung in rechtliche Fragen rund um die Digitalisierung und Bereitstellung kulturellen Erbes. Sie behandelt unter anderem Rechteklärung und Lizenzierung:
 Klimpel, Paul (2020): *Kulturelles Erbe digital – eine kleine Rechtsfibel*. Forschungs- und Kompetenzzentrum Digitalisierung Berlin (digiS). Verfügbar unter: [https://doi.org/10.12752/2.0.004.0](https://doi.org/10.12752/2.0.004.0).
+
+### Aufgabe: Wie viele Sterne erhält dieser Datensatz?
+
+Eine Sammlung möchte seine Sammlungsdaten online veröffentlichen. Lies die folgenden Szenarien und ordne sie der passenden Stufe des Fünf-Sterne-Modells von Tim Berners-Lee zu.
+Klicke auf das Glühbirnen-Symbol, wenn du eine Erklärung brauchst.
+
+**1. Szenario**
+
+Sammlungsdaten werden als RDF bereits gestellt. Personen, Orte und Objekte sind über URIs mit anderen Datenbeständen verlinkt.
+
+[[1 Stern|2 Sterne|3 Sterne|4 Sterne|(5 Sterne)]]
+
+
+[[?]] Richtig ist: **5 Sterne.** Die Daten nutzen offene Standards und sind mit anderen Ressourcen verknüpft. Damit entsteht ein Netzwerk aus Linked Open Data.
+
+**2. Szenario**
+
+Die Sammlungsdaten werden als Excel-Datei mit offener Lizenz zum Download bereit.
+
+[[1 Stern|(2 Sterne)|3 Sterne|4 Sterne|5 Sterne]]
+
+[[?]] Richtig ist: **2 Sterne.** Die Daten liegen strukturiert und maschinenlesbar vor, verwenden aber noch kein offenes Format.
+
+**3. Szenario**
+
+Ein Museum veröffentlicht seine Sammlungsdaten als PDF-Datei auf seiner Website. Die Datei ist mit einer offenen Lizenz versehen.
+
+[[(1 Stern)|2 Sterne|3 Sterne|4 Sterne|5 Sterne]]
+
+[[?]] Richtig ist: **1 Stern.** Die Daten sind im Web verfügbar und offen lizenziert, aber nicht strukturiert maschinenlesbar.
+
+
+**4. Szenario**
+
+Die Sammlungsdaten werden als CSV-Datei mit offener Lizenz bereitgestellt. Jedes Objekt erhält zusätzlich eine eindeutige URI.
+
+[[1 Stern|2 Sterne|3 Sterne|(4 Sterne)|5 Sterne]]
+
+[[?]] Richtig ist: **4 Sterne.** Die Daten sind offen lizenziert, strukturiert und in einem offenen Format verfügbar. Durch die URIs können die einzelnen Ressourcen eindeutig identifiziert werden.
+
 
 
 ### Publikation von Datensets
