@@ -705,7 +705,10 @@ FAIR ist dabei **kein bestimmtes Dateiformat und keine bestimmte Plattform**. En
 ### FAIR-Ebenen
 
 Die Umsetzung der FAIR-Prinzipien kann schrittweise erfolgen und an die jeweiligen Voraussetzungen einer Sammlung angepasst werden. Auch bereits vorhandene Datenbestände lassen sich nach und nach FAIRer gestalten. Dabei können die einzelnen FAIR-Kriterien und die verschiedenen Bestandteile eines digitalen Objekts – etwa Metadaten, Bilddateien und weitere digitale Repräsentationen – unterschiedlich umgesetzt werden. So können beispielsweise Metadaten offen zugänglich sein, während für Bilddateien rechtliche oder ethische Zugangsbeschränkungen gelten.
+Ein FAIR Digital Object (FDO) bezeichnet in diesem Zusammenhang ein digitales Objekt, dessen Daten und zugehörige Informationen so organisiert sind, dass Menschen und Computer sie möglichst zuverlässig interpretieren 
+und nutzen können.
 
+Die folgende Abbildung zeigt unterschiedliche FAIR-Ebenen Digitaler Objekte auf:
 
 <br>
 <div style="float:center
@@ -763,10 +766,14 @@ Damit Sammlungsdaten über verschiedene Systeme hinweg ausgetauscht und weiterve
 
 Wenn Sammlungsdaten in einem geeigneten, maschinenlesbaren Format vorliegen, können sie automatisiert eingelesen, durchsucht und an andere Systeme übermittelt werden. Das erleichtert den Austausch zwischen Institutionen und unterstützt die Veröffentlichung und Nachnutzung von Daten.
 
-Werden digitale Objekte nach den FAIR-Prinzipien aufbereitet und bereitgestellt, sollen sie zuverlässig interpretierbar und verarbeitbar sein. Ein FAIR Digital Object (FDO) bezeichnet in diesem Zusammenhang ein digitales Objekt, dessen Daten und zugehörige Informationen so organisiert sind, dass Menschen und Computer sie möglichst zuverlässig interpretieren 
-und nutzen können.
+Werden digitale Objekte nach den FAIR-Prinzipien aufbereitet und bereitgestellt, sollen sie zuverlässig interpretierbar und verarbeitbar sein. 
 
 #### LIDO – ein Datenaustauschformat für Kulturerbe
+
+<div style="float:right;width:20%;margin: 0px 0px 20px 20px;">
+    <img src="img/LIDO_logo_main.png" alt="LIDO-Logo" style="width:100%;"/>
+    <p style="text-align:center;font-size:0.8em">[Bildunterschrift]</p>
+</div>
 
 LIDO (Lightweight Information Describing Objects) ist ein vom Dokumentationskomitee des Internationalen Museumsrates (ICOM-CIDOC) herausgegebener Standard für den Austausch und die Publikation von Informationen zu Objekten der materiellen Kultur.
 
@@ -791,7 +798,7 @@ Wichtige Merkmale von LIDO:
 Mehr zu LIDO in [Modul 3](https://sammlungen.io/kb/fdm/soda-basiskurs-modul-3-sammlungen-erschliessen)
 
 
-### JSON – ein weiteres Format für den Datenaustausch
+#### JSON – ein weiteres Format für den Datenaustausch
 
 JSON steht für JavaScript Object Notation. Es ist ein verbreitetes, maschinenlesbares Format zur strukturierten Darstellung und zum Austausch von Daten.
 
