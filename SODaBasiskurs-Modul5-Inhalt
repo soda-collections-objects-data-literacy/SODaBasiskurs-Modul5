@@ -974,54 +974,191 @@ Die Dokumentation sollte nicht erst am Ende eines Projekts erfolgen. Stattdessen
 
 So wird vermieden, dass wichtige Informationen nachträglich rekonstruiert werden müssen oder verloren gehen.
 
-## Zusammenfassung
-
-| Empfehlung | Ziel |
-|---|---|
-| FAIR und offen publizieren | Daten auffindbar, zugänglich und nachnutzbar machen |
-| Datasheets erstellen | Herkunft, Auswahl und Zusammenstellung transparent dokumentieren |
-| Dokumentation institutionell verankern | Nachhaltige und nachvollziehbare Datenpublikation sicherstellen |
 
 
+<br>
 
-**Literatur**
+**Weiterführende Literatur**
 
 Lehmann, J., Federbusch, M., Labusch, K. & Neudecker, C. (2025). *Guidelines for the Publication of Cultural Data for AI Research* (Version 1). Staatsbibliothek zu Berlin. https://doi.org/10.5281/zenodo.15878098
 
 
-### Aufgabe 1
-
-Wähle die korrekte Eingabe aus. Achte auf Einheitlichkeit und eine [ISO-konforme Datumsangabe](https://www.iso.org/iso-8601-date-and-time-format.html).
 
 
-| ID                             | Titel                  | Eingangsdatum                             |  Herstellungsort             | Material     |
-|--------------------------------|------------------------|-------------------------------------------|------------------------------|--------------|
-| [[ID 12534|(12534)]]           | Trepanationsbesteck    | [[13.08.2015|(2015-08-13)|August 2015]]   | Göttingen                    |
-| 8631.5453                      | Augenmodell            | [[06051985|6. Mai 1985|(1985-05-06)]]     | [[20095 Hamburg|(Hamburg)]]  | 
-| FG 1258                        | Münze Constantinus I.  | [[20.12.1775| (1775-12-20)|18. Jh.]]      | Siscia                       |
-| [[(1952.1597)|Inv. 1952.1597]] | Porträt Erasmus Reich  | [[(1901-1950)|1. Hälfte 20. Jh.|um 1900]] | [[Dredsen|Derdsen|(Dresden)]]|
-| 1385962                        | Gesichtsmaske          | 1905                                      | Ägypten                      |
+### Abschlussaufgabe: Ist Martinas Sammlung FAIR?
+
+Martina betreut eine mathematische Modellsammlung an einer Universität. Sie möchte die Sammlung digital zugänglich machen, ihre Sichtbarkeit erhöhen und die Objekte für Forschung und Lehre besser nutzbar machen.
+
+Nach einer ersten Überarbeitung veröffentlicht sie ausgewählte Objektdatensätze über das Sammlungsportal ihrer Universität. Die Daten können dort recherchiert und teilweise heruntergeladen werden.
+
+Doch wie FAIR ist diese Veröffentlichung tatsächlich?
+
+Untersuche den folgenden Beispieldatensatz und bewerte, welche FAIR-Ebenen bereits umgesetzt wurden und wo noch Verbesserungsbedarf besteht.
 
 
+**Beispiel: Ein mathematisches Modell aus Martinas Sammlung**
 
+<div style="float:right;width:35%;margin: 0px 0px 20px 20px;">
+    <img src="img/Mathematische-Modelle_cc-by-nc-sa.jpg" alt="Mathematische Modelle in einer Ausstellungsvitrine" style="width:100%;height:auto;"/>
+    <p style="text-align:left;font-size:0.8em">Mathematische Modelle in einer Ausstellungsvitrine. Henri Duvillard / Collections de l’Institut Henri-Poincaré, Paris  BY-NC-SA.</p>
+</div>
 
->| Objekt "Augenmodell"  | Relation    | Aktivität  | Relation    |   Firma     |Relation     | Firmenname |
->|:----------------------|:-----------:|:----------:|:-----------:|:-----------:|:-----------:|:-----------:|
->|[[  E22 ]]             |[[ P108i  ]] | [[ E12 ]]  | [[  P14  ]] | [[  E39  ]] | [[ P1  ]]  |  [[ E41 ]]   |
-***************************
-E22 Human-Made Object --> P108 has produced (was produced by) --> E12 Production --> P14 carried out by --> E39 actor --> P1 identified by --> E41 appelation (Somso)
-***************************
+Martina veröffentlicht folgenden Datensatz:
 
-![Bild eines Schwefelgesteins](img/Schwefel.png)<!--
-style="width: 200px; position: relative; left: 5px; bottom: 10px"
--->
+| Feld | Veröffentlichte Information |
+|---|---|
+| Objektbezeichnung | Mechanisches Rechenmodell |
+| Objektnummer | MM-0042 |
+| Datierung | um 1900 |
+| Hersteller | Carl Zeiss http://viaf.org/viaf/8570149068596065730003 |
+| Material | Messing http://vocab.getty.edu/page/aat/300010946, Holz http://vocab.getty.edu/page/aat/300011914 |
+| Beschreibung | Mechanisches Modell zur Veranschaulichung mathematischer Berechnungen |
+| Digitalisat | Hochauflösendes JPEG-Bild |
+| Identifikator | Dauerhafter DOI für den veröffentlichten Gesamtdatensatz; die einzelnen Objekte besitzen nur interne Inventarnummern |
+| Datenformat | Metadaten als JSON verfügbar |
+| Lizenz der Metadaten | CC BY 4.0 |
+| Lizenz des Digitalisats | CC BY-NC-ND 4.0 |
+| Rechteinformationen | Die Lizenz wird als maschinenlesbares Metadatum angegeben. Die Rechte am Digitalisat wurden geprüft. |
+| Provenienz des Digitalisats | Es ist nicht dokumentiert, wann und von wem das Bild erstellt wurde. |
+| Dokumentation | Es gibt keine Dokumentation zur Auswahl und Zusammenstellung der veröffentlichten Datensätze. |
+| Schnittstelle | Die Daten können über eine API abgerufen werden. |
+| Verknüpfungen | Hersteller und Material sind mit externen Normdaten verknüpft. Weitere Verknüpfungen zu anderen Sammlungsdaten bestehen nicht. |
 
-*Georg-August-Universität Göttingen, Geowissenschaftliches Museum / G. Hundertmark, 2017, CC BY-SA 4.0.*
+<div style="clear:both;"></div>
 <br>
 
+**Prüfe die einzelnen Kriterien**
+
+Bewerte für jede Angabe, ob sie in Martinas Veröffentlichung den FAIR-Kriterien entspricht. Wähle jeweils eine Antwort aus und lies dir die Rückmeldung durch.
 
 
+**1. Persistente Identifikatoren**
 
+Martina hat für den gesamten Datensatz einen DOI vergeben. Die einzelnen Objekte besitzen jedoch nur interne Inventarnummern.
+
+Ist das Kriterium der persistenten Identifikation vollständig erfüllt?
+
+[( )] Ja, denn der DOI identifiziert alle Objekte dauerhaft.
+[(X)] Teilweise, denn die einzelnen Objekte haben keinen eigenen PID.
+[( )] Nein, denn ein DOI kann grundsätzlich nicht für Sammlungsdaten verwendet werden.
+
+[[?]] Überlege, auf welcher Ebene der Identifikator vergeben wurde.
+***
+**Richtig!** Du hast erkannt, dass zwischen einem Identifikator für den gesamten Datensatz und Identifikatoren für einzelne Objekte unterschieden werden muss. Für eine dauerhafte Referenzierung und Verknüpfung einzelner Objekte wären eigene PIDs sinnvoll.
+
+**Warum sind die anderen Antworten nicht richtig?** Ein DOI kann durchaus einen Datensatz identifizieren. Er ersetzt aber nicht automatisch die Identifikatoren der darin beschriebenen Einzelobjekte.
+***
+
+**2. Maschinenlesbare Metadaten**
+
+Die Metadaten werden zusätzlich zum Sammlungsportal als JSON bereitgestellt.
+
+Sind die Metadaten maschinenlesbar?
+
+[(X)] Ja, JSON ermöglicht eine strukturierte und maschinelle Verarbeitung.
+[( )] Teilweise, denn nur XML ist maschinenlesbar.
+[( )] Nein, denn JSON ist ausschließlich für die Darstellung im Web gedacht.
+
+[[?]] Denke an die Eigenschaften von JSON und XML.
+***
+**Sehr gut!** JSON ist ein verbreitetes, maschinenlesbares Format. Die strukturierte Darstellung ermöglicht es, Daten automatisiert einzulesen und weiterzuverarbeiten.
+
+**Warum sind die anderen Antworten nicht richtig?** Maschinenlesbarkeit ist nicht auf XML beschränkt. Auch JSON ist dafür geeignet.
+***
+
+**3. Verwendung von Normdaten**
+
+
+Ist dieses Kriterium erfüllt?
+
+[(X)] Ja, denn der Hersteller und das Material sind mit Normdaten verknüpft. 
+[( )] Teilweise, denn Normdaten dürfen nur für Personen verwendet werden.
+[( )] Nein, denn Normdaten sind keine geeignete Grundlage für Linked Open Data.
+
+[[?]] Welche Funktion haben Normdaten bei der Beschreibung von Sammlungsobjekten?
+***
+**Richtig!** Normdaten helfen dabei, Personen, Orte und Begriffe eindeutig zu identifizieren. Sie ermöglichen außerdem die Verknüpfung mit anderen Datenbeständen und sind damit eine wichtige Grundlage für Linked Open Data.
+
+**Warum sind die anderen Antworten nicht richtig?** Normdaten können für unterschiedliche Entitäten und Begriffe verwendet werden. Sie sind gerade für die Vernetzung von Daten besonders wichtig.
+***
+
+**4. Lizenzinformationen**
+
+Für die Metadaten gilt CC BY 4.0. Das Digitalisat ist mit CC BY-NC-ND 4.0 lizenziert. Beide Angaben sind maschinenlesbar hinterlegt.
+
+Wie ist die Lizenzierung zu bewerten?
+
+[(X)] Ja, die Lizenzinformationen sind transparent dokumentiert. Die eingeschränkte Nachnutzung des Digitalisats schließt FAIR nicht grundsätzlich aus.
+[( )] Nein, denn FAIR setzt immer eine offene Lizenz voraus.
+[( )] Nein, denn für Metadaten und Digitalisate muss immer dieselbe Lizenz verwendet werden.
+
+[[?]] Erinnere dich an den Unterschied zwischen FAIR und Open.
+***
+**Genau!** Du hast den wichtigen Unterschied zwischen FAIR und Open erkannt. Auch Daten mit eingeschränkten Nutzungsmöglichkeiten können FAIR sein, wenn die Zugangs- und Nutzungsbedingungen transparent und maschinenlesbar dokumentiert sind.
+
+**Warum sind die anderen Antworten nicht richtig?** FAIR bedeutet nicht automatisch Open Access. Außerdem können Metadaten und Digitalisate unterschiedlichen rechtlichen Bedingungen unterliegen und deshalb unterschiedliche Lizenzen benötigen.
+***
+
+**5. Dokumentation der Provenienz des Digitalisats**
+
+Ist die Provenienz des Digitalisats ausreichend dokumentiert?
+
+[( )] Ja, denn das Bild ist zusammen mit den Objektmetadaten veröffentlicht.
+[(X)] Nein, denn Informationen zur Entstehung und Herkunft des Digitalisats fehlen.
+[( )] Ja, denn die Lizenzangabe ersetzt eine Provenienzdokumentation.
+
+[[?]] Überlege, welche Informationen zur Entstehung einer digitalen Repräsentation gehören.
+***
+**Richtig erkannt!** Die Herkunft und Entstehung eines Digitalisats sollten nachvollziehbar dokumentiert sein. Dazu gehören beispielsweise Angaben zur verantwortlichen Person, zum Erstellungszeitpunkt und zum Digitalisierungsverfahren.
+
+**Warum sind die anderen Antworten nicht richtig?** Die Veröffentlichung eines Bildes und die Angabe einer Lizenz sagen noch nichts darüber aus, wann, wie und von wem es erstellt wurde.
+***
+
+**6. Dokumentation des Datensatzes**
+
+Ist die Dokumentation ausreichend?
+
+[( )] Ja, denn die einzelnen Objekte sind bereits beschrieben.
+[(X)] Nein, denn die Auswahlkriterien und die Entstehung des Datensatzes sind nicht nachvollziehbar.
+[( )] Ja, denn eine Dokumentation ist nur bei KI-Datensätzen erforderlich.
+
+[[?]] Denke an die Funktion eines Datasheets.
+***
+**Sehr gut!** Eine nachvollziehbare Dokumentation ist wichtig, damit andere verstehen können, wie ein Datensatz entstanden ist. Ein Datasheet kann beispielsweise Auswahlkriterien, Herkunft, Zusammenstellung und vorgesehene Nutzung beschreiben.
+
+**Warum sind die anderen Antworten nicht richtig?** Die Beschreibung einzelner Objekte ersetzt nicht die Dokumentation des gesamten Datensatzes. Eine solche Dokumentation ist auch unabhängig von einer späteren KI-Nutzung sinnvoll.
+***
+
+**7. Schnittstelle zur Bereitstellung**
+
+Ist damit eine wichtige Voraussetzung für den automatisierten Zugriff erfüllt?
+
+[(X)] Ja, eine API ermöglicht den automatisierten Zugriff und die Weiterverarbeitung der Daten.
+[( )] Nein, denn Sammlungsdaten müssen ausschließlich als XML-Dateien veröffentlicht werden.
+[( )] Nein, denn APIs sind nur für interne Datenbanken geeignet.
+
+[[?]] Welche Möglichkeiten eröffnet eine API für die Nachnutzung?
+***
+**Richtig!** Eine API ermöglicht es anderen Anwendungen, Daten automatisiert abzurufen. Das erleichtert den Austausch zwischen Systemen und die Weiterverarbeitung der Sammlungsdaten.
+
+**Warum sind die anderen Antworten nicht richtig?** Eine API ist nicht auf interne Datenbanken beschränkt und kann unterschiedliche maschinenlesbare Formate bereitstellen.
+***
+
+**8. Verknüpfung mit anderen Datenbeständen**
+
+Bestehen Weitere Beziehungen zu anderen Sammlungsdaten?
+Sind die Daten bereits umfassend vernetzt?
+
+[( )] Ja, denn zwei Normdatenverknüpfungen reichen für eine vollständige Vernetzung aus.
+[(X)] Teilweise, denn erste Verknüpfungen sind vorhanden, könnten aber erweitert werden.
+[( )] Nein, denn Normdatenverknüpfungen zählen nicht zu Linked Open Data.
+
+[[?]] Überlege, welche weiteren Beziehungen zwischen Sammlungsobjekten und externen Ressourcen bestehen könnten.
+***
+**Richtig!** Die Verknüpfungen mit GND und AAT sind ein guter Anfang. Weitere Beziehungen zu Personen, Orten, Institutionen, Ereignissen oder anderen Sammlungsobjekten könnten das Wissensnetz erweitern.
+
+**Warum sind die anderen Antworten nicht richtig?** Normdatenverknüpfungen sind ein wichtiger Bestandteil von Linked Open Data. Zwei Verknüpfungen bedeuten aber noch nicht, dass alle relevanten Beziehungen eines Objekts abgebildet sind.
+***
 
 
 ## 5. Langzeitarchivierung
