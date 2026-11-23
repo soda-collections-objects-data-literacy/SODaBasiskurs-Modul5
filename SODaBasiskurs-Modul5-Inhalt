@@ -902,6 +902,45 @@ Das folgende Beispiel zeigt in Wikidata verlinkte Ressourcen zu Michelangelo.
     <img src="img/Michelangelo-Werke_wikidata.png" alt="In Wikidata verlinkte Ressourcen zu Michelangelo" style="display:block;width:100%;height:auto;margin:0 auto;"/>
 </div>
 
+### Aufgabe 3: Wie viele Sterne erhält dieser Datensatz?
+
+Eine Sammlung möchte seine Sammlungsdaten online veröffentlichen. Lies die folgenden Szenarien und ordne sie der passenden Stufe des Fünf-Sterne-Modells von Tim Berners-Lee zu.
+Klicke auf das Glühbirnen-Symbol, wenn du eine Erklärung brauchst.
+
+**1. Szenario**
+
+Sammlungsdaten werden als RDF bereits gestellt. Personen, Orte und Objekte sind über URIs mit anderen Datenbeständen verlinkt.
+
+[[1 Stern|2 Sterne|3 Sterne|4 Sterne|(5 Sterne)]]
+
+
+[[?]] Richtig ist: **5 Sterne.** Die Daten nutzen offene Standards und sind mit anderen Ressourcen verknüpft. Damit entsteht ein Netzwerk aus Linked Open Data.
+
+**2. Szenario**
+
+Die Sammlungsdaten werden als Excel-Datei mit offener Lizenz zum Download bereit.
+
+[[1 Stern|(2 Sterne)|3 Sterne|4 Sterne|5 Sterne]]
+
+[[?]] Richtig ist: **2 Sterne.** Die Daten liegen strukturiert und maschinenlesbar vor, verwenden aber noch kein offenes Format.
+
+**3. Szenario**
+
+Ein Museum veröffentlicht seine Sammlungsdaten als PDF-Datei auf seiner Website. Die Datei ist mit einer offenen Lizenz versehen.
+
+[[(1 Stern)|2 Sterne|3 Sterne|4 Sterne|5 Sterne]]
+
+[[?]] Richtig ist: **1 Stern.** Die Daten sind im Web verfügbar und offen lizenziert, aber nicht strukturiert maschinenlesbar.
+
+
+**4. Szenario**
+
+Die Sammlungsdaten werden als CSV-Datei mit offener Lizenz bereitgestellt. Jedes Objekt erhält zusätzlich eine eindeutige URI.
+
+[[1 Stern|2 Sterne|3 Sterne|(4 Sterne)|5 Sterne]]
+
+[[?]] Richtig ist: **4 Sterne.** Die Daten sind offen lizenziert, strukturiert und in einem offenen Format verfügbar. Durch die URIs können die einzelnen Ressourcen eindeutig identifiziert werden.
+
 ### Linked Data Technologien
 
 Linked-Data-Technologien bauen auf den FAIR-Prinzipien auf: Sie ermöglichen es, Daten über standardisierte Schnittstellen und eindeutige Identifikatoren miteinander zu verknüpfen und so ein Netzwerk aus Daten und Ressourcen zu schaffen, das von Menschen und Maschinen genutzt werden kann. Grundlegende Technologien dafür sind:
@@ -942,44 +981,7 @@ Empfohlenes Vorgehen:
 Die Rechtsfibel bietet eine praxisorientierte Einführung in rechtliche Fragen rund um die Digitalisierung und Bereitstellung kulturellen Erbes. Sie behandelt unter anderem Rechteklärung und Lizenzierung:
 Klimpel, Paul (2020): *Kulturelles Erbe digital – eine kleine Rechtsfibel*. Forschungs- und Kompetenzzentrum Digitalisierung Berlin (digiS). Verfügbar unter: [https://doi.org/10.12752/2.0.004.0](https://doi.org/10.12752/2.0.004.0).
 
-### Aufgabe 3: Wie viele Sterne erhält dieser Datensatz?
 
-Eine Sammlung möchte seine Sammlungsdaten online veröffentlichen. Lies die folgenden Szenarien und ordne sie der passenden Stufe des Fünf-Sterne-Modells von Tim Berners-Lee zu.
-Klicke auf das Glühbirnen-Symbol, wenn du eine Erklärung brauchst.
-
-**1. Szenario**
-
-Sammlungsdaten werden als RDF bereits gestellt. Personen, Orte und Objekte sind über URIs mit anderen Datenbeständen verlinkt.
-
-[[1 Stern|2 Sterne|3 Sterne|4 Sterne|(5 Sterne)]]
-
-
-[[?]] Richtig ist: **5 Sterne.** Die Daten nutzen offene Standards und sind mit anderen Ressourcen verknüpft. Damit entsteht ein Netzwerk aus Linked Open Data.
-
-**2. Szenario**
-
-Die Sammlungsdaten werden als Excel-Datei mit offener Lizenz zum Download bereit.
-
-[[1 Stern|(2 Sterne)|3 Sterne|4 Sterne|5 Sterne]]
-
-[[?]] Richtig ist: **2 Sterne.** Die Daten liegen strukturiert und maschinenlesbar vor, verwenden aber noch kein offenes Format.
-
-**3. Szenario**
-
-Ein Museum veröffentlicht seine Sammlungsdaten als PDF-Datei auf seiner Website. Die Datei ist mit einer offenen Lizenz versehen.
-
-[[(1 Stern)|2 Sterne|3 Sterne|4 Sterne|5 Sterne]]
-
-[[?]] Richtig ist: **1 Stern.** Die Daten sind im Web verfügbar und offen lizenziert, aber nicht strukturiert maschinenlesbar.
-
-
-**4. Szenario**
-
-Die Sammlungsdaten werden als CSV-Datei mit offener Lizenz bereitgestellt. Jedes Objekt erhält zusätzlich eine eindeutige URI.
-
-[[1 Stern|2 Sterne|3 Sterne|(4 Sterne)|5 Sterne]]
-
-[[?]] Richtig ist: **4 Sterne.** Die Daten sind offen lizenziert, strukturiert und in einem offenen Format verfügbar. Durch die URIs können die einzelnen Ressourcen eindeutig identifiziert werden.
 
 
 
@@ -1045,7 +1047,7 @@ Lehmann, J., Federbusch, M., Labusch, K. & Neudecker, C. (2025). *Guidelines for
 
 
 
-### Aufgabe 4: Ist Martinas Sammlung FAIR?
+### Aufgabe 4: Ist Martinas Sammlung FAIR publiziert?
 
 <div style="float:right;width:45%;margin: 0px 0px 20px 20px;">
     <img src="img/Mathematische-Modelle_cc-by-nc-sa.jpg" alt="Mathematische Modelle in einer Ausstellungsvitrine" style="width:100%;height:auto;"/>
