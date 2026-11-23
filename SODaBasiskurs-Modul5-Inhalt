@@ -987,6 +987,11 @@ Lehmann, J., Federbusch, M., Labusch, K. & Neudecker, C. (2025). *Guidelines for
 
 ### Abschlussaufgabe: Ist Martinas Sammlung FAIR?
 
+<div style="float:right;width:45%;margin: 0px 0px 20px 20px;">
+    <img src="img/Mathematische-Modelle_cc-by-nc-sa.jpg" alt="Mathematische Modelle in einer Ausstellungsvitrine" style="width:100%;height:auto;"/>
+    <p style="text-align:left;font-size:0.8em">Mathematische Modelle in einer Ausstellungsvitrine. Henri Duvillard / Collections de l’Institut Henri-Poincaré, Paris  BY-NC-SA 4.0.</p>
+</div>
+
 Martina betreut eine mathematische Modellsammlung an einer Universität. Sie möchte die Sammlung digital zugänglich machen, ihre Sichtbarkeit erhöhen und die Objekte für Forschung und Lehre besser nutzbar machen.
 
 Nach einer ersten Überarbeitung veröffentlicht sie ausgewählte Objektdatensätze über das Sammlungsportal ihrer Universität. Die Daten können dort recherchiert und teilweise heruntergeladen werden.
@@ -998,10 +1003,6 @@ Untersuche den folgenden Beispieldatensatz und bewerte, welche FAIR-Ebenen berei
 
 **Beispiel: Ein mathematisches Modell aus Martinas Sammlung**
 
-<div style="float:right;width:35%;margin: 0px 0px 20px 20px;">
-    <img src="img/Mathematische-Modelle_cc-by-nc-sa.jpg" alt="Mathematische Modelle in einer Ausstellungsvitrine" style="width:100%;height:auto;"/>
-    <p style="text-align:left;font-size:0.8em">Mathematische Modelle in einer Ausstellungsvitrine. Henri Duvillard / Collections de l’Institut Henri-Poincaré, Paris  BY-NC-SA.</p>
-</div>
 
 Martina veröffentlicht folgenden Datensatz:
 
@@ -1014,15 +1015,14 @@ Martina veröffentlicht folgenden Datensatz:
 | Material | Messing http://vocab.getty.edu/page/aat/300010946, Holz http://vocab.getty.edu/page/aat/300011914 |
 | Beschreibung | Mechanisches Modell zur Veranschaulichung mathematischer Berechnungen |
 | Digitalisat | Hochauflösendes JPEG-Bild |
-| Identifikator | Dauerhafter DOI für den veröffentlichten Gesamtdatensatz; die einzelnen Objekte besitzen nur interne Inventarnummern |
+| Identifikator | `https://sammlung.example.org/id/object/MM-0042` |
 | Datenformat | Metadaten als JSON verfügbar |
-| Lizenz der Metadaten | CC BY 4.0 |
-| Lizenz des Digitalisats | CC BY-NC-ND 4.0 |
-| Rechteinformationen | Die Lizenz wird als maschinenlesbares Metadatum angegeben. Die Rechte am Digitalisat wurden geprüft. |
+| Lizenz der Metadaten | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Lizenz des Digitalisats | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
 | Provenienz des Digitalisats | Es ist nicht dokumentiert, wann und von wem das Bild erstellt wurde. |
 | Dokumentation | Es gibt keine Dokumentation zur Auswahl und Zusammenstellung der veröffentlichten Datensätze. |
 | Schnittstelle | Die Daten können über eine API abgerufen werden. |
-| Verknüpfungen | Hersteller und Material sind mit externen Normdaten verknüpft. Weitere Verknüpfungen zu anderen Sammlungsdaten bestehen nicht. |
+
 
 <div style="clear:both;"></div>
 <br>
