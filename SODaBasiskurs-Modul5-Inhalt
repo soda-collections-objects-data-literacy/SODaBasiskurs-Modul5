@@ -825,11 +825,11 @@ JSON steht für JavaScript Object Notation. Es ist ein verbreitetes, maschinenle
 - Daten sind in Schlüssel-Wert-Paare (Key-Value Pairs) eingeteilt.
 
 
-### Linked Open Data - Sammlungsdaten mitaeinander vernetzen
+### Linked Open Data - Sammlungsdaten miteinander vernetzen
 
 <div style="float:right;width:50%;margin: 0px 0px 30px 10px;">
     <img src="img/lod-cloud-sm.jpg" alt="LOD Cloud." style=""/>
-    <p style="text-align:center"> * Visualisierung der Linked Open Data Cloud, https://lod-cloud.net, CC BY 4.0.* </p>
+    <p style="text-align:center;font-size:0.8em"> * Visualisierung der Linked Open Data Cloud, https://lod-cloud.net, CC BY 4.0.* </p>
 </div>
 
 Ein wichtiges Ziel einer FAIRen Sammlungspublikation ist es, Sammlungsdaten nicht isoliert bereitzustellen, sondern sie mit anderen Datenbeständen zu verknüpfen. Genau hier setzt Linked Open Data (LOD) an. Der Ansatz ermöglicht es, Informationen über Sammlungsobjekte, Personen, Orte oder Ereignisse über Institutions- und Datensatzgrenzen hinweg miteinander in Beziehung zu setzen. Dadurch werden Daten nicht nur auffindbar und nachnutzbar, sondern Teil eines größeren, vernetzten Wissensbestands.
@@ -843,49 +843,42 @@ Vorteile:
 - Viele kontrollierte Vokabulare sind bereits Teil der LOD-Cloud (Wikidata, Getty AAT, GND).
 
 
-**Die vier Designprinzipien von Linked Data (von Tim Berners Lee):**
-* Benutze Uniform Resource Identifier (URIs)  als Namen für Dinge.
-* Benutze HTTP URIs, so dass diese Namen nachgeschlagen werden können.
-* Wenn jemand eine URI nachschlägt, liefere nützliche Informationen und nutze dabei die Standards (RDF, SPARQL).
-* Füge Links zu anderen URIs bei, so dass der User weitere Dinge entdecken kann.
-
-Siehe auch: https://www.w3.org/DesignIssues/LinkedData.html 
 <br><br>
+<br>
+
+**Die vier Designprinzipien von Linked Data (von Tim Berners Lee):**
+<br>
 
 >Tim Berners-Lee, der Erfinder des Webs und Initiator des Linked-Data-Projekts, schlug ein Fünf-Sterne-Modell für die Bereitstellung von Linked Data vor. Dieses Fünf-Sterne-System ist kumulativ: Jeder weitere Stern setzt voraus, dass die Daten bereits die Anforderungen der vorherigen Stufe(n) erfüllen.
-<br><br>
-
-
-
-![Fünf-Sterne-System von Tim Burners Lee](img/5-star-steps.png)<!--
-style="width: 500px; position: absolute; left: 200px; bottom: -450px"
--->
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
 <br>
 
-*Fünf-Sterne-Modell von Tim Burners-Lee, CC0*
+
+<div style="float:right;width:55%;margin: 0px 0px 20px 20px;">
+    <img src="img/5-star-steps.png" alt="Fünf-Sterne-System von Tim Berners-Lee" style="width:100%;height:auto;"/>
+    <p style="text-align:center;font-size:0.8em">Fünf-Sterne-Modell von Tim Berners-Lee, CC0</p>
+</div>
+
+⭐          verfügbar im Web mit offener Lizenz (*OL*= open licence)<br>
+<br>
+⭐⭐       als maschinenlesbare strukturierte Daten verfügbar, z. B. excel anstatt PDF (*RE*= machine-readable) <br>
+<br>
+⭐⭐⭐    nutze offene Formate z. B. CSV statt excel (*OF*= open format).<br>
+<br>
+⭐⭐⭐⭐    Alles darüber plus: füge *URI*s (Unifrom Resource Identifier) bei, damit die Ressource auffinbar ist.  <br>
+<br>
+⭐⭐⭐⭐⭐  Alles darüber plus: nutze offene Standards des W3C Konsortiums (RDF und SPARQL), um weitere URIs zu verlinken und ein Linked Open Data Netz zu bilden (*LD*).<br>
+<br><br>
+<div style="clear:both;"></div>
+
+Siehe auch: https://www.w3.org/DesignIssues/LinkedData.html 
 
 <br><br>
 
-⭐          verfügbar im Web mit offener Lizenz (ol= open licence)<br>
-<br>
-⭐⭐       als maschinenlesbare strukturierte Daten verfügbar, z. B. excel anstatt PDF (re= machine-readable) <br>
-<br>
-⭐⭐⭐     offene Formate z. B. CSV statt excel (of= open format)<br>
-<br>
-⭐⭐⭐⭐    All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff<br>
-<br>
-⭐⭐⭐⭐⭐  All the above, plus: Link your data to other people’s data to provide context<br>
-<br><br>
-<br><br>
-<br><br>
+Das folgende Beispiel zeigt in Wikidata verlinkte Ressourcen zu Michelangelo.
 
-<br>
-
+<div style="width:100%;margin: 20px auto;text-align:center;">
+    <img src="img/Michelangelo-Werke_wikidata.png" alt="In Wikidata verlinkte Ressourcen zu Michelangelo" style="display:block;width:100%;height:auto;margin:0 auto;"/>
+</div>
 
 ### Linked Data Technologien
 
@@ -915,7 +908,17 @@ Die **Web Ontology Language (OWL)** ist eine formale Beschreibungssprache zur Er
 
 Das **Simple Knowledge Organization System (SKOS)** ist ein W3C-Standard zur formalen Kodierung und Veröffentlichung von Wissensorganisationssystemen. Dazu gehören beispielsweise Thesauri, Klassifikationen und andere kontrollierte Vokabulare. SKOS unterstützt unter anderem die Beschreibung von Begriffen, ihren Bezeichnungen und ihren semantischen Beziehungen.
 
+### Urheberrechte & Lizenzen
 
+Eine möglichst offene Lizenzierung der Daten wird im Sinne der FAIR-Prinzipien empfohlen, da sie die umfassendsten Nachnutzungsmöglichkeiten eröffnet und zunehmend als gute wissenschaftliche Praxis angesehen wird.
+
+Empfohlenes Vorgehen:
+- Mögliche Rechte Dritter an Objekt, Digitalisat und Daten klären.
+- Soweit möglich, sollen offene Lizenzmodelle wie das der [Creative Commons](https://creativecommons.org/) genutzt werden.
+- Empfohlen: <span style="color:#2e7d32;font-weight:bold;">CC0, CC BY und CC BY-SA (freie Lizenzen)</span>.
+
+Die Rechtsfibel bietet eine praxisorientierte Einführung in rechtliche Fragen rund um die Digitalisierung und Bereitstellung kulturellen Erbes. Sie behandelt unter anderem Rechteklärung und Lizenzierung:
+Klimpel, Paul (2020): *Kulturelles Erbe digital – eine kleine Rechtsfibel*. Forschungs- und Kompetenzzentrum Digitalisierung Berlin (digiS). Verfügbar unter: [https://doi.org/10.12752/2.0.004.0](https://doi.org/10.12752/2.0.004.0).
 
 ### Aufgabe 1
 
