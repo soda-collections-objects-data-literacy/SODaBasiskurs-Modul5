@@ -1101,12 +1101,12 @@ Martina hat für den gesamten Datensatz einen DOI vergeben. Die einzelnen Objekt
 Ist das Kriterium der persistenten Identifikation vollständig erfüllt?
 
 [( )] Ja, denn der DOI identifiziert alle Objekte dauerhaft.
-[(X)] Teilweise, denn die einzelnen Objekte haben keinen eigenen PID.
+[(X)] Teilweise, denn die einzelnen Digitalisate haben keinen eigenen PID.
 [( )] Nein, denn ein DOI kann grundsätzlich nicht für Sammlungsdaten verwendet werden.
 
 [[?]] Überlege, auf welcher Ebene der Identifikator vergeben wurde.
 ***
-**Richtig!** Du hast erkannt, dass zwischen einem Identifikator für den gesamten Datensatz und Identifikatoren für einzelne Objekte unterschieden werden muss. Für eine dauerhafte Referenzierung und Verknüpfung einzelner Objekte wären eigene PIDs sinnvoll.
+**Richtig!** Du hast erkannt, dass zwischen einem Identifikator für den gesamten Datensatz und Identifikatoren für einzelne Digitalisate unterschieden werden muss. Für eine dauerhafte Referenzierung und Verknüpfung einzelner Digitasitae wie z.B. Bilder wären eigene PIDs sinnvoll.
 
 **Warum sind die anderen Antworten nicht richtig?** Ein DOI kann durchaus einen Datensatz identifizieren. Er ersetzt aber nicht automatisch die Identifikatoren der darin beschriebenen Einzelobjekte.
 ***
