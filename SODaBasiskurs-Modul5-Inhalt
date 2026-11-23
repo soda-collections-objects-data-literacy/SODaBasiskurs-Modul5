@@ -601,6 +601,8 @@ Ein möglicher Anwendungsfall ist die automatische Erkennung von Bildelementen, 
 >
 > KI kann helfen, große Bildbestände systematisch zu analysieren und gezielt nach visuellen Merkmalen zu durchsuchen.
 
+
+
 #### 5. Wissensgraphen und Netzwerkanalysen: Beziehungen sichtbar machen
 
 Sammlungsobjekte stehen häufig in Beziehung zu Menschen, Orten, Institutionen, Expeditionen oder historischen Ereignissen. Diese Beziehungen sind in klassischen Katalogen nicht immer leicht zu erkennen.
@@ -919,6 +921,73 @@ Empfohlenes Vorgehen:
 
 Die Rechtsfibel bietet eine praxisorientierte Einführung in rechtliche Fragen rund um die Digitalisierung und Bereitstellung kulturellen Erbes. Sie behandelt unter anderem Rechteklärung und Lizenzierung:
 Klimpel, Paul (2020): *Kulturelles Erbe digital – eine kleine Rechtsfibel*. Forschungs- und Kompetenzzentrum Digitalisierung Berlin (digiS). Verfügbar unter: [https://doi.org/10.12752/2.0.004.0](https://doi.org/10.12752/2.0.004.0).
+
+
+### Publikation von Datensets
+
+**Empfehlungen für die Publikation von Datensätzen im Kontext Maschinellen Lernens**
+
+Sammlungsdaten können eine wertvolle Ressource für die Entwicklung und das Training von KI-Anwendungen sein. Damit sie sinnvoll nachgenutzt werden können, müssen jedoch nicht nur die Daten selbst veröffentlicht werden. Auch ihre Entstehung, Auswahl und Zusammenstellung sollten transparent dokumentiert sein.
+
+Die folgenden Empfehlungen orientieren sich an den *Guidelines for the Publication of Cultural Data for AI Research* von Lehmann et al. (2025).
+
+**1. FAIR und offen publizieren**
+
+- **Öffentliche Bereitstellung:** Datensätze sollten über geeignete Repositorien oder andere öffentliche Plattformen zugänglich gemacht werden.
+- **Offene Lizenzen:** Wo es die Rechte erlauben, sollten möglichst offene Lizenzen verwendet werden.
+- **Strukturierte Daten:** Daten sollten in standardisierten und maschinenlesbaren Formaten vorliegen.
+- **Maschinenlesbare Metadaten:** Informationen zu Inhalt, Struktur, Herkunft und Nutzungsbedingungen müssen maschinell verarbeitet werden können.
+- **Geeignete Formate:** Die gewählten Formate sollten eine Weiterverarbeitung und Nachnutzung durch KI-Anwendungen ermöglichen (z.B. csv, xml, json).
+
+> 💡 **Merke:** FAIR bedeutet nicht automatisch offen. Auch eingeschränkt zugängliche Daten können FAIR sein, wenn die Zugangsbedingungen transparent und maschinenlesbar dokumentiert sind.
+
+<br>
+
+**2. Datasheets: Datensätze dokumentieren**
+
+Neben den Daten selbst sollte eine ausführliche Dokumentation – ein sogenanntes *Datasheet* oder *Data Envelope* – veröffentlicht werden.
+
+Ein Datasheet beschreibt beispielsweise:
+
+- **Inhalt:** Welche Objekte, Daten und Informationen enthält der Datensatz?
+- **Herkunft:** Woher stammen die Daten und unter welchen Bedingungen wurden sie erhoben?
+- **Auswahlkriterien:** Nach welchen Kriterien wurden die Daten ausgewählt?
+- **Zusammenstellung:** Wie wurde der Datensatz erstellt und gegebenenfalls bearbeitet?
+- **Nutzung:** Für welche Zwecke ist der Datensatz vorgesehen und welche Einschränkungen bestehen?
+
+Die Dokumentation sollte möglichst interdisziplinär erstellt werden. Eine englischsprachige Fassung kann die internationale Nachnutzung erleichtern.
+
+> 📘 **Beispiel aus dem Kulturerbe:**
+>
+> Eine Sammlung veröffentlicht einen Datensatz mit digitalisierten Gemälden für die Entwicklung einer KI zur Bilderkennung. Das Datasheet erläutert, welche Gemälde aufgenommen wurden, nach welchen Kriterien die Auswahl erfolgte und wie die digitalen Abbildungen zusammengestellt wurden. Auch Informationen zu Urheberrechten und Nutzungsmöglichkeiten werden dokumentiert.
+
+<br>
+
+**3. Dokumentation institutionell verankern**
+
+Die Dokumentation sollte nicht erst am Ende eines Projekts erfolgen. Stattdessen empfiehlt es sich, die Erstellung eines Datasheets von Beginn an in die Arbeitsabläufe zu integrieren.
+
+- Dokumentationsprozesse frühzeitig planen.
+- Auswahl- und Zusammenstellungskriterien während der Datenerhebung festhalten.
+- Zuständigkeiten innerhalb der Institution klären.
+- Informationen zur Entstehung und Bearbeitung der Daten kontinuierlich dokumentieren.
+
+So wird vermieden, dass wichtige Informationen nachträglich rekonstruiert werden müssen oder verloren gehen.
+
+## Zusammenfassung
+
+| Empfehlung | Ziel |
+|---|---|
+| FAIR und offen publizieren | Daten auffindbar, zugänglich und nachnutzbar machen |
+| Datasheets erstellen | Herkunft, Auswahl und Zusammenstellung transparent dokumentieren |
+| Dokumentation institutionell verankern | Nachhaltige und nachvollziehbare Datenpublikation sicherstellen |
+
+
+
+**Literatur**
+
+Lehmann, J., Federbusch, M., Labusch, K. & Neudecker, C. (2025). *Guidelines for the Publication of Cultural Data for AI Research* (Version 1). Staatsbibliothek zu Berlin. https://doi.org/10.5281/zenodo.15878098
+
 
 ### Aufgabe 1
 
