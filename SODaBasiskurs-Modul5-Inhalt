@@ -772,7 +772,7 @@ Werden digitale Objekte nach den FAIR-Prinzipien aufbereitet und bereitgestellt,
 
 <div style="float:right;width:20%;margin: 0px 0px 20px 20px;">
     <img src="img/LIDO_logo_main.png" alt="LIDO-Logo" style="width:100%;"/>
-    <p style="text-align:center;font-size:0.8em">[Bildunterschrift]</p>
+    <p style="text-align:center;font-size:0.8em"></p>
 </div>
 
 LIDO (Lightweight Information Describing Objects) ist ein vom Dokumentationskomitee des Internationalen Museumsrates (ICOM-CIDOC) herausgegebener Standard für den Austausch und die Publikation von Informationen zu Objekten der materiellen Kultur.
@@ -791,6 +791,13 @@ Wichtige Merkmale von LIDO:
 
 - XML-basiert: LIDO verwendet XML zur technischen Darstellung der Daten.
 
+
+<div style="clear:both;"></div>
+<div style="width:100%;margin: 20px auto;text-align:center;">
+    <img src="img/LIDO-Code_AAT-Eintrag-Silber.png" alt="LIDO-Code mit einer Verknüpfung zum AAT-Begriff Silber" style="display:block;width:100%;height:auto;margin:0 auto;"/>
+    <p style="text-align:center;font-size:0.8em">Beispiel für die Verknüpfung eines LIDO-Eintrags mit dem AAT-Begriff „Silber“.</p>
+</div>
+
 >**Merke**
 >
 >LIDO ist besonders geeignet, um Objektinformationen aus Sammlungen in standardisierter Form auszutauschen und für die Veröffentlichung auf übergreifenden Plattformen, beispielsweise der Deutschen Digitalen Bibliothek (DDB), bereitzustellen.
@@ -800,9 +807,23 @@ Mehr zu LIDO in [Modul 3](https://sammlungen.io/kb/fdm/soda-basiskurs-modul-3-sa
 
 #### JSON – ein weiteres Format für den Datenaustausch
 
-JSON steht für JavaScript Object Notation. Es ist ein verbreitetes, maschinenlesbares Format zur strukturierten Darstellung und zum Austausch von Daten.
+JSON steht für JavaScript Object Notation. Es ist ein verbreitetes, maschinenlesbares Format zur strukturierten Darstellung und zum Austausch von Daten:
 
-JSON organisiert Daten in Schlüssel-Wert-Paaren (Key-Value Pairs). Ein Schlüssel bezeichnet dabei eine Eigenschaft, der ein bestimmter Wert zugeordnet ist.
+<br>
+
+
+<div style="float:right;width:55%;margin: 0px 20px 20px 0px;">
+    <img src="img/JSON-snippet_beispiel.png" alt="Beispiel eines JSON-Datensatzes" style="width:100%;"/>
+    <p style="text-align:left;font-size:0.8em">Beispiel für einen Datensatz im JSON-Format. Meyer, J., Agniashvili, A., & Schmidt, D. (2025, Juli 18). Metadaten - Von den Grundlagen zur Praxis. Zenodo. https://doi.org/10.5281/zenodo.16085132. CC BY 4.0.
+    </p>
+</div>
+
+<br>
+
+- Ähnlich wie XML ist JSON maschinenlesbar, hierarchisch sowie software- und hardwareunabhängig.
+- JSON ist keine Markup Language, sondern ein Format zum Teilen und Aufbewahren von Daten.
+- Daten sind in Schlüssel-Wert-Paare (Key-Value Pairs) eingeteilt.
+
 
 ### Linked Open Data - Sammlungsdaten mitaeinander vernetzen
 
