@@ -1070,6 +1070,7 @@ Martina veröffentlicht folgenden Datensatz:
 
 | Feld | Veröffentlichte Information |
 |---|---|
+| Identifikator Datensatz | `https://sammlung.example.org/id/object/MM-0042` |
 | Objektbezeichnung | Mechanisches Rechenmodell |
 | Objektnummer | MM-0042 |
 | Datierung | um 1900 |
@@ -1077,7 +1078,6 @@ Martina veröffentlicht folgenden Datensatz:
 | Material | Messing http://vocab.getty.edu/page/aat/300010946, Holz http://vocab.getty.edu/page/aat/300011914 |
 | Beschreibung | Mechanisches Modell zur Veranschaulichung mathematischer Berechnungen |
 | Digitalisat | Hochauflösendes JPEG-Bild |
-| Identifikator | `https://sammlung.example.org/id/object/MM-0042` |
 | Datenformat | Metadaten als JSON verfügbar |
 | Lizenz der Metadaten | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Lizenz des Digitalisats | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
