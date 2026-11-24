@@ -1357,6 +1357,52 @@ Die Grenzen sind nicht immer eindeutig: Manche Repositorien sind an Langzeitarch
 >
 > Ein Repositorium ist nicht automatisch ein Langzeitarchiv. Umgekehrt muss ein Langzeitarchiv nicht gleichzeitig eine öffentliche Publikationsplattform sein. Entscheidend ist, welche Leistungen tatsächlich angeboten und dauerhaft gewährleistet werden.
 
+#### Wo finde ich ein geeignetes Repositorium?
+
+<div style="float:right;width:60%;margin: 0px 0px 20px 20px;">
+    <img src="img/r3data-registry_screenshot.png" alt="Screenshot der re3data-Registry" style="width:100%;height:auto;"/>
+    <p style="text-align:center;font-size:0.8em">Screenshot der Suchansicht nach Fachgebiet bei re3data.</p>
+</div>
+
+Für die Suche nach geeigneten Repositorien gibt es sogenannte **Registries**. Sie bieten einen Überblick über vorhandene Speicher- und Publikationsangebote.
+
+Zwei Beispiele:
+
+- [Nationale Repositorienliste von NFDI4Culture](https://nfdi4culture.de/)
+- [re3data – Registry of Research Data Repositories](https://www.re3data.org/)
+
+Re3data bietet eine internationale Übersicht über Forschungsdatenrepositorien, die unter anderem nach Fachgebieten durchsucht werden kann.
+
+<br><br>
+
+<br>
+
+<br><br>
+
+<br><br>
+<br><br>
+
+<br><br>
+
+
+**Kleine Aufgabe: Archiv oder Repositorium?**
+
+Ordne die folgenden Beschreibungen einzeln zu.
+
+**1.** Ein Forschungsdatensatz wird veröffentlicht und kann direkt heruntergeladen werden.
+
+[[(Repositorium)|Langzeitarchiv]]
+
+**2.** Ein digitales Archiv bewahrt Daten langfristig auf. Der Zugriff muss beantragt werden.
+
+[[(Langzeitarchiv)|Repositorium]]
+
+
+**3.** Die Integrität und langfristige Lesbarkeit archivierter Dateien stehen im Mittelpunkt.
+
+[[(Langzeitarchiv)|Repositorium]]
+
+---
 
 ### Archivwürdigkeit & empfohlene Formate
 
