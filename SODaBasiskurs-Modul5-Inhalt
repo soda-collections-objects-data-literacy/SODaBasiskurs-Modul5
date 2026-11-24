@@ -2142,7 +2142,7 @@ Repositorien dienen ausschließlich der Langzeitarchivierung.
 **Falsch.** Repositorien können unterschiedliche Aufgaben erfüllen, beispielsweise die Veröffentlichung, Bereitstellung, Zitierbarkeit und Nachnutzung von Daten. Manche bieten auch Funktionen zur langfristigen Aufbewahrung. Nicht jedes Repositorium ist jedoch automatisch ein Langzeitarchiv.
 
 </details>
-**
+
 **12. Die 3-2-1-Regel**
 
 Die 3-2-1-Regel empfiehlt drei Kopien der Daten auf zwei unterschiedlichen Speichermedien, davon eine an einem anderen Ort.
@@ -2182,12 +2182,76 @@ Rechtliche und ethische Fragen sollten erst kurz vor der Veröffentlichung gepr�
 
 </details>
 
-## Zum Abschluss: Was nehmen Sie mit?
 
-Publizieren und Archivieren sind unterschiedliche, aber miteinander verbundene Aufgaben. Eine nachhaltige Strategie für Sammlungsdaten berücksichtigt sowohl die Auffindbarkeit und Nachnutzbarkeit als auch den langfristigen Erhalt der Daten. Technische Lösungen allein reichen dafür nicht aus: Auch Standards, Lizenzen, Verantwortlichkeiten und rechtliche sowie ethische Rahmenbedingungen sind wichtig.
 
 
 ## Literatur und Quellen
+
+## Verwendete Ressourcen und weiterführende Literatur
+
+**Digitale Langzeitarchivierung**
+
+- Heseler, J., Büttner, A., & Arnold, M. (2024). [Grundlagen der digitalen Langzeitarchivierung: Eine Handreichung zur digitalen Langzeitarchivierung aus Perspektive der NFDI4Culture Community](https://doi.org/10.5281/zenodo.10281971). Aufgabenbereich Datenpublikation und Langzeitarchivierung (TA4).
+
+- Altenhöner, R., Berger, A., Bracht, C., Klimpel, P., Meyer, S., Neuburger, A., Stäcker, T., & Stein, R. (2022). [DFG-Praxisregeln „Digitalisierung“. Aktualisierte Fassung 2022](https://doi.org/10.5281/zenodo.7435724). Zenodo.
+
+- Library of Congress: [Recommended Formats Statement](https://www.loc.gov/preservation/resources/rfs/stillimg.html).
+
+- IANUS: [IT-Empfehlungen zur Langzeitarchivierung für die NFDI4Objects-Community](https://ianus-fdz.de/it-empfehlungen/).
+
+- SLUB Dresden (2021). [Langzeitarchivfähige Dateiformate](https://slubarchiv.slub-dresden.de/fileadmin/groups/slubsite/slubarchiv/SLUBArchiv_langzeitarchivfaehige_Dateiformate_v2.0.pdf). SLUB Dresden.
+
+- Community Standards for 3D Data Preservation (CS3DP): [CS3DP – Books and Resources](https://cs3dp.org/books/).
+
+- nestor – Kompetenznetzwerk Langzeitarchivierung und Langzeitverfügbarkeit digitaler Ressourcen in Deutschland e. V.: [nestor](https://www.langzeitarchivierung.de/Webs/nestor/DE/Home/home_node.html).
+
+- nestor-Arbeitsgruppe (2013, 27. August). [Referenzmodell für ein Offenes Archiv-Informations-System – Deutsche Übersetzung 2.0](http://d-nb.info/104761314X/34).
+
+**Publikation nach FAIR-Prinzipien**
+
+- Kailus, A. (2023). [Guideline for a FAIR Management of Cultural Research Data](https://doi.org/10.5281/zenodo.17055222). NFDI4Culture.
+
+- Schmidt, A. (2020). [Museum Studies – Modul Sammeln – Online Sammlungen: Lerneinheit Datenstandards und technische Voraussetzungen](http://hdl.handle.net/10900.3/OER_BQLEQRMT).
+
+**Minimaldatensatz und kontrollierte Vokabulare**
+
+- AG Minimaldatensatz, Marchini, C., Ando, M., Bernhard, A.-M., Böhm, E., Diepenbrock, N., Frech, A., Götsch, S., Gerber, A., Gnyp, A., Greisinger, S., Grotrian, E., von Hagel, F., Kailus, A., Koch, A.-K., Krause, C., Kudlinski, V., Nowicki, A.-L., Purschwitz, A., … Wassermann, S. (2025). [Minimaldatensatz-Empfehlung für Museen und Sammlungen (MDS v1.1)](https://doi.org/10.5281/zenodo.17275487). Zenodo.
+
+- Frech, A., Gerber, A., Gnyp, A., Götsch, S., von Hagel, F., Kailus, A., Reichert, R., Schäfer, D., & Schlösser, M. (2025). [FAIRe Vokabulare und Normdaten für Museen und Sammlungen (v. 1.0)](https://doi.org/10.5281/zenodo.17950403). NFDI4Culture.
+
+- Gnyp, A. (2025, 17. Juni). [Relevanz und Anwendung von kontrollierten Vokabularen und Normdaten in der Sammlungserschließung](https://doi.org/10.5281/zenodo.15683154). Zenodo.
+
+**LIDO**
+
+- Fichtl, B. (2024). [LIDO Training (1.1.0)](https://doi.org/10.5281/zenodo.13869331) [Data set]. NFDI4Culture.
+
+- ICOM CIDOC Documentation Standards Working Group: [LIDO – Lightweight Information Describing Objects: Overview](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/).
+
+**Linked Open Data**
+
+- [5-Star Open Data](https://5stardata.info/de/).
+
+- Bauer, F., & Kaltenböck, M. (2012). [Linked Open Data: The Essentials – A Quick Start Guide for Decision Makers](https://semantic-web.com/LOD-TheEssentials.pdf).
+
+- European Commission: [Linking data – what does it mean?](https://data.europa.eu/en/publications/datastories/linking-data-what-does-it-mean).
+
+**Sammlungen als Daten (Collections as Data)**
+
+- Wissenschaftsrat (2011). [Empfehlungen zu wissenschaftlichen Sammlungen als Forschungsinfrastrukturen](https://www.wissenschaftsrat.de/download/archiv/10464-11.html). Berlin.
+
+- Deutsche Forschungsgemeinschaft (2021). [Umgang mit Forschungsdaten](https://www.dfg.de/resource/blob/174732/forschungsdaten-checkliste-de.pdf).
+
+- Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2019). [Santa Barbara Statement on Collections as Data – Always Already Computational: Collections as Data](https://doi.org/10.5281/zenodo.3066209).
+
+- Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). [Vancouver Statement on Collections as Data](https://doi.org/10.5281/zenodo.8342171).
+
+- Candela, G., Sáez, M. D., Escobar Esteban, M. P., & Marco-Such, M. (2020). Reusing digital collections from GLAM institutions. *Journal of Information Science, 48*(2), 251–267. [https://doi.org/10.1177/0165551520950246](https://doi.org/10.1177/0165551520950246).
+
+- Lehmann, J., Federbusch, M., Labusch, K., & Neudecker, C. (2025). [Guidelines for the Publication of Cultural Data for AI Research (Version 1)](https://doi.org/10.5281/zenodo.15878098). Staatsbibliothek zu Berlin – Berlin State Library.
+
+- Dişli, M., Gabriëls, N., Chambers, S., Ames, S., Knazook, B., & Candela, G. (2025). Exploring the adoption of collections as data in the GLAM context. *Information Research: An International Electronic Journal, 30*(CoLIS), 65–77. [https://doi.org/10.47989/ir30CoLIS52252](https://doi.org/10.47989/ir30CoLIS52252).
+
+- Candela, G., Gabriëls, N., Chambers, S., et al. (2023). A checklist to publish collections as data in GLAM institutions. *Global Knowledge, Memory and Communication*. [https://doi.org/10.1108/GKMC-06-2023-0195](https://doi.org/10.1108/GKMC-06-2023-0195).
 
 ## Feedback und Informationen
 
