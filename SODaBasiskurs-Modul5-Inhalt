@@ -1247,11 +1247,27 @@ Das Ziel ist, archivierte Informationen:
 <br>
 
 
-**Warum ist Langzeitarchivierung wichtig?**
+## Warum ist Langzeitarchivierung wichtig?
 
 Digitale Informationen sind von technischen Rahmenbedingungen abhängig. Dateiformate können veralten, Speichermedien können ausfallen und Software kann nicht mehr verfügbar sein. Auch institutionelle Veränderungen können dazu führen, dass Daten nicht mehr auffindbar oder zugänglich sind.
 
 Die langfristige Sicherung sollte deshalb bereits bei der Planung eines Digitalisierungs- oder Dokumentationsprojekts berücksichtigt werden.
+
+
+Auch die **gute wissenschaftliche Praxis** macht Vorgaben zur Aufbewahrung von Forschungsdaten.
+
+Die Deutsche Forschungsgemeinschaft (DFG) empfiehlt in ihrer Leitlinie 17, dass Forschungsdaten, die wissenschaftlichen Erkenntnissen zugrunde liegen, in der Regel für einen Zeitraum von **zehn Jahren** zugänglich und nachvollziehbar aufbewahrt werden. Dies kann in der Einrichtung erfolgen, in der die Daten entstanden sind, oder in standortübergreifenden Repositorien.
+
+Leitlinie 17:
+> „Wenn wissenschaftliche Erkenntnisse öffentlich zugänglich gemacht werden, werden die zugrunde liegenden Forschungsdaten (in der Regel Rohdaten) … in der Regel für einen Zeitraum von zehn Jahren zugänglich und nachvollziehbar in der Einrichtung, wo sie entstanden sind, oder in standortübergreifenden Repositorien aufbewahrt.“
+*Deutsche Forschungsgemeinschaft. (2025). Leitlinien zur Sicherung guter wissenschaftlicher Praxis. Kodex. https://doi.org/10.5281/zenodo.14281892 , 22.*
+
+Die konkrete Aufbewahrungsdauer kann abhängig von Fachgebiet, Projekt, Förderbedingungen und rechtlichen Anforderungen variieren.
+
+> 💡 **Wusstest du schon?**
+>
+> Die Planung der Langzeitarchivierung ist nicht erst nach Abschluss eines Forschungsprojekts relevant. Förderorganisationen wie die DFG erwarten, dass der Umgang mit Forschungsdaten und ihre langfristige Aufbewahrung bereits im Projektkontext berücksichtigt werden.
+
 
 ### Backup oder Langzeitarchivierung?
 
