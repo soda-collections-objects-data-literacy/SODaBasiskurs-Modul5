@@ -19,6 +19,7 @@ link:       https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/O
 icon:       /img/SODa-Logo_Wort-Bild_RGB.png
 logo:       /img/SODa-Logo_Wort-Bild_RGB.png
 
+Repository: https://github.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul5 
 
 -->
 
@@ -76,9 +77,8 @@ Beim **Publizieren** steht die Nutzung im Vordergrund:
 Beim **Archivieren** steht dagegen der langfristige Erhalt im Vordergrund:
 - Die Daten sollen auch in Zukunft möglichst vollständig, verlustfrei, unverfälscht und interpretierbar erhalten bleiben.
 - der Zugang zum Archiv ist oft eingeschränkter als bei publizierten Daten
-- auch im Archib bekommen die Datenpakete Identifikatoren, um Zuordnungen möglich zu machen.
+- auch im Archiv bekommen die Datenpakete Identifikatoren, um Zuordnungen möglich zu machen.
 
-![Publizieren und Archivieren](img/todo2.png)
 
 ### Publizieren
 
@@ -108,7 +108,8 @@ Bei der Langzeitarchivierung geht es dagegen um Fragen wie:
 
 Der Zugang zu Archivdaten kann dabei eingeschränkt sein. Beispielsweise können rechtliche oder datenschutzrechtliche Gründe einen offenen Zugang verhindern.
 
-**Wichtig: Ein Backup ist keine Langzeitarchivierung**
+> [!IMPORTANT] ❗ WICHTIG
+> **Ein Backup ist keine Langzeitarchivierung**
 
 Ein **Backup** ist eine Sicherung eines Datenbestands zu einem bestimmten Zeitpunkt.
 
@@ -277,7 +278,7 @@ Dabei gilt: **Publizieren ersetzt keine gezielte Datensicherung oder Langzeitarc
 
 
 
-### 3.1 Formen der Sammlungspublikation
+### Formen der Sammlungspublikation
 
 Sammlungsdaten können auf unterschiedliche Weise veröffentlicht werden. Welche Form der Publikation geeignet ist, hängt unter anderem davon ab, **welche Daten veröffentlicht werden sollen, welche Zielgruppen angesprochen werden und wie die Daten nachgenutzt werden sollen**.
 
@@ -310,6 +311,11 @@ Eine weitere Möglichkeit besteht darin, Sammlungsdaten über **übergreifende K
 
 Solche Plattformen bündeln Daten verschiedener Institutionen und machen sie über eine gemeinsame Such- oder Präsentationsumgebung recherchierbar.
 
+<div style="float:right;width:35%;margin: 0px 0px 20px 20px;text-align:right;">
+    <img src="img/DDB.png" alt="Logo der Deutschen Digitalen Bibliothek" style="display:block;width:70%;height:auto;margin:0 0 15px auto;"/>
+    <img src="img/museum-digital.jpeg" alt="Logo von museum-digital" style="display:block;width:50%;height:auto;margin:0 0 0 auto;"/>
+</div>
+
 Beispiele:
 
 - [Europeana](https://www.europeana.eu/portal/)
@@ -321,7 +327,7 @@ Der Vorteil solcher Plattformen liegt insbesondere in der **übergreifenden Sich
 
 Damit solche Angebote funktionieren, müssen die Daten in geeigneter Weise **strukturiert und standardisiert** vorliegen. Austauschformate und gemeinsame Metadatenmodelle spielen deshalb eine wichtige Rolle.
 
-![TODO: Grafik zu unterschiedlichen Ebenen der Sammlungspublikation](img/todo2.png)
+
 
 #### 3D-Repositorien
 
@@ -451,7 +457,7 @@ Bei der Wahl eines Publikationswegs sollten unter anderem folgende Fragen berüc
 - Ist der Publikationsort für die **langfristige Verfügbarkeit** geeignet?
 
 
-### 3.2 Nutzung von Sammlungsdaten in der Praxis
+### Nutzung von Sammlungsdaten in der Praxis
 
 Sammlungen werden häufig zunächst für die interne Dokumentation erschlossen. Sammlungsdaten können aber weit mehr leisten, als Objekte in einem Online-Katalog zu beschreiben. Werden sie offen und in geeigneten Formaten bereitgestellt, können sie für neue Forschungsfragen, digitale Anwendungen und kreative Projekte genutzt werden.
 
@@ -490,7 +496,7 @@ Ein **Data Sprint** verfolgt einen ähnlichen Ansatz, konzentriert sich aber bes
 
 Der Kultur-Hackathon <Link url="https://codingdavinci.de/" title="Coding da Vinci"/> bringt Kulturinstitutionen und Menschen aus verschiedenen Fachbereichen zusammen. Die Institutionen stellen Kulturdaten zur Verfügung, die von den Teilnehmenden für digitale Projekte genutzt werden können.
 
-Im Rahmen der achtjährigen Projektphase wurden von 362 Kulturinstitutionen insgesamt 488 Datensets bereitgestellt. Daraus entstanden 217 Projekte. Die Ergebnisse zeigen, wie offene Kulturdaten neue Ideen und Kooperationen ermöglichen können.
+Im Rahmen der achtjährigen Projektphase wurden von 362 Kulturinstitutionen insgesamt 488 Datensätze bereitgestellt. Daraus entstanden 217 Projekte. Die Ergebnisse zeigen, wie offene Kulturdaten neue Ideen und Kooperationen ermöglichen können.
 
 <br>
 
@@ -886,7 +892,7 @@ Vorteile:
 <br>
 ⭐⭐⭐    nutze offene Formate z. B. CSV statt excel (*OF*= open format).<br>
 <br>
-⭐⭐⭐⭐    Alles darüber plus: füge *URI*s (Unifrom Resource Identifier) bei, damit die Ressource auffinbar ist.  <br>
+⭐⭐⭐⭐    Alles darüber plus: füge *URI*s (Uniform Resource Identifier) bei, damit die Ressource auffindbar ist.  <br>
 <br>
 ⭐⭐⭐⭐⭐  Alles darüber plus: nutze offene Standards des W3C Konsortiums (RDF und SPARQL), um weitere URIs zu verlinken und ein Linked Open Data Netz zu bilden (*LD*).<br>
 <br><br>
@@ -985,9 +991,9 @@ Klimpel, Paul (2020): *Kulturelles Erbe digital – eine kleine Rechtsfibel*. Fo
 
 
 
-### Publikation von Datensets
+### Publikation von Datensätzen
 
-**Empfehlungen für die Publikation von Datensätzen im Kontext Maschinellen Lernens**
+**Empfehlungen für die Publikation von Datensätzen im Kontext maschinellen Lernens**
 
 Sammlungsdaten können eine wertvolle Ressource für die Entwicklung und das Training von KI-Anwendungen sein. Damit sie sinnvoll nachgenutzt werden können, müssen jedoch nicht nur die Daten selbst veröffentlicht werden. Auch ihre Entstehung, Auswahl und Zusammenstellung sollten transparent dokumentiert sein.
 
@@ -1571,7 +1577,7 @@ Zudem können sich die Empfehlungen aufgrund der hohen Dynamik im Bereich Techni
 - [IANUS: IT-Empfehlungen zur Langzeitarchivierung](https://ianus-fdz.de/it-empfehlungen/)
 - [Community Standards for 3D Data Preservation](https://cs3dp.org/books/)
 
-### Aufgabe 5: Martina plant die Langzeitarchivierung für ihre mathematische Sammlung
+### Aufgabe 5: Langzeitarchivierung planen
 
 <div style="float:right;width:30%;margin: 0px 0px 20px 20px;">
     <img src="img/Schraubenflaeche-MUT_CCBYNCSA.png" alt="Schraubenfläche aus der Mathematischen Modellsammlung" style="width:100%;height:auto;"/>
@@ -2261,7 +2267,7 @@ Vielen Dank für das Interesse am [SODa](https://sammlungen.io/) Angebot. Damit 
 
 ---
 
-Weitere SODa Selbstlernkurse sind auf unserer [**Knowlegbase**](https://sammlungen.io/kb/kb-suche?combine=&format%5B64%5D=64) zu finden.
+Weitere SODa-Selbstlernkurse sind auf unserer [**Knowledgebase**](https://sammlungen.io/kb/kb-suche?combine=&format%5B64%5D=64) zu finden.
 
 Informationen und alle Module zu unserem SODa Basiskurs gibt es auf der [**SODa Basiskurs Seite**](https://sammlungen.io/kb/fdm/soda-basiskurs)**.**
 
@@ -2269,7 +2275,7 @@ Informationen und alle Module zu unserem SODa Basiskurs gibt es auf der [**SODa 
 
 **Weitere Fragen?**
 
-Der **SODa Helpdesk** hilft bei allen Fragen rund um die Arbeit mit Daten an (Universitäts-)Sammlungen, zu Selbtlernkursen oder Workshops und bietet einen direkten Kontakt zum SODa Team in allen Belangen rund um Sammlungsdigitalisierung und Objektdaten an.
+Der **SODa Helpdesk** hilft bei allen Fragen rund um die Arbeit mit Daten an (Universitäts-)Sammlungen, zu Selbstlernkursen oder Workshops und bietet einen direkten Kontakt zum SODa-Team in allen Belangen rund um Sammlungsdigitalisierung und Objektdaten an.
 
 [**soda@sammlungen.io**](mailto:soda@sammlungen.io)
 
