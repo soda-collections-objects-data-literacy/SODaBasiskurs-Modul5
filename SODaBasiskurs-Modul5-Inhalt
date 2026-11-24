@@ -1480,7 +1480,25 @@ Solche Zertifizierungen können bei der Auswahl eines geeigneten Langzeitarchivs
 
 ### Archivwürdigkeit & -formate
 
-Nicht alle digitalen Daten müssen zwangsläufig dauerhaft archiviert werden. Vor der Archivierung sollte deshalb geprüft werden, welche Daten einen langfristigen Wert besitzen.
+Bevor ein Dateiformat ausgewählt wird, muss zunächst geklärt werden, welche Eigenschaften der digitalen Objekte langfristig erhalten werden sollen.
+
+Dabei helfen drei Schritte:
+
+1. **Erhaltenswerte Eigenschaften identifizieren**
+
+   Was macht das digitale Objekt aus? Bei einem Textdokument kann beispielsweise die Lesbarkeit des Textes entscheidend sein. Bei einem 3D-Modell können Geometrie, Maßstab und Oberflächeninformationen wichtig sein.
+
+2. **Technische Parameter festlegen**
+
+   Welche technischen Eigenschaften müssen erhalten bleiben? Bei Rasterbildern können dies beispielsweise Auflösung, Farbtiefe und Bildqualität sein.
+
+3. **Geeignetes Dateiformat auswählen**
+
+   Erst wenn die Anforderungen geklärt sind, sollte ein geeignetes Archivformat ausgewählt werden.
+
+
+
+#### Archivwürdigkeit ermitteln
 
 Als archivwürdig gelten Materialien, die einen bleibenden Wert für die Gesellschaft haben. Dieser Wert kann sich aus unterschiedlichen Merkmalen ergeben:
 
@@ -1492,61 +1510,307 @@ Als archivwürdig gelten Materialien, die einen bleibenden Wert für die Gesells
 
 Bei Universitätssammlungen können beispielsweise hochauflösende Digitalisate, 3D-Modelle, Erschließungsdaten oder Dokumentationen zu besonderen Objekten archivwürdig sein.
 
-#### Welche Eigenschaften sollen erhalten bleiben?
+<br>
+<br>
+<br>
 
-Bevor ein Dateiformat ausgewählt wird, muss zunächst geklärt werden, welche Eigenschaften der digitalen Objekte langfristig erhalten werden sollen.
-
-Dabei helfen drei Schritte:
-
-<list marker="number" gap={3}>
-  <list-item>
-    **Erhaltenswerte Eigenschaften identifizieren**
-
-    Was macht das digitale Objekt aus? Bei einem Textdokument kann beispielsweise die Lesbarkeit des Textes entscheidend sein. Bei einem 3D-Modell können Geometrie, Maßstab und Oberflächeninformationen wichtig sein.
-  </list-item>
-  <list-item>
-    **Technische Parameter festlegen**
-
-    Welche technischen Eigenschaften müssen erhalten bleiben? Bei Rasterbildern können dies beispielsweise Auflösung, Farbtiefe und Bildqualität sein.
-  </list-item>
-  <list-item>
-    **Geeignetes Dateiformat auswählen**
-
-    Erst wenn die Anforderungen geklärt sind, sollte ein geeignetes Archivformat ausgewählt werden.
-  </list-item>
-</list>
-
-#### Zwei Ansätze für die Bewertung 
+**Zwei Ansätze für die Bewertung**
 
 Bei der Bewertung der zu erhaltenden Eigenschaften können zwei Ansätze helfen:
 
-**Provenienzbasierter Ansatz**
+- **Provenienzbasierter Ansatz**
 
 Hier steht die ursprüngliche Absicht im Mittelpunkt, mit der ein analoges oder digitales Objekt erstellt wurde. Welche Eigenschaften sollten bei der Erstellung erhalten bleiben? Was macht das Objekt in seinem ursprünglichen Kontext aus?
+<br>
 
-**Nutzergruppenbasierter Ansatz**
+- **Nutzergruppenbasierter Ansatz**
 
 Hier wird gefragt, welche Bedürfnisse zukünftige Nutzergruppen haben. Welche Informationen und technischen Eigenschaften benötigen Forschende, Lehrende oder andere Interessierte?
 
 Beide Perspektiven können sich ergänzen.
 
-> **Beispiel**
+<br>
+<br>
+
+> **Beispiel: Ein Objekt, unterschiedliche Anforderungen**
 >
-> Ein 3D-Modell eines mathematischen Objekts kann für eine Online-Ausstellung in einer reduzierten Dateigröße ausreichend sein. Für eine wissenschaftliche Untersuchung oder eine spätere Rekonstruktion können dagegen eine höhere Auflösung, zusätzliche Oberflächeninformationen und vollständige Metadaten erforderlich sein.
+> Ein geeignetes Dateiformat ist eine wichtige Voraussetzung für die langfristige Nutzbarkeit digitaler Informationen.
 
-### 🧩 Kleine Aufgabe: Was soll erhalten bleiben?
+Für die Auswahl sollten immer das Material, der Verwendungszweck und die Zielgruppe berücksichtigt werden. Ein Format, das für eine Online-Präsentation geeignet ist, muss nicht automatisch auch für die Langzeitarchivierung geeignet sein.
+Betrachten wir den Stein von Rosetta als Beispiel. Für die digitale Dokumentation können unterschiedliche Datenarten entstehen:
 
-Ein Museum möchte ein 3D-Modell eines mathematischen Modells langfristig archivieren.
+<div style="width:100%;margin: 20px auto;text-align:center;">
+    <img src="img/Infografik-archivierung-rosetta.png" alt="Infografik zur Archivierung des Steins von Rosetta" style="display:block;width:100%;height:auto;margin:0 auto;"/>
+</div>
 
-Welche Eigenschaften könnten für die spätere Forschung besonders wichtig sein?
+#### Empfohlene Archivformate
 
-[[Die Geometrie und Maßhaltigkeit des Modells|Nur die Dateigröße|Ausschließlich die Farbe des Vorschaubildes]]
+Für verschiedene Anwendungsbereiche gibt es Empfehlungen zu geeigneten Archivformaten. Die folgende Übersicht orientiert sich an der Handreichung zur digitalen Langzeitarchivierung aus der NFDI4Culture Community.
 
-[[Die vollständigen Metadaten und Informationen zur Entstehung|Nur der Dateiname|Die verwendete Softwareoberfläche]]
+| Anwendungsbereich | Empfohlene Archivformate |
+|---|---|
+| Rasterbilder | Unkomprimiertes Baseline-TIFF (ab Version 6.0), GeoTIFF |
+| Vektorbilder | Unkomprimiertes SVG |
+| CAD-Modelle | IFC, STP, DXF; gegebenenfalls DWG (Version 2010) |
+| 3D-Modelle | X3D, DAE, OBJ, STL, PLY, glTF, E57 |
+| Texte und Dokumente | PDF/A-1, PDF/A-2, ODT, DOCX, TXT (UTF-8 ohne BOM) |
+| Strukturierte Texte | XML, JSON, HTML |
+| Tabellen | CSV (UTF-8 ohne BOM), ODS, XLSX, XML mit Schema, HTML |
+| Datenbanken | SIARD2, SQL, XML mit XSD-Schema |
+| Video | Matroska (MKV) mit FFV1 und FLAC |
+| Audio | FLAC, BWF, WAVE mit LPCM |
+
+>Die Empfehlungen sind eine Orientierung. Die konkrete Auswahl sollte immer anhand der erhaltenswerten Eigenschaften und der Anforderungen des jeweiligen Archivierungsprojekts erfolgen.
+
+**Weitere Quellen für Formatempfehlungen:**
+
+Zudem können sich die Empfehlungen aufgrund der hohen Dynamik im Bereich Technik und Digitalisierung schnell ändern. Bevor eine Entscheidung getroffen wird, sollten möglichst mehrere Quellen konsultiert werden. Wir empfehlen DFG, Library of Congress, IANUS sowie die Community Standards for 3D Data Preservation:
+
+- [DFG-Praxisregeln „Digitalisierung“](https://doi.org/10.5281/zenodo.7435724)
+- [Library of Congress: Recommended Formats Statement](https://www.loc.gov/preservation/resources/rfs/stillimg.html)
+- [IANUS: IT-Empfehlungen zur Langzeitarchivierung](https://ianus-fdz.de/it-empfehlungen/)
+- [Community Standards for 3D Data Preservation](https://cs3dp.org/books/)
+
+### Aufgabe: Martina plant die Langzeitarchivierung für ihre mathematische Sammlung
+
+Martina betreut seit etwa drei Monaten eine mathematische Modellsammlung an einer Universität. Sie möchte die bereits vorhandenen Digitalisate langfristig sichern, damit sie auch in Zukunft für Forschung, Lehre und Vermittlung genutzt werden können.
+
+Der digitale Bestand umfasst:
+
+- Fotografien der mathematischen Modelle aus verschiedenen Perspektiven
+- 3D-Modelle einzelner Objekte
+- Metadaten mit Informationen zu Objektbezeichnung, Datierung, Material und Hersteller
+
+Martina ist motiviert und möchte die Daten möglichst bald an ein digitales Langzeitarchiv übergeben. Bei der Vorbereitung merkt sie jedoch, dass noch einige Fragen offen sind.
+
+**Begleite Martina bei der Planung ihrer Archivierungsstrategie.** An jeder Station musst du eine Entscheidung treffen. Überlege, welche Vorgehensweise sinnvoll ist und warum.
+
+**Station 1: Zunächst einen Überblick verschaffen**
+
+Martina möchte die Daten möglichst schnell archivieren. Sie überlegt, die vorhandenen Dateien einfach auf eine externe Festplatte zu kopieren und an ein Archiv zu schicken.
+
+Was sollte sie zunächst tun?
+
+[( )] Die Dateien direkt an das Archiv übergeben. Das Archiv wird sich um alle weiteren Fragen kümmern.
+
+[(X)] Zunächst den Datenbestand systematisch erfassen und dokumentieren.
+
+[( )] Nur die größten Dateien auswählen, da diese vermutlich am wichtigsten sind.
+****
+**Richtig!** Eine Bestandsaufnahme hilft, Umfang, Formate und Zustand der Daten zu erfassen.
+Die Archivierung kann erst sinnvoll geplant werden, wenn diese Informationen vorliegen. Dazu gehören beispielsweise:
+
+Anzahl der Fotografien und 3D-Modelle, Dateiformate und Dateigrößen, Gesamter Speicherbedarf, Vorhandene Metadaten und Dokumentationen, Informationen zur Entstehung und Bearbeitung der Dateien;
+****
 
 ---
 
-## 5.5 Geeignete Archivformate auswählen
+**Station 2: Was ist archivwürdig?**
+
+Bei der Durchsicht ihrer Daten stellt Martina fest, dass einige Objekte mehrfach fotografiert wurden. Außerdem gibt es verschiedene Versionen einzelner 3D-Modelle.
+
+Welche Daten sollte sie für die Langzeitarchivierung auswählen?
+
+[( )] Nur die neuesten Dateien, denn ältere Versionen sind grundsätzlich überflüssig.
+
+[( )] Alle Dateien müssen archiviert werden, unabhängig von ihrem Inhalt und ihrer Qualität.
+
+[(X)] Sie sollte den langfristigen Wert der Daten bewerten und dabei Einzigartigkeit, historischen Wert und Forschungspotenzial berücksichtigen.
+***
+**Sehr gut!** Nicht jede Datei muss automatisch langfristig archiviert werden. Martina sollte prüfen, welche Daten einen bleibenden Wert besitzen. Dabei können beispielsweise folgende Kriterien helfen:
+
+- **Historischer Wert:** Dokumentieren die Daten die Geschichte der Sammlung oder ihrer Objekte?
+- **Einzigartigkeit:** Sind die Informationen an anderer Stelle verfügbar?
+- **Authentizität:** Ist die Herkunft und Unverändertheit der Daten wichtig?
+- **Forschungspotenzial:** Können die Daten für zukünftige Forschungsfragen relevant sein?
+
+Auch ältere Versionen können archivwürdig sein, wenn sie wichtige Bearbeitungsschritte oder den Entstehungsprozess eines digitalen Objekts dokumentieren.
+***
+
+---
+**Station 3: Für wen werden die Daten archiviert?**
+
+Martina überlegt, wie die Sammlung in Zukunft genutzt werden könnte. Sie unterscheidet drei mögliche Zielgruppen:
+
+- Die Öffentlichkeit soll die Objekte in einer Online-Ausstellung betrachten können.
+- Studierende sollen die digitalisierten Modelle für Lehrveranstaltungen nutzen können.
+- Forschende sollen die Objektdaten nutzen können.
+
+Welche Konsequenz ergibt sich daraus für die Archivierungsplanung?
+
+[( )] Eine einzige möglichst kleine Datei reicht für alle Zielgruppen aus.
+
+[(X)] Martina sollte die unterschiedlichen Nutzungsszenarien berücksichtigen und daraus Anforderungen an die zu erhaltenden Daten ableiten.
+
+[( )] Nur die Anforderungen der Öffentlichkeit sind relevant, weil die Sammlung später online präsentiert werden soll.
+***
+**Richtig!** Die zukünftige Nutzung bestimmt mit, welche Eigenschaften der digitalen Objekte erhalten bleiben müssen.
+
+Für eine Online-Ausstellung können beispielsweise kleinere Bilddateien und reduzierte 3D-Modelle ausreichen. Für Forschung und Rekonstruktion werden dagegen möglicherweise hochauflösende Fotografien, detaillierte 3D-Modelle und vollständige Metadaten benötigt.
+
+Die Anforderungen der verschiedenen Zielgruppen sollten deshalb bereits bei der Planung berücksichtigt werden.
+***
+
+---
+
+**Station 4: Welche Eigenschaften müssen erhalten bleiben?**
+
+Martina möchte die Fotografien und 3D-Modelle langfristig archivieren. Sie muss entscheiden, welche technischen Eigenschaften für die spätere Nutzung wichtig sind.
+
+Ordne den Datenarten die passenden Eigenschaften zu.
+
+| Datenart | Welche Eigenschaften sollten erhalten bleiben? |
+|---|---|
+| Fotografien | [[(Auflösung und Bildqualität)|Geometrie und Maßhaltigkeit|Tabellenstruktur]] |
+| 3D-Modelle | [[(Geometrie und Maßhaltigkeit)|Bildauflösung und Farbtiefe|Textformatierung]] |
+| Metadaten | [[(Vollständigkeit und strukturierte Angaben)|Bildqualität und Farbtiefe|Druckauflösung]] |
+***
+[[?]] **Sehr gut!** Die erhaltenswerten Eigenschaften hängen von der jeweiligen Datenart ab:
+
+- Bei Fotografien sind beispielsweise Auflösung, Farbtiefe und Bildqualität wichtig.
+- Bei 3D-Modellen können Geometrie, Maßhaltigkeit und Oberflächeninformationen entscheidend sein.
+- Bei Metadaten kommt es auf Vollständigkeit, Struktur und Verständlichkeit an.
+Martina sollte also zunächst festlegen, was an den digitalen Objekten erhalten bleiben soll. Erst danach kann sie geeignete Archivformate auswählen.
+***
+
+---
+**Station 5: Die passenden Dateiformate auswählen**
+
+Martina hat nun die Anforderungen geklärt. Sie möchte ihre Daten für die Langzeitarchivierung vorbereiten.
+
+Welche Formate sind für die jeweiligen Datenarten geeignet?
+
+| Datenart | Geeignetes Format |
+|---|---|
+| Hochauflösende Fotografien | [[TIFF|JPG|GIF]] |
+| Strukturierte Metadaten | [[CSV oder XML|MP4|PNG]] |
+| 3D-Modelle | [[X3D|MP3|PDF/A]] |
+***
+**Richtig!** Für die Langzeitarchivierung gibt es Empfehlungen für unterschiedliche Datenarten. TIFF eignet sich beispielsweise für hochauflösende Rasterbilder. CSV und XML können strukturierte Metadaten speichern. Für 3D-Modelle kommen unter anderem X3D, OBJ oder STL infrage.
+
+Wichtig ist allerdings: Ein Format ist nicht automatisch für jeden Zweck geeignet. Martina muss prüfen, ob die gewählten Formate die zuvor festgelegten erhaltenswerten Eigenschaften bewahren.
+***
+
+---
+**Station 6: Rechte und ethische Fragen klären**
+
+Bei der Vorbereitung stellt Martina fest, dass einige Fotografien von einem externen Fotografen erstellt wurden. Außerdem sind auf einzelnen Bildern Personen zu erkennen.
+
+Was muss Martina vor der Archivierung prüfen?
+
+[( )] Sie kann alle Dateien archivieren, da sie sich bereits im Besitz der Universität befinden.
+
+[(X)] Sie muss Rechte, Nutzungsbedingungen, Datenschutz und gegebenenfalls Persönlichkeitsrechte prüfen.
+
+[( )] Nur die Rechte an den physischen Objekten sind relevant.
+***
+**Richtig erkannt!** Die Rechte an den verschiedenen Bestandteilen eines digitalen Sammlungsdatensatzes können unterschiedlich sein. Martina muss deshalb unter anderem klären:
+
+- Wer besitzt die Rechte an den Fotografien?
+- Darf die Universität die Bilder langfristig archivieren?
+- Welche Nutzungsrechte bestehen?
+- Sind personenbezogene Informationen oder Persönlichkeitsrechte betroffen?
+- Gibt es ethische Gründe, die gegen eine uneingeschränkte Bereitstellung sprechen?
+
+Auch für die spätere Nutzung sollten die Zugangs- und Nutzungsbedingungen dokumentiert werden.
+***
+
+**Station 7: Ressourcen und Zuständigkeiten planen**
+
+Martina hat inzwischen einen guten Überblick über ihre Daten. Sie stellt fest, dass die Archivierung Kosten verursacht und regelmäßig betreut werden muss.
+
+Welche Aspekte sollte sie in ihre Planung aufnehmen?
+
+Wähle alle zutreffenden Antworten aus.
+
+[[X]] Personelle Zuständigkeiten und Verantwortlichkeiten
+
+[[X]] Kosten für Speicherung und Archivierungsleistungen
+
+[[X]] Technische Infrastruktur und benötigte Speicherkapazitäten
+
+[[X]] Regelmäßige Überprüfung und Pflege der archivierten Daten
+
+[[ ]] Nur die einmaligen Kosten für eine externe Festplatte
+
+[[ ]] Ausschließlich die Zeit, die Martina selbst für die Datenübergabe benötigt
+***
+**Sehr gut!** Digitale Langzeitarchivierung ist eine langfristige organisatorische Aufgabe. Neben den technischen Voraussetzungen müssen auch Personal, Finanzierung und Verantwortlichkeiten geklärt werden.
+
+Ein Archivierungsprojekt ist nicht mit der einmaligen Übergabe von Dateien abgeschlossen. Es braucht Strukturen, die den langfristigen Erhalt gewährleisten.
+***
+
+**Station 8: Ein geeignetes Archiv finden**
+
+Martina möchte ihre Daten nun an ein geeignetes Langzeitarchiv übergeben. Sie findet verschiedene Repositorien und Archivierungsangebote.
+
+Woran sollte sie die Auswahl festmachen?
+
+[( )] Sie wählt das Angebot mit dem günstigsten Speicherplatz.
+
+[(X)] Sie prüft die angebotenen Leistungen, Archivierungsrichtlinien, technischen Anforderungen und die Vertrauenswürdigkeit des Anbieters.
+
+[( )] Sie entscheidet sich für das erste Repositorium, das sie über eine Suchmaschine findet.
+***
+**Richtig!** Martina sollte prüfen, welche Leistungen das jeweilige Angebot tatsächlich umfasst. Ein Repositorium ist nicht automatisch ein Langzeitarchiv.
+
+Wichtige Fragen sind beispielsweise:
+
+- Werden die Daten nur gespeichert oder auch langfristig erhalten?
+- Welche Dateiformate werden unterstützt?
+- Gibt es Vorgaben zur Datenübergabe?
+- Wie werden Integrität und Verfügbarkeit sichergestellt?
+- Welche Zugangs- und Nutzungsbedingungen gelten?
+- Gibt es eine Zertifizierung oder andere Hinweise auf die Vertrauenswürdigkeit?
+
+Für die Recherche kann Martina beispielsweise [re3data](https://www.re3data.org/) nutzen. Das Verzeichnis bietet einen Überblick über Forschungsdatenrepositorien.
+***
+
+Deine Aufgabe: Erstelle Martinas Archivierungs-Roadmap
+
+Du hast Martina nun durch die wichtigsten Entscheidungen begleitet. Fasse die einzelnen Schritte zusammen und entwickle eine kurze Empfehlung für ihre weitere Vorgehensweise.
+
+**Bringe die folgenden Arbeitsschritte in eine sinnvolle Reihenfolge.**
+
+[[Datenbestand erfassen|Archivwürdigkeit bewerten|Zielgruppen und Nutzungsszenarien bestimmen|Erhaltenswerte Eigenschaften festlegen|Geeignete Archivformate auswählen|Rechte und Zugangsbedingungen klären|Ressourcen und Zuständigkeiten planen|Geeignetes Archiv auswählen]]
+
+Überlege anschließend:
+
+**Welche drei Maßnahmen sollte Martina als Erstes angehen?**
+
+Begründe deine Auswahl kurz. Es gibt nicht nur eine richtige Lösung – entscheidend ist, dass du deine Prioritäten nachvollziehbar erklärst.
+
+[[Deine Empfehlung für Martina ...]](textarea)
+
+<details>
+<summary>💡 Mögliche Lösung: Martinas Roadmap</summary>
+
+| Schritt | Was Martina tun sollte |
+|---|---|
+| 1. Datenbestand erfassen | Anzahl, Art, Umfang, Dateiformate und Speicherbedarf ermitteln |
+| 2. Archivwürdigkeit bewerten | Historischen Wert, Einzigartigkeit, Authentizität und Forschungspotenzial berücksichtigen |
+| 3. Nutzungsszenarien bestimmen | Anforderungen von Forschung, Lehre und Öffentlichkeit berücksichtigen |
+| 4. Erhaltenswerte Eigenschaften festlegen | Beispielsweise Auflösung, Geometrie, Maßhaltigkeit und Vollständigkeit der Metadaten bestimmen |
+| 5. Archivformate auswählen | Geeignete Formate für Fotos, 3D-Modelle und Metadaten festlegen |
+| 6. Rechte und Zugangsbedingungen klären | Urheberrechte, Nutzungsrechte, Datenschutz und ethische Einschränkungen prüfen |
+| 7. Ressourcen und Zuständigkeiten planen | Personal, Finanzierung, Infrastruktur und Verantwortlichkeiten klären |
+| 8. Geeignetes Archiv auswählen | Angebote recherchieren und hinsichtlich ihrer Archivierungsleistungen prüfen |
+
+**Welche Maßnahmen haben Priorität?**
+
+Eine sinnvolle erste Priorisierung könnte so aussehen:
+
+1. **Datenbestand erfassen:** Ohne einen Überblick über Umfang, Formate und Zustand der Daten kann Martina den Aufwand nicht realistisch einschätzen.
+2. **Nutzungsszenarien und Erhaltungsziele festlegen:** Erst wenn klar ist, wofür die Daten künftig benötigt werden, lassen sich die technischen Anforderungen bestimmen.
+3. **Rechte und Zuständigkeiten klären:** Vor einer Übergabe muss geklärt sein, ob die Daten archiviert werden dürfen und wer die Verantwortung dafür übernimmt.
+
+Die Reihenfolge kann je nach Sammlung und institutionellen Rahmenbedingungen variieren. Wichtig ist, dass Martina die technischen, rechtlichen und organisatorischen Fragen gemeinsam betrachtet.
+
+</details>
+
+> 🟠 **Merke:** Digitale Langzeitarchivierung beginnt nicht mit der Auswahl eines Speicherorts oder Dateiformats. Sie beginnt mit der Frage, welche Daten warum und für wen langfristig erhalten werden sollen. Erst daraus ergeben sich die technischen, rechtlichen und organisatorischen Anforderungen.
+
+
 
 
 ## 6. Rechtliche Und ethische Aspekte
