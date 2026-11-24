@@ -23,11 +23,9 @@ logo:       https://github.com/4nn4pyng/SODaBasiskurs-Modul5/blob/main/img/SODa-
 
 Das Modul ist als Selbstlernkurs konzipiert und enthält Wissensinhalte Aufgaben und dazugehörige Materialien. Für die Konzeption der Lernziele wurde die Lernzielmatrix zum FDM als Orientierug genutzt. [1]
 
-Das Modul umfasst acht Einheiten mit einem Gesamtumfang von 120 Minuten. In Modul 3 werden die Grundlagen der digitalen Sammlungserschließung vermittelt. Das Modul gibt einen Überblick über aktuelle Standards und wie Sammlungsdaten nach FAIR-Prinzipien erschlossen, aufbereitet und bereitgestellet sollten.
-
+Das Modul umfasst acht Einheiten mit einem Gesamtumfang von 120 Minuten. In Modul 5 werden die Grundlagen des Publizierens und Archivierens vermittelt. Das Modul gibt einen Überblick über aktuelle Standards und wie Sammlungsdaten nach FAIR-Prinzipien publiziert und archiviert werden.
 Die didaktische Umsetzung nutzt Grafiken zur Unterstützung bei der Erfassung von Zusammenhängen, spielerische Übungen zur Wiederholung von erlerntem Wissen, diagnostische Aufgaben, um typische Fehler sichtbar zu machen und praxisorientierte Rechercheübungen.
 
-Die Zielgruppen orientieren sich an den SODa Personas (z. B. Sammlungsleitende, Forschende, Restaurator*innen, technisches Personal). [2] Das Modul wurde als Präsenz-Workshop pilotiert und unter einer CC-BY-4.0-Lizenz veröffentlicht. Erweiterungen für Online-Workshops sowie eine Selbstlerneinheit sind vorgesehen.
 
 ---
 
@@ -40,49 +38,31 @@ Dieses Modul richtet sich an SODa Personae, wie Professor\*innen, Sammlungskoord
 
 ## Themen 
 
-1. Grundlagen der digitalen Sammlungserschließung
+**1. Einleitung in das Publizieren und Archivieren**
 
-    - Relevanz der digitalen Sammlungserschließung
+**2. Planung des Publizierens und Archivierens**
 
-    - Standards zur Einhaltung der FAIR-Prinzipien
-2. Einführung in die Datenmodellierung
+**3. Nutzen und Formen der Sammlungspublikation**
+- Nutzen des Publizierens
+- Formen der Sammlungspublikation
 
-    - Definition und Relevanz von Ontologien
-    - Das CIDOC CRM Referenzmodell
+**4. Aspekte einer FAIRen Sammlungspublikation**
+- Anforderungen an eine FAIR(e) Datenpublikation
+- Datenaustauschformate: LIDO und JSON
+- Publikation von Datensets für maschinelles Lernen
+- Linked Open Data
+- FAIR-Ebenen digitaler Objekte
 
-3.  Metadaten
+**5. Digitale Langzeitarchivierung**
+- Begriff und Ziel der digitalen Langzeitarchivierung
+- Archive und Repositorien
+- Archivwürdigkeit und Archivformate
+- Archivierungsprozesse nach dem OAIS-Modell
+- Webarchivierung
 
-    - Relevanz von Metadaten
-    - Arten von Metadaten
-
-4.  Metadatenstandards
-
-    - Minimaldatensatze-Empfehlung für Museen und Sammlungen
-    - Das LIDO-Format
-    - Weitere Metadatenstandards
-
-5.  Datenqualität
-
-    - Dimensionen von Datenqualität
-    - Umgang mit Unsicherheiten in der Sammlungserschließung
-
-6.  Kontrollierte Vokabulare
-
-    - Relevanz kontrollierter Vokabulare
-    - Typen von kontrollierten Vokabularen 
-    - Persistente Identifikatoren
-    - Unterschied zwischen URIs und URLs
-    - Relevante Vokabulare für die Sammlungserschließung
-    - Methoden zur Recherche von kontrollireten Vokabularen 
-7.  Datenaustausch und Linked Open Data
-
-    - Linked Open Data Prinzipien
-    - Datenaustauschformate
-    
-8. Erschließungssysteme
-
-    - Datenbankmodelle
-    - Anforderungskatalog für die Einführung eines Erschließungssystems
+**6. Rechtliche und ethische Aspekte**
+- Rechtliche und ethische Aspekte bei der Archivierung
+- Empfehlungen zum Umgang mit Urheberrechten und Datenschutz
     
 
 
@@ -92,51 +72,55 @@ Dieses Modul richtet sich an SODa Personae, wie Professor\*innen, Sammlungskoord
 Lernende können...
 
 | **Einheit** | **Lernziel** |
-|1|Relevanz der digitalen Sammungserschließung erläutern|
-|1|Maßnahmen zur Implementierung der FAIR-Prinzipien bei der digitalen Sammlungserschließung benennen|
-|1|Relevanz von Datenstandards erläutern|
-|1|Relevanz von Metadatenstandards erläutern|
-|1|Relevanz von Standard-Dateiformaten erläutern|
-|1|Relevanz von Referenzmodellen erläutern|
-|1|Relevanz von Metadatenschemata erläutern|
-|1|Relevanz von kontrollierten Vokabularen erläutern|
-|2|Aspekte von Ontologien benennen|
-|2|Nutzen des Referenzmodells CIDOC-CRM erläutern|
-|2|Semantische Modellierung eines Objektes mit Hilfe des CIDOC-CRM anwenden|
-|3|die Relevanz von Metadaten erläutern|
-|3|die verschiedenen Arten von Metadaten benennen|
-|4|den Nutzen der Minimaldatensatz-Empfehlung für Museen und Sammlungen erläutern|
-|4|Die Relevanz des LIDO-Formats erläutern|
-|4|Weitere Empfehlungen zu sammlungsbezogenen Metadatenstandards benennen|
-|5|Verschiedene Aspekte der Datenqualität benennen|
-|5|Methoden zur Verbesserung der Datenqualität erläutern|
-|5|Beispiele für den Umgang mit Unsicherheiten in der Dokumentation benennen|
-|6|den Begriff kontrolliertes Vokabular erläutern|
-|6|die Relevanz von kontrollierten Vokabularen erläutern|
-|6|Typen von kontrollierten Vokabularen benennen|
-|6|kontrollierte Vokabulare zur Beschreibung von Sammlungsobjekten benennen|
-|6|die Relevanz von persistenten Identifikatoren erläutern|
-|6|Unterschiede zwischen URIs und URLs erläutern|
-|6|Recherche nach kontrollierten Vokabularen anwenden|
-|6|Recherche nach persistenten Identifikatoren anwenden|
-|7|Linked Open Data Prinzipien erläutern|
-|7|Relevanz von Datenaustauschformaten erläutern|
-|7|die Relevanz von kontrollierten Vokabularen für das Linked Data-Paradigma verstehen|
-|7|Aspekte des LIDO-Formats erläutern|
-|7|FAIR-Ebenen digitaler Objekte verstehen|
-|8|grundlegende Datenbankmodelle benennen|
-|8|Vor- und Nachteile von proprietärer und Open Source Software benennen|
-|8|Anforderungen an ein Erschließungssystem analysieren|
----
+|---|---|
+| 1 | den Begriff Publizieren erläutern |
+| 1 | den Begriff Archivieren erläutern |
+| 1 | konzeptionelle Unterschiede und Gemeinsamkeiten zwischen dem Publizieren und Archivieren erläutern |
+| 2 | Phasen des sammlungsspezifischen Datenlebenszyklus und die zugehörigen Maßnahmen für die Publikation und Archivierung erläutern |
+| 2 | Maßnahmen und Planungsschritte benennen, die zum Erhalt von Sammlungsdaten beitragen |
+| 3 | Relevanz und Nutzen der Sammlungspublikation erläutern |
+| 3 | verschiedene Formen der Nachnutzung von Sammlungsdaten erläutern |
+| 3 | verschiedene Formen der Sammlungspublikation erläutern |
+| 3 | verschiedene Repositorien und Plattformen für die Sammlungspublikation benennen |
+| 3 | Unterschiede zwischen verschiedenen Formen der Sammlungspublikation erläutern |
+| 4 | Aspekte einer FAIRen Datenbereitstellung für Sammlungsdaten erläutern |
+| 4 | die Rolle von Metadatenstandards für die Sammlungspublikation erläutern |
+| 4 | die Rolle kontrollierter Vokabulare für die Sammlungspublikation erläutern |
+| 4 | die Rolle persistenter Identifikatoren (PIDs) für die Sammlungspublikation erläutern |
+| 4 | die Bedeutung von Urheberrechten und Lizenzen für die Veröffentlichung von Sammlungsdaten erläutern |
+| 4 | die Relevanz von Datenaustauschformaten für die Sammlungspublikation erläutern |
+| 4 | grundlegende Aspekte des LIDO-Formats erläutern |
+| 4 | grundlegende Aspekte des JSON-Formats erläutern |
+| 4 | Maßnahmen für die Publikation von Datensets im Kontext des maschinellen Lernens erläutern |
+| 4 | die Prinzipien von Linked Open Data erläutern |
+| 4 | die Stufen des 5-Sterne-Modells für offene Daten erläutern |
+| 4 | relevante Linked-Data-Technologien erläutern |
+| 4 | die verschiedenen FAIR-Ebenen digitaler Objekte erläutern |
+| 4 | die FAIRness publizierter Datensätze anhand konkreter Beispiele beurteilen |
+| 5 | den Begriff digitale Langzeitarchivierung erläutern |
+| 5 | das Ziel einer digitalen Langzeitarchivierung erläutern |
+| 5 | die Unterschiede zwischen digitaler Langzeitarchivierung und Backup erläutern |
+| 5 | den Begriff Archiv erläutern |
+| 5 | den Begriff Repositorium erläutern |
+| 5 | Charakteristika von Repositorien erläutern |
+| 5 | Registrys für die Recherche nach Repositorien benennen |
+| 5 | Kriterien für die Auswahl eines geeigneten Repositoriums erläutern |
+| 5 | Kriterien für die Archivwürdigkeit von Daten erläutern |
+| 5 | Aspekte bei der Ermittlung geeigneter Archivformate erläutern |
+| 5 | Aspekte bei der Planung einer digitalen Archivierung erläutern |
+| 5 | Maßnahmen für die digitale Archivierung einer Sammlung erläutern |
+| 5 | wichtige Formate für die digitale Langzeitarchivierung benennen |
+| 5 | Quellen für die Recherche geeigneter Archivformate benennen |
+| 5 | die digitale Langzeitarchivierung anhand des OAIS-Referenzmodells (Open Archival Information System) erläutern |
+| 5 | die wichtigsten Möglichkeiten der Webarchivierung benennen |
+| 6 | rechtliche und ethische Aspekte im Umgang mit Archivdaten erläutern |
+| 6 | konkrete Maßnahmen für die rechtlich und ethisch korrekte Archivierung von Daten erläutern |
+| 6 | die Bedeutung von Urheberrechten und Datenschutz für die digitale Archivierung erläutern |
+
 
 ## Einheiten und Zeitbedarf
 
-**Modul 3: 120 Min.**
-
-| Einheit | Inhalt | Zeit |
-|--------|--------|------|
-
-
+**Modul 5: 120 Min.**
 
 ---
 
@@ -156,7 +140,7 @@ author: Anna Gnyp
 
 orcid: https://orcid.org/0000-0003-3598-1112
 
-title: SODa Basiskurs zu Erschießung und Forschungsdatenmanagement in UNiversitätssammlungen. Modul 3: Objekte erschließen
+title: SODa Basiskurs zu Erschießung und Forschungsdatenmanagement in UNiversitätssammlungen. Modul 5: Publizieren und Archivieren
 
 version: v1.0.0
 
