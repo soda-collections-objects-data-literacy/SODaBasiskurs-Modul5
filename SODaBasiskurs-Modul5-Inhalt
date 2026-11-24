@@ -1081,9 +1081,9 @@ Martina veröffentlicht folgenden Datensatz:
 | Datenformat | Metadaten als JSON verfügbar |
 | Lizenz der Metadaten | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Lizenz des Digitalisats | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
-| Provenienz des Digitalisats | Es ist nicht dokumentiert, wann und von wem das Bild erstellt wurde. |
-| Dokumentation | Es gibt keine Dokumentation zur Auswahl und Zusammenstellung der veröffentlichten Datensätze. |
-| Schnittstelle | Die Daten können über eine API abgerufen werden. |
+| Quelle/Urheber des Digitalisats | - |
+| Dokumentation zum Datensatz| - |
+| Schnittstelle | JSON-API |
 
 
 <div style="clear:both;"></div>
@@ -1163,10 +1163,10 @@ Wie ist die Lizenzierung zu bewerten?
 
 **5. Dokumentation der Provenienz des Digitalisats**
 
-Ist die Provenienz des Digitalisats ausreichend dokumentiert?
+Sind Quelle oder Urheber des Digitalisats ausreichend dokumentiert?
 
 [( )] Ja, denn das Bild ist zusammen mit den Objektmetadaten veröffentlicht.
-[(X)] Nein, denn Informationen zur Entstehung und Herkunft des Digitalisats fehlen.
+[(X)] Nein, Informationen zum Urheber oder zur Quelle des Digitalisats fehlen.
 [( )] Ja, denn die Lizenzangabe ersetzt eine Provenienzdokumentation.
 
 [[?]] Überlege, welche Informationen zur Entstehung einer digitalen Repräsentation gehören.
@@ -1225,15 +1225,62 @@ Sind die Daten bereits umfassend vernetzt?
 
 ## 5. Langzeitarchivierung
 
+**Was bedeutet digitale Langzeitarchivierung?**
+
+Digitale Daten entstehen heute in nahezu allen Bereichen der Sammlungsarbeit: bei der Digitalisierung von Objekten, in der Dokumentation, bei Forschungsprojekten oder durch die Nutzung digitaler Werkzeuge. Doch was passiert mit diesen Daten, wenn ein Projekt abgeschlossen ist, eine Software nicht mehr unterstützt wird oder Mitarbeitende die Institution verlassen?
+
+Digitale Daten müssen nicht nur gespeichert, sondern langfristig erhalten und nutzbar gehalten werden. Genau hier setzt die **digitale Langzeitarchivierung (LZA)** an.
+
+Die DIN 31644 definiert digitale Langzeitarchivierung als die sichere Aufbewahrung digitaler Daten ab einem Zeitraum von zehn Jahren. Ein digitales Langzeitarchiv ist dabei nicht nur ein technisches Speichersystem. Es umfasst eine Organisation aus Personen und technischen Systemen, die Verantwortung für den Erhalt und die langfristige Verfügbarkeit digitaler Informationen übernimmt.
+
+Das Ziel ist, archivierte Informationen:
+
+- **vollständig und unverfälscht** zu erhalten,
+- langfristig verfügbar zu halten,
+- auch nach technischen Veränderungen weiterhin benutzbar zu machen.
+
+
+> 🟠 **Merke**
+>
+> Digitale Langzeitarchivierung bedeutet mehr als das Speichern von Dateien. Sie ist ein kontinuierlicher Prozess, der technische Maßnahmen, organisatorische Verantwortlichkeiten und die Dokumentation der Daten miteinander verbindet.
+
+<br>
+
+
+**Warum ist Langzeitarchivierung wichtig?**
+
+Digitale Informationen sind von technischen Rahmenbedingungen abhängig. Dateiformate können veralten, Speichermedien können ausfallen und Software kann nicht mehr verfügbar sein. Auch institutionelle Veränderungen können dazu führen, dass Daten nicht mehr auffindbar oder zugänglich sind.
+
+Die langfristige Sicherung sollte deshalb bereits bei der Planung eines Digitalisierungs- oder Dokumentationsprojekts berücksichtigt werden.
+
+### Backup oder Langzeitarchivierung?
+
+Backup und Langzeitarchivierung werden häufig gleichgesetzt. Sie verfolgen jedoch unterschiedliche Ziele.
+
+Ein **Backup** ist eine Sicherungskopie eines bestimmten Datenbestands zu einem bestimmten Zeitpunkt. Es dient dazu, Daten beispielsweise nach einem technischen Defekt, versehentlichem Löschen oder einem Systemausfall wiederherstellen zu können.
+
+Die **Langzeitarchivierung** verfolgt dagegen das Ziel, ausgewählte digitale Informationen über einen langen Zeitraum vollständig, unverändert und benutzbar zu erhalten.
+
+| Backup | Langzeitarchivierung |
+|---|---|
+| Sichert einen bestimmten Datenstand | Erhält ausgewählte digitale Informationen langfristig |
+| Dient der Wiederherstellung nach Datenverlust | Dient dem dauerhaften Erhalt und der späteren Nutzung |
+| Wird regelmäßig aktualisiert | Umfasst kontrollierte Archivierungs- und Erhaltungsprozesse |
+| Ist für den alltäglichen Betrieb wichtig | Ist auf langfristige Verfügbarkeit ausgerichtet |
+| Kann lokal oder institutionell organisiert sein | Erfordert organisatorische und technische Verantwortung |
+
+Ein Backup ist also eine wichtige Voraussetzung für ein zuverlässiges Datenmanagement, ersetzt aber keine Langzeitarchivierung.
+
+> 🟠 **Merke**
+>
+> Ein Backup schützt vor Datenverlust. Langzeitarchivierung schützt zusätzlich davor, dass Daten mit der Zeit unlesbar, unverständlich oder unbenutzbar werden.
+
+
 ### Repositorien und Archive
 
 ### Archivwürdigkeit & empfohlene Formate
 
 
-<div style="float:right;width:50%;margin: 10px 10px 10px 10px;">
-    <img src="img/LIDO_logo_main.png" alt="LIDO Logo" style=""/>
-    <p style="text-align:center"> </p>
-</div>
 
 ## 6. Rechtliche Und ethische Aspekte
 
