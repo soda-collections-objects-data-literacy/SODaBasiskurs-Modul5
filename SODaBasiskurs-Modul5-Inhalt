@@ -1571,7 +1571,12 @@ Zudem können sich die Empfehlungen aufgrund der hohen Dynamik im Bereich Techni
 - [IANUS: IT-Empfehlungen zur Langzeitarchivierung](https://ianus-fdz.de/it-empfehlungen/)
 - [Community Standards for 3D Data Preservation](https://cs3dp.org/books/)
 
-### Aufgabe: Martina plant die Langzeitarchivierung für ihre mathematische Sammlung
+### Aufgabe 5: Martina plant die Langzeitarchivierung für ihre mathematische Sammlung
+
+<div style="float:right;width:30%;margin: 0px 0px 20px 20px;">
+    <img src="img/Schraubenflaeche-MUT_CCBYNCSA.png" alt="Schraubenfläche aus der Mathematischen Modellsammlung" style="width:100%;height:auto;"/>
+    <p style="text-align:left;font-size:0.8em">Schraubenfläche von konstantem negativen Krümmungsmaß. Museum der Universität Tübingen MUT / V. Marquardt, CC BY-NC-SA.</p>
+</div>
 
 Martina betreut seit etwa drei Monaten eine mathematische Modellsammlung an einer Universität. Sie möchte die bereits vorhandenen Digitalisate langfristig sichern, damit sie auch in Zukunft für Forschung, Lehre und Vermittlung genutzt werden können.
 
@@ -1665,7 +1670,7 @@ Ordne den Datenarten die passenden Eigenschaften zu.
 | 3D-Modelle | [[(Geometrie und Maßhaltigkeit)|Bildauflösung und Farbtiefe|Textformatierung]] |
 | Metadaten | [[(Vollständigkeit und strukturierte Angaben)|Bildqualität und Farbtiefe|Druckauflösung]] |
 ***
-[[?]] **Sehr gut!** Die erhaltenswerten Eigenschaften hängen von der jeweiligen Datenart ab:
+**Sehr gut!** Die erhaltenswerten Eigenschaften hängen von der jeweiligen Datenart ab:
 
 - Bei Fotografien sind beispielsweise Auflösung, Farbtiefe und Bildqualität wichtig.
 - Bei 3D-Modellen können Geometrie, Maßhaltigkeit und Oberflächeninformationen entscheidend sein.
@@ -1682,9 +1687,9 @@ Welche Formate sind für die jeweiligen Datenarten geeignet?
 
 | Datenart | Geeignetes Format |
 |---|---|
-| Hochauflösende Fotografien | [[TIFF|JPG|GIF]] |
-| Strukturierte Metadaten | [[CSV oder XML|MP4|PNG]] |
-| 3D-Modelle | [[X3D|MP3|PDF/A]] |
+| Hochauflösende Fotografien | [[(TIFF)|JPG|GIF]] |
+| Strukturierte Metadaten | [[(CSV oder XML)|MP4|PNG]] |
+| 3D-Modelle | [[(X3D)|MP3|PDF/A]] |
 ***
 **Richtig!** Für die Langzeitarchivierung gibt es Empfehlungen für unterschiedliche Datenarten. TIFF eignet sich beispielsweise für hochauflösende Rasterbilder. CSV und XML können strukturierte Metadaten speichern. Für 3D-Modelle kommen unter anderem X3D, OBJ oder STL infrage.
 
@@ -1715,6 +1720,8 @@ Was muss Martina vor der Archivierung prüfen?
 Auch für die spätere Nutzung sollten die Zugangs- und Nutzungsbedingungen dokumentiert werden.
 ***
 
+----
+
 **Station 7: Ressourcen und Zuständigkeiten planen**
 
 Martina hat inzwischen einen guten Überblick über ihre Daten. Sie stellt fest, dass die Archivierung Kosten verursacht und regelmäßig betreut werden muss.
@@ -1739,6 +1746,8 @@ Wähle alle zutreffenden Antworten aus.
 
 Ein Archivierungsprojekt ist nicht mit der einmaligen Übergabe von Dateien abgeschlossen. Es braucht Strukturen, die den langfristigen Erhalt gewährleisten.
 ***
+
+----
 
 **Station 8: Ein geeignetes Archiv finden**
 
@@ -1765,25 +1774,10 @@ Wichtige Fragen sind beispielsweise:
 
 Für die Recherche kann Martina beispielsweise [re3data](https://www.re3data.org/) nutzen. Das Verzeichnis bietet einen Überblick über Forschungsdatenrepositorien.
 ***
+-----
 
-Deine Aufgabe: Erstelle Martinas Archivierungs-Roadmap
 
-Du hast Martina nun durch die wichtigsten Entscheidungen begleitet. Fasse die einzelnen Schritte zusammen und entwickle eine kurze Empfehlung für ihre weitere Vorgehensweise.
-
-**Bringe die folgenden Arbeitsschritte in eine sinnvolle Reihenfolge.**
-
-[[Datenbestand erfassen|Archivwürdigkeit bewerten|Zielgruppen und Nutzungsszenarien bestimmen|Erhaltenswerte Eigenschaften festlegen|Geeignete Archivformate auswählen|Rechte und Zugangsbedingungen klären|Ressourcen und Zuständigkeiten planen|Geeignetes Archiv auswählen]]
-
-Überlege anschließend:
-
-**Welche drei Maßnahmen sollte Martina als Erstes angehen?**
-
-Begründe deine Auswahl kurz. Es gibt nicht nur eine richtige Lösung – entscheidend ist, dass du deine Prioritäten nachvollziehbar erklärst.
-
-[[Deine Empfehlung für Martina ...]](textarea)
-
-<details>
-<summary>💡 Mögliche Lösung: Martinas Roadmap</summary>
+**Martinas Roadmap im Überblick:**
 
 | Schritt | Was Martina tun sollte |
 |---|---|
@@ -1796,24 +1790,209 @@ Begründe deine Auswahl kurz. Es gibt nicht nur eine richtige Lösung – entsch
 | 7. Ressourcen und Zuständigkeiten planen | Personal, Finanzierung, Infrastruktur und Verantwortlichkeiten klären |
 | 8. Geeignetes Archiv auswählen | Angebote recherchieren und hinsichtlich ihrer Archivierungsleistungen prüfen |
 
-**Welche Maßnahmen haben Priorität?**
 
-Eine sinnvolle erste Priorisierung könnte so aussehen:
-
-1. **Datenbestand erfassen:** Ohne einen Überblick über Umfang, Formate und Zustand der Daten kann Martina den Aufwand nicht realistisch einschätzen.
-2. **Nutzungsszenarien und Erhaltungsziele festlegen:** Erst wenn klar ist, wofür die Daten künftig benötigt werden, lassen sich die technischen Anforderungen bestimmen.
-3. **Rechte und Zuständigkeiten klären:** Vor einer Übergabe muss geklärt sein, ob die Daten archiviert werden dürfen und wer die Verantwortung dafür übernimmt.
-
-Die Reihenfolge kann je nach Sammlung und institutionellen Rahmenbedingungen variieren. Wichtig ist, dass Martina die technischen, rechtlichen und organisatorischen Fragen gemeinsam betrachtet.
-
-</details>
-
-> 🟠 **Merke:** Digitale Langzeitarchivierung beginnt nicht mit der Auswahl eines Speicherorts oder Dateiformats. Sie beginnt mit der Frage, welche Daten warum und für wen langfristig erhalten werden sollen. Erst daraus ergeben sich die technischen, rechtlichen und organisatorischen Anforderungen.
+> **Merke:** Digitale Langzeitarchivierung beginnt nicht mit der Auswahl eines Speicherorts oder Dateiformats. Sie beginnt mit der Frage, welche Daten warum und für wen langfristig erhalten werden sollen. Erst daraus ergeben sich die technischen, rechtlichen und organisatorischen Anforderungen.
 
 
+### Das OAIS-Referenzmodell
+
+Wie laufen die Prozesse in einem digitalen Langzeitarchiv ab? Eine wichtige Grundlage für die Beschreibung solcher Prozesse ist das Referenzmodell **Open Archival Information System (OAIS)**.
+
+Das OAIS-Modell wurde 1999 von der NASA für die Archivierung eigener Weltraumaufnahmen entwickelt. Es hat sich inzwischen als internationaler Referenzrahmen zur Beschreibung der Aufgaben, Prozesse und Schnittstellen eines digitalen Langzeitarchivs etabliert.
+
+Das Modell richtet sich insbesondere an Betreiber*innen von Archiven. Es hilft dabei, die verschiedenen Aufgaben und Verantwortlichkeiten eines Langzeitarchivs systematisch zu beschreiben.
+
+**Die Informationspakete im OAIS-Modell**
+
+Im OAIS-Modell werden drei Arten von Informationspaketen unterschieden:
+
+| Abkürzung | Bezeichnung | Bedeutung |
+|---|---|---|
+| SIP | Submission Information Package | Informationspaket, das von den Datengebenden an das Archiv übergeben wird |
+| AIP | Archival Information Package | Informationspaket, das im Archiv langfristig aufbewahrt wird |
+| DIP | Dissemination Information Package | Informationspaket, das für die Nutzung aus dem Archiv bereitgestellt wird |
+
+Der Ablauf lässt sich vereinfacht so beschreiben:
+
+<div style="width:80%;margin: 20px auto;text-align:center;">
+    <img src="img/OAIS-Modell_CC-BY-4-0.png" alt="Übersicht des OAIS-Modells" style="display:block;width:100%;height:auto;margin:0 auto;"/>
+    <p style="text-align:center;font-size:0.8em">Das OAIS-Referenzmodell in vereinfachter Form. (Grafik: Andres Bucher, CC BY 4.0)
+    </p>
+</div>
+
+Das Archiv übernimmt die Daten, prüft und verarbeitet sie und überführt sie in ein Archivpaket (AIP). Dieses wird langfristig gespeichert und verwaltet. Wenn Daten benötigt werden, kann das Archiv ein entsprechendes Nutzungspaket (DIP) bereitstellen.
+
+**Welche Aufgaben übernimmt ein OAIS-Archiv?**
+
+Das OAIS-Modell beschreibt verschiedene funktionale Bereiche:
+
+- **Übernahme (Ingest):** Daten werden entgegengenommen und für die Archivierung vorbereitet.
+- **Archivspeicher (Archival Storage):** Die archivierten Informationspakete werden gespeichert und erhalten.
+- **Datenverwaltung (Data Management):** Metadaten und Informationen über die archivierten Daten werden verwaltet.
+- **Zugriff (Access):** Nutzende können Informationen suchen und archivierte Daten anfordern.
+- **Erhaltungsplanung (Preservation Planning):** Technische Entwicklungen und Veränderungen werden beobachtet. Bei Bedarf werden Maßnahmen zum Erhalt der Nutzbarkeit geplant.
+- **Administration (Administration):** Das Archiv wird organisatorisch und technisch verwaltet.
+
+Dabei spielt auch die Verwaltung eine wichtige Rolle: Ein Langzeitarchiv benötigt klare Zuständigkeiten, Richtlinien und eine kontinuierliche organisatorische Betreuung.
+
+> **Merke**
+>
+> Das OAIS-Modell beschreibt nicht einfach einen Speicherort, sondern die Prozesse und Verantwortlichkeiten, die notwendig sind, um digitale Informationen langfristig zu erhalten und bei Bedarf wieder bereitzustellen.
 
 
-## 6. Rechtliche Und ethische Aspekte
+---
+
+### Webarchivierung
+
+Nicht nur Dateien und Datensätze können archiviert werden. Auch Webseiten können wichtige digitale Informationen enthalten, beispielsweise Online-Ausstellungen, digitale Sammlungspräsentationen oder Forschungsportale.
+
+Ihre langfristige Archivierung ist jedoch besonders anspruchsvoll.
+
+
+🟠 **Warum ist Webarchivierung schwierig?**
+
+Webseiten bestehen häufig nicht nur aus statischen Texten und Bildern. Sie können multimediale Inhalte, dynamisch erzeugte Elemente und interaktive Funktionen enthalten.
+
+Beispiele sind:
+
+- virtuelle Ausstellungen,
+- interaktive Karten,
+- 3D-Viewer,
+- dynamisch generierte Suchergebnisse,
+- Inhalte, die erst durch Nutzer*inneninteraktionen sichtbar werden.
+
+Solche Inhalte lassen sich nicht immer vollständig und funktionsfähig archivieren. Ein einfacher Screenshot bildet beispielsweise nicht alle Funktionen einer interaktiven Webseite ab.
+
+
+🟠 **Möglichkeiten der Webarchivierung**
+
+Je nach Art der Webseite können unterschiedliche Verfahren eingesetzt werden:
+
+**1. Einzelne Elemente sichern**
+
+Videos, Texte und Bilder können extrahiert und in geeigneten archivfähigen Formaten gespeichert werden.
+
+**2. Interaktive Inhalte dokumentieren**
+
+Dynamische oder nichtlineare Webseiten können textlich beschrieben und durch Screenshots oder Screencasts dokumentiert werden. Ein Screencast ist eine kommentierte Bildschirmaufzeichnung, die beispielsweise die Nutzung einer interaktiven Anwendung zeigt.
+
+**3. Webseiten mit Webarchivierungsdiensten sichern**
+
+Eine Möglichkeit ist die Archivierung über die [Wayback Machine des Internet Archive](https://web.archive.org/). Webseiten können dabei im Web Archive Format (WARC) gespeichert werden. WARC ist als ISO 28500 standardisiert.
+
+**Weitere Werkzeuge und Angebote:**
+
+- [Awesome Web Archiving – International Internet Preservation Consortium](https://github.com/iipc/awesome-web-archiving)
+- Web-Crawler: [Heritrix](https://github.com/internetarchive/heritrix3)
+- Services: [Archive-It](https://archive-it.org/), [Perma.cc](https://perma.cc/) und [Webrecorder](https://webrecorder.net/)
+
+> **Merke**
+>
+> Bei der Webarchivierung muss nicht nur die sichtbare Oberfläche berücksichtigt werden. Auch interaktive Funktionen, dynamische Inhalte und die technischen Voraussetzungen einer Webseite können für das Verständnis und die spätere Nutzung wichtig sein.
+
+---
+
+## 6. Rechtliche und ethische Aspekte
+
+Bei der Publikation und Archivierung digitaler Sammlungsdaten spielen rechtliche und ethische Fragen eine wichtige Rolle. Nicht alle Daten dürfen uneingeschränkt veröffentlicht oder archiviert werden.
+
+Vor der Bereitstellung und Archivierung sollte deshalb geprüft werden, welche Rechte bestehen, welche Nutzung erlaubt ist und ob bestimmte Informationen geschützt werden müssen.
+
+**Rechte an Forschungs- und Sammlungsdaten**
+
+Ein digitaler Sammlungsdatensatz kann aus unterschiedlichen Bestandteilen bestehen:
+
+- Informationen zum physischen Objekt,
+- Metadaten und Beschreibungen,
+- Digitalisate wie Fotos oder 3D-Modelle,
+- ergänzende Dokumentationen und Forschungsdaten.
+
+Für diese Bestandteile können unterschiedliche Rechte gelten. Es ist deshalb wichtig, nicht pauschal davon auszugehen, dass eine Institution alle Bestandteile eines Datensatzes selbst veröffentlichen oder zur Nachnutzung freigeben darf.
+
+> **Checkliste: Was muss geprüft werden?**
+
+Vor der Publikation oder Archivierung sollten folgende Fragen geklärt werden:
+
+- Sind wir in allen Teilen unserer Forschungsdaten selbst Rechteinhaber*innen?
+- Bestehen Rechte Dritter?
+- Ist für einzelne Objekte eine Erlaubnis zur Nutzung erforderlich?
+- Ist eine zukünftige freie Zugänglichkeit vorgesehen?
+- Sind die Nutzungsrechte für Fremddaten durch entsprechende Lizenzen abgedeckt?
+- Können geeignete Lizenzen, beispielsweise Creative-Commons-Lizenzen, vergeben werden?
+- Enthalten die Daten personenbezogene Informationen?
+- Berühren die Daten ethische Aspekte, beispielsweise im Zusammenhang mit Provenienz, CARE- oder FACT-Prinzipien?
+
+> **Merke**
+>
+> Rechte müssen für die einzelnen Bestandteile eines digitalen Sammlungsdatensatzes geprüft werden. Die Rechte am physischen Objekt, am Digitalisat und an den Metadaten können unterschiedlich sein.
+
+### Empfehlungen für die Archivierung
+
+Auch bei der Langzeitarchivierung müssen Nutzungsrechte, Datenschutz und Zugangsbedingungen berücksichtigt werden.
+
+🟠 **Nutzungsrechte schriftlich festhalten**
+
+Nutzungsrechte und Konditionen sollten immer schriftlich mit den Rechteinhaber*innen vereinbart werden. Bestehen Urheberrechte, kann eine erforderliche Werknutzung gegebenenfalls lizenziert werden. Dadurch können allerdings zusätzliche Kosten entstehen.
+
+🟠 **Zugangsrechte festlegen**
+
+Nicht alle archivierten Daten müssen öffentlich zugänglich sein. Es sollte geprüft werden, ob datenschutzrechtliche oder andere schutzwürdige Interessen einem offenen Zugang entgegenstehen.
+
+Ein mögliches Modell ist ein **gestaffelter Zugang**:
+
+- frei zugängliche Daten,
+- Daten mit eingeschränktem Zugang,
+- Daten, für die ein Antrag gestellt und geprüft werden muss.
+
+Ein solches Zugriffsmanagement kann allerdings zusätzlichen organisatorischen Aufwand verursachen, da Zugriffsanfragen geprüft und dokumentiert werden müssen.
+
+🟠 **Personenbezogene Daten schützen**
+
+Wenn Forschungsdaten personenbezogene Informationen oder Persönlichkeitsrechte berühren, müssen geeignete Schutzmaßnahmen getroffen werden.
+
+Dazu kann beispielsweise gehören, bestimmte Informationen zu anonymisieren, bevor sie frei zugänglich gemacht werden.
+
+🟠 **Ethische Aspekte berücksichtigen**
+
+Neben rechtlichen Fragen müssen auch ethische Aspekte geprüft werden. Dazu gehören beispielsweise:
+
+- die nachvollziehbare Dokumentation von Provenienzen,
+- der sensible Umgang mit problematischen Sammlungszusammenhängen,
+- die Berücksichtigung von Interessen betroffener Gemeinschaften,
+- die Prüfung, ob eine Veröffentlichung oder Archivierung bestimmte Personen oder Gruppen verletzen könnte.
+
+Für eine vertiefende Auseinandersetzung mit diesen Fragen bietet sich **Modul 6 des SODa Basiskurses: Ethische und rechtliche Herausforderungen** an.
+
+[Zum SODa Basiskurs – Modul 6](https://doi.org/10.5281/zenodo.18758186)
+
+**Kleine Aufgabe: Was muss Martina prüfen?**
+
+Martina möchte ein historisches Foto eines mathematischen Modells veröffentlichen. Auf dem Foto ist neben dem Objekt auch eine Person zu sehen. Das Foto wurde von einem externen Fotografen erstellt.
+
+Welche Aspekte muss Martina vor der Veröffentlichung prüfen?
+
+- Rechte am Foto und gegebenenfalls am abgebildeten Objekt
+- Nutzungsrechte und Erlaubnis des Fotografen
+- Datenschutz und Persönlichkeitsrechte der abgebildeten Person
+- Geeignete Lizenz und Zugangsbedingungen
+- Dokumentation der Herkunft des Digitalisats
+
+> **Merke**
+>
+> Eine erfolgreiche Datenpublikation und Langzeitarchivierung berücksichtigt nicht nur technische Anforderungen. Rechte, Datenschutz und ethische Verantwortung müssen von Beginn an mitgedacht werden.
+
+**Wo gibt es Unterstützung?**
+
+Die Klärung rechtlicher, ethischer und technischer Fragen kann komplex sein. Sammlungsbetreuende müssen diese Fragen nicht allein lösen.
+
+Unterstützung bieten beispielsweise:
+
+- **NFDI4Culture Helpdesk:** Beratung zu Forschungsdatenmanagement, Datenpublikation und Langzeitarchivierung im Bereich des kulturellen Erbes.
+- **SODa Helpdesk:** Unterstützung zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen.
+- **nestor:** Deutsches Kompetenznetzwerk für Langzeitarchivierung und Langzeitverfügbarkeit digitaler Ressourcen.
+
+---
+
 
 
 
@@ -2006,3 +2185,69 @@ Rechtliche und ethische Fragen sollten erst kurz vor der Veröffentlichung gepr�
 ## Zum Abschluss: Was nehmen Sie mit?
 
 Publizieren und Archivieren sind unterschiedliche, aber miteinander verbundene Aufgaben. Eine nachhaltige Strategie für Sammlungsdaten berücksichtigt sowohl die Auffindbarkeit und Nachnutzbarkeit als auch den langfristigen Erhalt der Daten. Technische Lösungen allein reichen dafür nicht aus: Auch Standards, Lizenzen, Verantwortlichkeiten und rechtliche sowie ethische Rahmenbedingungen sind wichtig.
+
+
+## Literatur und Quellen
+
+## Feedback und Informationen
+
+Vielen Dank für das Interesse am [SODa](https://sammlungen.io/) Angebot. Damit wir die Ressourcen verbessern und anpassen können, freuen wir uns über jegliche Art von Feedback:
+
+[**Feedback zum Selbstlernkurs "SODa Basiskurs, Modul 5"**](https://lime.sammlungen.io/index.php/667777?lang=de&newtest=Y&oer=Selbstlernkurs__SODa_Basiskurs__Modul_3)
+
+---
+
+Weitere SODa Selbstlernkurse sind auf unserer [**Knowlegbase**](https://sammlungen.io/kb/kb-suche?combine=&format%5B64%5D=64) zu finden.
+
+Informationen und alle Module zu unserem SODa Basiskurs gibt es auf der [**SODa Basiskurs Seite**](https://sammlungen.io/kb/fdm/soda-basiskurs)**.**
+
+---
+
+**Weitere Fragen?**
+
+Der **SODa Helpdesk** hilft bei allen Fragen rund um die Arbeit mit Daten an (Universitäts-)Sammlungen, zu Selbtlernkursen oder Workshops und bietet einen direkten Kontakt zum SODa Team in allen Belangen rund um Sammlungsdigitalisierung und Objektdaten an.
+
+[**soda@sammlungen.io**](mailto:soda@sammlungen.io)
+
+Wir freuen uns auf Ihre Anfrage!
+
+---
+
+## Impressum
+
+SODa – Sammlungen, Objekte, Datenkompetenzen: https://sammlungen.io/
+-----------------
+
+---
+
+**Mitwirkende:**
+
+- Anna Gnyp (anna.gnyp@hu-berlin.de)
+
+---
+
+**Zitiervorschlag:**
+
+Gnyp, A. (2026). Selbstlernkurs: SODa Basiskurs zu Erschließung und Forschungsdatenmanagement, Modul 5: Publizieren und Archivieren (Version V1.0). 
+
+---
+
+**Lizenz:**
+
+![CC BY 4.0 – Creative Commons](img/cc-by.svg "[CC BY 4.0 – Creative Commons](https://creativecommons.org/licenses/by/4.0/deed.de)")
+
+---
+
+Version: 1.0
+
+Datum: 2026-11-24
+
+Repository: https://github.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul5 
+
+---
+
+gefördert durch:
+
+![Finanziert von der Europäischen Union](img/FinanziertVonDerEU.jpg)
+
+![Gefördert durch: Bundesministerium für Forschung, Technologie und Raumfahrt](img/BMFTR_de_Web_RGB_gef_durch.jpg)
