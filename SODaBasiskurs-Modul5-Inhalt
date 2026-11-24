@@ -1240,12 +1240,14 @@ Das Ziel ist, archivierte Informationen:
 - auch nach technischen Veränderungen weiterhin benutzbar zu machen.
 
 
-> 🟠 **Merke**
+> **Merke**
 >
 > Digitale Langzeitarchivierung bedeutet mehr als das Speichern von Dateien. Sie ist ein kontinuierlicher Prozess, der technische Maßnahmen, organisatorische Verantwortlichkeiten und die Dokumentation der Daten miteinander verbindet.
 
 <br>
 
+**Quelle der in diesem Kapitel behandelten Inhalte und vertiefende Informationen:**
+Heseler, J.; Büttner, A.; & Arnold, M. (2024). Grundlagen der digitalen Langzeitarchivierung: Eine Handreichung zur digitalen Langzeitarchivierung aus Perspektive der NFDI4Culture Community. Aufgabenbereich Datenpublikation und Langzeitarchivierung (TA4). https://doi.org/10.5281/zenodo.10281971
 
 ### Warum ist Langzeitarchivierung wichtig?
 
@@ -1402,10 +1404,149 @@ Ordne die folgenden Beschreibungen einzeln zu.
 
 [[(Langzeitarchiv)|Repositorium]]
 
+
+#### Was macht ein digitales Langzeitarchiv vertrauenswürdig?
+
+Ein Langzeitarchiv übernimmt über viele Jahre Verantwortung für digitale Informationen. Deshalb ist es wichtig, dass seine Arbeitsweise nachvollziehbar ist und die Daten zuverlässig erhalten werden.
+
+Dafür gibt es verschiedene Prinzipien und Qualitätsrahmen. Im Kontext der Langzeitarchivierung sind insbesondere **FAIR, CARE und TRUST** relevant.
+
+<br>
+
+🟠 **FAIR – Daten auffindbar und nachnutzbar halten**
+
+Die FAIR-Prinzipien beschreiben, wie Daten für Menschen und Maschinen auffindbar, zugänglich, interoperabel und nachnutzbar gemacht werden können.
+
+Für ein Langzeitarchiv bedeutet dies beispielsweise:
+
+- offene Protokolle und Standards zu verwenden,
+- Dateiformate regelmäßig zu überprüfen und bei Bedarf zu aktualisieren,
+- ausreichende Metadaten zu Kontext und Interpretation der Daten zu erhalten.
+
+<br>
+
+🟠 **CARE – Verantwortung gegenüber Gemeinschaften**
+
+Die CARE-Prinzipien wurden insbesondere für den Umgang mit Daten indigener Gemeinschaften entwickelt.
+
+CARE steht für:
+
+- **Collective Benefit** – kollektiver Nutzen
+- **Authority to Control** – Recht auf Kontrolle
+- **Responsibility** – Verantwortung
+- **Ethics** – Ethik
+
+Sie betonen, dass Daten nicht unabhängig von den Gemeinschaften betrachtet werden dürfen, aus deren Kontext sie stammen. Fragen der Datensouveränität, der Beteiligung und der Verantwortung spielen eine zentrale Rolle.
+
+<br>
+
+🟠 **TRUST – Vertrauenswürdige digitale Repositorien**
+
+Die TRUST-Prinzipien richten sich an vertrauenswürdige digitale Repositorien und Archive.
+
+| Prinzip | Bedeutung |
+|---|---|
+| Transparency | Transparenz der Prozesse und Richtlinien |
+| Responsibility | Übernahme von Verantwortung |
+| User Focus | Orientierung an den Bedürfnissen der Nutzenden |
+| Sustainability | Nachhaltigkeit der organisatorischen und technischen Strukturen |
+| Technology | Einsatz geeigneter und zuverlässiger Technologien |
+
+Ein vertrauenswürdiges Archiv dokumentiert seine Archivierungsrichtlinien transparent, sorgt für den langfristigen Erhalt der Inhalte und setzt Technologien ein, die Sicherheit und Datenintegrität gewährleisten.
+
+<br>
+
+🟠  **Zertifizierungen**
+
+Die Qualität und Vertrauenswürdigkeit digitaler Archive kann durch externe Prüfverfahren und Zertifizierungen bewertet werden.
+
+Beispiele sind:
+
+- **nestor-Siegel**
+- **CoreTrustSeal**
+- **ISO 16363**
+
+Solche Zertifizierungen können bei der Auswahl eines geeigneten Langzeitarchivs eine Orientierung bieten.
+
+<br>
+
+> **Merke**
+>
+> Ein vertrauenswürdiges Langzeitarchiv braucht nicht nur eine sichere technische Infrastruktur. Ebenso wichtig sind transparente Prozesse, klare Verantwortlichkeiten, Nachhaltigkeit und ein verantwortungsvoller Umgang mit den Daten.
+
+
+
 ---
 
-### Archivwürdigkeit & empfohlene Formate
+### Archivwürdigkeit & -formate
 
+Nicht alle digitalen Daten müssen zwangsläufig dauerhaft archiviert werden. Vor der Archivierung sollte deshalb geprüft werden, welche Daten einen langfristigen Wert besitzen.
+
+Als archivwürdig gelten Materialien, die einen bleibenden Wert für die Gesellschaft haben. Dieser Wert kann sich aus unterschiedlichen Merkmalen ergeben:
+
+- **Historischer Wert:** Die Daten dokumentieren historische Entwicklungen oder Ereignisse.
+- **Einzigartigkeit:** Die Informationen sind nicht ohne Weiteres an anderer Stelle verfügbar.
+- **Authentizität:** Die Unverändertheit und Glaubwürdigkeit der Informationen sind von Bedeutung.
+- **Forschungspotenzial:** Die Daten können für zukünftige wissenschaftliche Fragestellungen relevant sein.
+- **Relevanz für die Institution:** Die Daten sind für die Geschichte, Aufgaben oder das Profil der Einrichtung wichtig.
+
+Bei Universitätssammlungen können beispielsweise hochauflösende Digitalisate, 3D-Modelle, Erschließungsdaten oder Dokumentationen zu besonderen Objekten archivwürdig sein.
+
+#### Welche Eigenschaften sollen erhalten bleiben?
+
+Bevor ein Dateiformat ausgewählt wird, muss zunächst geklärt werden, welche Eigenschaften der digitalen Objekte langfristig erhalten werden sollen.
+
+Dabei helfen drei Schritte:
+
+<list marker="number" gap={3}>
+  <list-item>
+    **Erhaltenswerte Eigenschaften identifizieren**
+
+    Was macht das digitale Objekt aus? Bei einem Textdokument kann beispielsweise die Lesbarkeit des Textes entscheidend sein. Bei einem 3D-Modell können Geometrie, Maßstab und Oberflächeninformationen wichtig sein.
+  </list-item>
+  <list-item>
+    **Technische Parameter festlegen**
+
+    Welche technischen Eigenschaften müssen erhalten bleiben? Bei Rasterbildern können dies beispielsweise Auflösung, Farbtiefe und Bildqualität sein.
+  </list-item>
+  <list-item>
+    **Geeignetes Dateiformat auswählen**
+
+    Erst wenn die Anforderungen geklärt sind, sollte ein geeignetes Archivformat ausgewählt werden.
+  </list-item>
+</list>
+
+#### Zwei Ansätze für die Bewertung 
+
+Bei der Bewertung der zu erhaltenden Eigenschaften können zwei Ansätze helfen:
+
+**Provenienzbasierter Ansatz**
+
+Hier steht die ursprüngliche Absicht im Mittelpunkt, mit der ein analoges oder digitales Objekt erstellt wurde. Welche Eigenschaften sollten bei der Erstellung erhalten bleiben? Was macht das Objekt in seinem ursprünglichen Kontext aus?
+
+**Nutzergruppenbasierter Ansatz**
+
+Hier wird gefragt, welche Bedürfnisse zukünftige Nutzergruppen haben. Welche Informationen und technischen Eigenschaften benötigen Forschende, Lehrende oder andere Interessierte?
+
+Beide Perspektiven können sich ergänzen.
+
+> **Beispiel**
+>
+> Ein 3D-Modell eines mathematischen Objekts kann für eine Online-Ausstellung in einer reduzierten Dateigröße ausreichend sein. Für eine wissenschaftliche Untersuchung oder eine spätere Rekonstruktion können dagegen eine höhere Auflösung, zusätzliche Oberflächeninformationen und vollständige Metadaten erforderlich sein.
+
+### 🧩 Kleine Aufgabe: Was soll erhalten bleiben?
+
+Ein Museum möchte ein 3D-Modell eines mathematischen Modells langfristig archivieren.
+
+Welche Eigenschaften könnten für die spätere Forschung besonders wichtig sein?
+
+[[Die Geometrie und Maßhaltigkeit des Modells|Nur die Dateigröße|Ausschließlich die Farbe des Vorschaubildes]]
+
+[[Die vollständigen Metadaten und Informationen zur Entstehung|Nur der Dateiname|Die verwendete Softwareoberfläche]]
+
+---
+
+## 5.5 Geeignete Archivformate auswählen
 
 
 ## 6. Rechtliche Und ethische Aspekte
