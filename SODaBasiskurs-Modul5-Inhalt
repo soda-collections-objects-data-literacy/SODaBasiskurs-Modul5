@@ -1247,7 +1247,7 @@ Das Ziel ist, archivierte Informationen:
 <br>
 
 
-## Warum ist Langzeitarchivierung wichtig?
+### Warum ist Langzeitarchivierung wichtig?
 
 Digitale Informationen sind von technischen Rahmenbedingungen abhängig. Dateiformate können veralten, Speichermedien können ausfallen und Software kann nicht mehr verfügbar sein. Auch institutionelle Veränderungen können dazu führen, dass Daten nicht mehr auffindbar oder zugänglich sind.
 
@@ -1260,11 +1260,12 @@ Die Deutsche Forschungsgemeinschaft (DFG) empfiehlt in ihrer Leitlinie 17, dass 
 
 Leitlinie 17:
 > „Wenn wissenschaftliche Erkenntnisse öffentlich zugänglich gemacht werden, werden die zugrunde liegenden Forschungsdaten (in der Regel Rohdaten) … in der Regel für einen Zeitraum von zehn Jahren zugänglich und nachvollziehbar in der Einrichtung, wo sie entstanden sind, oder in standortübergreifenden Repositorien aufbewahrt.“
-*Deutsche Forschungsgemeinschaft. (2025). Leitlinien zur Sicherung guter wissenschaftlicher Praxis. Kodex. https://doi.org/10.5281/zenodo.14281892 , 22.*
+*aus: Deutsche Forschungsgemeinschaft. (2025). Leitlinien zur Sicherung guter wissenschaftlicher Praxis. Kodex. https://doi.org/10.5281/zenodo.14281892 , 22.*
+
 
 Die konkrete Aufbewahrungsdauer kann abhängig von Fachgebiet, Projekt, Förderbedingungen und rechtlichen Anforderungen variieren.
 
-> 💡 **Wusstest du schon?**
+> 💡 **Wichtig**
 >
 > Die Planung der Langzeitarchivierung ist nicht erst nach Abschluss eines Forschungsprojekts relevant. Förderorganisationen wie die DFG erwarten, dass der Umgang mit Forschungsdaten und ihre langfristige Aufbewahrung bereits im Projektkontext berücksichtigt werden.
 
@@ -1291,8 +1292,71 @@ Ein Backup ist also eine wichtige Voraussetzung für ein zuverlässiges Datenman
 >
 > Ein Backup schützt vor Datenverlust. Langzeitarchivierung schützt zusätzlich davor, dass Daten mit der Zeit unlesbar, unverständlich oder unbenutzbar werden.
 
+<br>
+<br>
+
+❓ **Kleine Wissensüberprüfung**
+
+Was unterscheidet ein Backup von einer digitalen Langzeitarchivierung?
+
+[[(Ein Backup sichert einen Datenstand, Langzeitarchivierung sorgt für den langfristigen Erhalt und die Nutzbarkeit digitaler Informationen.)|Beide Begriffe bezeichnen denselben technischen Vorgang.|Langzeitarchivierung ist lediglich eine besonders große Anzahl von Back-ups.]]
+
 
 ### Repositorien und Archive
+
+Wo können digitale Sammlungs- und Forschungsdaten langfristig gespeichert werden? Zwei wichtige Begriffe sind **digitale Archive** und **Repositorien**.
+
+Sie werden im Alltag manchmal ähnlich verwendet, haben aber unterschiedliche Schwerpunkte.
+<br>
+
+> **Digitale Archive**
+
+Ein digitales Langzeitarchiv übernimmt die Verantwortung für die langfristige Aufbewahrung und Erhaltung digitaler Objekte.
+
+Viele Langzeitarchive arbeiten als sogenannte **Dark Archives**. Das bedeutet, dass die archivierten Daten nicht unmittelbar öffentlich zugänglich sind. Ein Zugriff muss gegebenenfalls beantragt werden.
+
+Das Archiv konzentriert sich vor allem auf den langfristigen Erhalt und die Integrität der Daten. Digitale LZA wird oft von Staats- und Universitätsbibliotheken für Partner aus der Region oder dem Bundesland angeboten. Beispiele:
+
+- [SLUBArchiv.digital](https://slubarchiv.slub-dresden.de)
+- [TIB Preservation as a Service](https://www.tib.eu/de/publizieren-archivieren/digitale-langzeitarchivierung)
+- [heiARCHIVE](https://www.urz.uni-heidelberg.de/de/service-katalog/speicher/heiarchive)
+
+<br>
+
+> **Repositorien** 
+
+Ein Repositorium ist eine Plattform zur Organisation und Bereitstellung digitaler Inhalte. Die Daten können öffentlich oder für eine bestimmte Nutzer*innengruppe zugänglich sein.
+
+Repositorien werden häufig zur Veröffentlichung von Forschungsdaten und digitalen Publikationen genutzt. Sie können gleichzeitig als Publikationsplattform und als digitaler Speicherort dienen.
+
+Charakteristisch für Repositorien sind:
+
+- eine vergleichsweise niedrige Zugangsschwelle für Datengebende und Datennutzende,
+- eine dauerhafte Auffindbarkeit und hohe Sichtbarkeit der veröffentlichten Daten,
+- Metadaten, die von anderen Diensten automatisiert übernommen und indexiert werden können.
+
+Solche automatisierten Dienste werden als **Harvester** bezeichnet. Sie sammeln Metadaten aus unterschiedlichen Quellen und machen sie beispielsweise über Bibliotheks- oder Forschungskataloge recherchierbar.
+
+Ein Beispiel ist [RADAR4Culture](https://radar4culture.radar-service.eu/radar/de/home), das die Publikation von Forschungsdaten mit einer digitalen Langzeitarchivierung verbindet.
+
+<br>
+
+**Archive und Repositorien im Vergleich**
+
+| | Digitales Langzeitarchiv | Repositorium |
+|---|---|---|
+| Hauptziel | Langfristiger Erhalt | Bereitstellung und Sichtbarkeit |
+| Zugang | Häufig eingeschränkt | Häufig öffentlich |
+| Nutzung | Zugriff kann beantragt werden | Daten können meist direkt abgerufen werden |
+| Schwerpunkt | Integrität und Erhaltung | Publikation und Nachnutzung |
+| Beispiel | SLUBArchiv.digital | RADAR4Culture |
+
+Die Grenzen sind nicht immer eindeutig: Manche Repositorien sind an Langzeitarchive angeschlossen oder bieten selbst zusätzliche Archivierungsleistungen an.
+
+> 🟠 **Merke**
+>
+> Ein Repositorium ist nicht automatisch ein Langzeitarchiv. Umgekehrt muss ein Langzeitarchiv nicht gleichzeitig eine öffentliche Publikationsplattform sein. Entscheidend ist, welche Leistungen tatsächlich angeboten und dauerhaft gewährleistet werden.
+
 
 ### Archivwürdigkeit & empfohlene Formate
 
